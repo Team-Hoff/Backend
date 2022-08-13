@@ -8,7 +8,8 @@ const {hashpassword} = require("../utils/helper")
 
 router.get('/' ,(req, res) => {
     res.send("This is the signup page");
-}).post('/',
+})
+router.post('/',
 [ check('username')
 .notEmpty(),
 check('password')
@@ -18,14 +19,15 @@ check('email')
 check('fullname')
 .notEmpty(),
 check('programme')
-.notEmpty() 
+.notEmpty() ,
+check('year')
+.optional()
 ],async(req, res) => {
     
     const errors = validationResult(req)
     if(!errors.isEmpty()){
         return(res.status(201).send("ERROR!"))
     }
-
     const {username, email, fullname, programme, year} = req.body;
     let sql = 'SELECT * FROM student WHERE username = ? OR email = ?';
     const result = await db.promise().query(sql, [username, email])
@@ -43,7 +45,7 @@ check('programme')
         res.status(409).send("User already exists")
     }
 
-    
+
 
 
     
