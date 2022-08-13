@@ -8,11 +8,12 @@ app.use(express.urlencoded({ extended : true}));
 
 
 const signupRouter = require('./routes/signup.js');
-
+const loginRouter = require('./routes/login')
 
 
 //
 app.use("/signup", signupRouter);
+app.use("/login", loginRouter);
 
 
 app.listen(3500);
