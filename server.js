@@ -67,5 +67,6 @@ app.use("/signup", signupRouter);
 app.use("/login", loginRouter);
 
 
-app.listen(3500, ()=>
-{console.log("server is running on port 3500")});
+const port = process.env.PORT || 3500;
+app.listen(port, ()=>
+{console.log(`server is running on port ${port}`)});
