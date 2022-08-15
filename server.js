@@ -15,14 +15,14 @@ const options = {
     connectionLimit: 10,
     host: 'localhost',
     user: 'root',
-    password: 'red_2019',
+    password: 'ozneroL200',
     database: 'coursematerials',
     port: 4000,
     createDatabaseTable: true,
     endConnectionOnClose: true,
     clearExpired: true,
     checkExpirationInterval: 60*60*24,
-
+    expiration: 14400000
 
 }
 
@@ -42,7 +42,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(session(
     {
-        secret: "kingJummai",
+        secret: "Cookie_Secret",
         resave: false,
         saveUninitialized: false,
         store: sessionStore,    
@@ -54,14 +54,9 @@ app.use(session(
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(
-    (req, res, next) => 
-    {
-       console.log(sessionStore);
-       next() 
-    }
-)
 
+
+//ROUTERS
 const signupRouter = require('./routes/signup.js');
 const loginRouter = require('./routes/login');
 

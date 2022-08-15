@@ -10,6 +10,7 @@ const {hashpassword} = require("../utils/helper")
 router.get('/' ,(req, res) => {
     res.send("This is the signup page");
 })
+
 router.post('/',
 [ check('username')
 .notEmpty(),
@@ -29,9 +30,13 @@ check('year')
     if(!errors.isEmpty()){
         return(res.status(201).send("ERROR!"))
     }
+    
     const {username, email, fullname, programme, year} = req.body;
     let sql = 'SELECT * FROM student WHERE username = ? OR email = ?';
-    const result = await db.promise().query(sql, [username, email])
+    const result = await db.promise().query(sql, [username, email], (error, result, field) =>{
+        console.log(error);
+    })
+    console.log("here");
     if(result[0].length == 0){
         const password = hashpassword(req.body.password);
         try{

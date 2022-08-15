@@ -1,7 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -24,9 +23,19 @@
     "express-validator": "^6.14.2",
     "mysql2": "^2.3.3",
     "passport": "^0.6.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Hoff/Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Team-Hoff/Backend/issues"
+  },
+  "homepage": "https://github.com/Team-Hoff/Backend#readme",
+  "description": ""
 }
