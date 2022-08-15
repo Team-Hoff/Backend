@@ -2,7 +2,10 @@ const express = require('express');
 const router = express.Router();
 const {check, validationResult } = require('express-validator');
 const db = require('../models/database')
-const {hashpassword, comparepassword} = require("../utils/helper")
+const {hashpassword, comparepassword} = require("../utils/helper");
+
+
+
 
 router.get('/', (req, res)=>{
     res.send("logging in? ")
@@ -18,6 +21,7 @@ router.post('/', async(req, res)=>{
     
     isvalid = comparepassword(password, user.password);
     if(isvalid){
+       
         console.log(req.session);
         res.send("Logged in");
     }
