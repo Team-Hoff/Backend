@@ -9,11 +9,11 @@ const {hashpassword, comparepassword} = require("../utils/helper");
 
 
 router.get('/', (req, res)=>{
-    res.send("logging in? ")
+    res.status(200).send("logging in? ")
 });
 
 router.post('/',passport.authenticate('local'), (req, res)=>{
-    console.log("Logged in");
+    res.status(200).send("Logged in");
 })
 
 module.exports = router;
