@@ -13,7 +13,10 @@ router.get('/', (req, res)=>{
 });
 
 router.post('/',passport.authenticate('local'), (req, res)=>{
-    res.status(200).send("Logged in");
+    console.log(req.sessionID);
+    res.status(200).send(req.sessionID);
+    
+
 })
 
 module.exports = router;

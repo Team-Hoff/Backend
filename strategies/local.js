@@ -7,13 +7,15 @@ const { comparepassword } = require("../utils/helper");
 
 passport.serializeUser((user, done)=>
 {
+    console.log(user);
+    console.log("Serializing...");
     done(null, user.username);
 });
 
 
 passport.deserializeUser(async(username, done)=>
 {
-    console.log("deserializing.....");
+    console.log(".....deserializing");
 
     try{
         const result = await db.promise().query(`SELECT * FROM student WHERE username = ?`, username)
