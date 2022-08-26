@@ -7,6 +7,7 @@ const bodyParser   = require("body-parser");
 const passport  = require("passport");
 const db     = require("./models/database");
 const local = require('./strategies/local');
+const allowedOrigin = require('./utils/allowedOrigin')
 
 //storing session
 const mysqlStore = require("express-mysql-session")(session);
@@ -31,9 +32,17 @@ const sessionStore = new mysqlStore(options, db.promise());
 
 
 
-
 //middlewares to parse info from site
-app.use(cors());
+app.use(cors(
+    {   credentials: true,
+        origin: 'http://localhost:3000'
+    }
+));
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
 app.use(express.json());
 app.use(express.urlencoded({ extended : true}));
 
@@ -58,13 +67,17 @@ app.use(passport.session());
 
 //ROUTERS
 const signupRouter = require('./routes/signup.js');
-const loginRouter = require('./routes/login');
+const loginRouter  = require('./routes/login');
+const authRouter   = require('./routes/auth')
+const profileRouter = require('./routes/profile');
 
 
 
 
 app.use("/signup", signupRouter);
 app.use("/login", loginRouter);
+app.use("/auth", authRouter);
+app.use("/profile", profileRouter);
 
 
 const port = process.env.PORT || 3500;
