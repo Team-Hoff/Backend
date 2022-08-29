@@ -70,14 +70,18 @@ const signupRouter = require('./routes/signup.js');
 const loginRouter  = require('./routes/login');
 const authRouter   = require('./routes/auth')
 const profileRouter = require('./routes/profile');
-
-
+const detaRouter   = require('./routes/DETA/detaStorage')
+const testRouter = require('./routes/testdb');
+const logoutRouter = require("./routes/logout")
 
 
 app.use("/signup", signupRouter);
 app.use("/login", loginRouter);
 app.use("/auth", authRouter);
 app.use("/profile", profileRouter);
+app.use("/deta", detaRouter)
+app.use("/testdb", testRouter)
+app.use("/logout", logoutRouter)
 
 
 const port = process.env.PORT || 3500;
