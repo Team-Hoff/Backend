@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+
 const cors = require('cors')
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
@@ -73,6 +74,7 @@ const profileRouter = require('./routes/profile');
 const detaRouter   = require('./routes/DETA/detaStorage')
 const testRouter = require('./routes/testdb');
 const logoutRouter = require("./routes/logout")
+const programRouter = require("./routes/Program")
 
 
 app.use("/signup", signupRouter);
@@ -82,6 +84,7 @@ app.use("/profile", profileRouter);
 app.use("/deta", detaRouter)
 app.use("/testdb", testRouter)
 app.use("/logout", logoutRouter)
+app.use("/program", programRouter)
 
 
 const port = process.env.PORT || 3500;

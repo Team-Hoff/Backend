@@ -1,13 +1,27 @@
 const express=require('express');
 const router=express.Router();
-// creating a get request for the lectuers slides for the applied electricity
-router.get('/:lecture_number ',(request,response) =>{
-const {lecture_number}=request.params;
+const {courseBooks} = require('../DETA/detaStorage')
+
+
+// creating a get request for the lectuers slides for the applied electricity\
+router.get("/download", async(req, res) => {
+    const bookName = {
+        name: 'Computer Engineering/Third Year/First Semester/Classical Control Systems/ Slides/EE 387 UNIT 00.pptx'
+    };
+    
+    const book = await courseBooks.get(bookName.name);
+   console.log(book);
+
+})
+
+router.get('/here ',(request,response) =>{
+// const {lecture_number}=request.params;
+lecture_number = 2
 switch(lecture_number){
     case 1:
         response.sendFile("the link for lecture 2",(err)=>{
             console.log(err);
-        })
+     })
     break;
     case 2:3
         response.sendFile("the link for lecture 2",(err)=>{
