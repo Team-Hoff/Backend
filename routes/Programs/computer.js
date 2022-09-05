@@ -11,6 +11,7 @@ const courseBooks = deta.Drive('courseBooks');
 
 router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
     const {year, semester, course, slide_name} = req.params;
+    const ext = [".pptx"];
     const year_semester = [];
 
     switch (year) {
@@ -43,10 +44,19 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
         default:
             break;
     }
+
+    switch (course) {
+        case "Numerical Analysis":
+            ext[0] = ".pdf"
+            break;
+    
+        default:
+            break;
+    }
     
     console.log(year_semester);
     const bookName = {
-        name: `Computer Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}.pptx`
+        name: `Computer Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}${ext[0]}`
         
     };
 
