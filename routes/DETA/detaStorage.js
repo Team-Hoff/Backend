@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
 router.post("/upload", async (req, res) => {
 
     
-    const directory = 'Computer Engineering/Third Year/Second Semester/Operating Systems/Slides'
+    const directory = 'Computer Engineering/First Year/First Semester/Engineering Technology/Slides'
     const name = `${directory}/${req.files.filetoUpload.name}`;
     
     const contents = req.files.filetoUpload.data;

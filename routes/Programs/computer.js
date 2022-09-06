@@ -8,6 +8,14 @@ const courseBooks = deta.Drive('courseBooks');
 
 
 
+router.use( (request, response, next) =>{
+    if(request.user) next()
+    else {
+        console.log("here");
+        response.sendStatus(401)
+    }
+})
+
 
 router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
     const {year, semester, course, slide_name} = req.params;
@@ -47,6 +55,7 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
 
     switch (course) {
         case "Numerical Analysis":
+        case "Algebra":
             ext[0] = ".pdf"
             break;
     
@@ -63,12 +72,17 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
 
     try{
         const book = await courseBooks.get(bookName.name);
+        if (!book){
+            res.status(400).send(`${slide_name} for ${course} is not available`);
+        }
         const buffer = await book.arrayBuffer();
+        
         res.send(Buffer.from(buffer));
         console.log('file is being downloaded');
         console.log(req.params);
             }
         catch(error){
+            
             console.log(error);
         }
 

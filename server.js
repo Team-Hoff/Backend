@@ -15,11 +15,11 @@ const mysqlStore = require("express-mysql-session")(session);
 
 const options = {
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: 'ozneroL200',
-    database: 'coursematerials',
-    port: 4000,
+    host:"virtual-library.cp1myldql9kf.us-east-1.rds.amazonaws.com",
+    user:"admin",
+    password:"JnFbLwKjL7jtczy",
+    database: 'library',
+    port: 3306,
     createDatabaseTable: true,
     endConnectionOnClose: true,
     clearExpired: true,
