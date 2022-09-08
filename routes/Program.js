@@ -6,6 +6,7 @@ const computerRouter = require("./Programs/computer")
 
 
 router.use( (request, response, next) =>{
+    console.log(request.sessionID);
     if(request.user) next()
     else {
         console.log("here");
