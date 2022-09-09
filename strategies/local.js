@@ -7,7 +7,6 @@ const { comparepassword } = require("../utils/helper");
 
 passport.serializeUser((user, done)=>
 {
-    console.log(user);
     console.log("Serializing...");
     done(null, user.username);
 });
@@ -15,7 +14,7 @@ passport.serializeUser((user, done)=>
 
 passport.deserializeUser(async(username, done)=>
 {
-    console.log(".....deserializing");
+    console.log("...deserializing");
 
     try{
         const result = await db.promise().query(`SELECT * FROM student WHERE username = ?`, username)
@@ -40,17 +39,12 @@ passport.use(new localStrategy(
             if(!username || !password){
                 done()
             }
-
             const result = await db.promise().query("SELECT * FROM student WHERE username = ?", username)
-            
-            
-
             if(result[0].length == 0){
                 done(null, false);
             }
             else{
                 const user = result[0][0]
-
                 const isvalid = comparepassword(password, user.password)
                 if(isvalid){
                     console.log("sucessful authentication")
@@ -60,7 +54,6 @@ passport.use(new localStrategy(
                     console.log("authentication failed");
                     done(null, false)
                 }
-                
             }
         }
         catch(error){

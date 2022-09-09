@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+
 const cors = require('cors')
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
@@ -14,11 +15,11 @@ const mysqlStore = require("express-mysql-session")(session);
 
 const options = {
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: 'ozneroL200',
-    database: 'coursematerials',
-    port: 4000,
+    host:"virtual-library.cp1myldql9kf.us-east-1.rds.amazonaws.com",
+    user:"admin",
+    password:"JnFbLwKjL7jtczy",
+    database: 'library',
+    port: 3306,
     createDatabaseTable: true,
     endConnectionOnClose: true,
     clearExpired: true,
@@ -39,6 +40,7 @@ app.use(cors(
     }
 ));
 app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Credentials", true)
     res.header("Access-Control-Allow-Origin", "http://localhost:3000");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
@@ -73,6 +75,7 @@ const profileRouter = require('./routes/profile');
 const detaRouter   = require('./routes/DETA/detaStorage')
 const testRouter = require('./routes/testdb');
 const logoutRouter = require("./routes/logout")
+const programRouter = require("./routes/Program")
 
 
 app.use("/signup", signupRouter);
@@ -82,6 +85,7 @@ app.use("/profile", profileRouter);
 app.use("/deta", detaRouter)
 app.use("/testdb", testRouter)
 app.use("/logout", logoutRouter)
+app.use("/program", programRouter)
 
 
 const port = process.env.PORT || 3500;
