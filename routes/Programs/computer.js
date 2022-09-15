@@ -27,6 +27,7 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
     switch (year) {
         case '1':
             year_semester[0] = "First Year"
+            ext[0] = ".pdf"
             break;
         case '2':
             year_semester[0] = "Second Year"
@@ -59,6 +60,12 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
         case "Numerical Analysis":
         case "Algebra":
             ext[0] = ".pdf"
+            break;
+        case "Technical Drawing":
+            ext[0] = ".pptx"
+            break;
+        case "Electrical Machines":
+            ext[0] = ".ppt"
             break;
     
         default:

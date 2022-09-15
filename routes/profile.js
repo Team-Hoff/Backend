@@ -12,15 +12,9 @@ router.use( (request, response, next) =>{
 })
 
 
-person = {
-    fullname:"Lorenzo Sarkodie", 
-    level: 100, 
-    programme:"Computer Engineering",
-    email:"dslark13@gmail.com"
-};
 
 router.get("/", (request, response) => {
-    response.send(person)
+    response.send(request.user)
 })
 
 

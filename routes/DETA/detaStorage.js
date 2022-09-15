@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
 router.post("/upload", async (req, res) => {
 
     
-    const directory = 'Computer Engineering/First Year/First Semester/Engineering Technology/Slides'
+    const directory = 'Computer Engineering/First Year/Second Semester/Programming and Problem Solving/Slides'
     const name = `${directory}/${req.files.filetoUpload.name}`;
     
     const contents = req.files.filetoUpload.data;
@@ -47,18 +47,16 @@ router.post("/upload", async (req, res) => {
 });
 
 // this request enables user to retrieve a specified item from Deta Drive
-router.get("/download/:course/:name", async (req, res) => {
+router.get("/download", async (req, res) => {
     
     const bookName = {
-        name: 'Computer Engineering/Third Year/First Semester/Classical Control Systems/Slides/EE 387 UNIT 00.pptx'
+        name: 'Computer Engineering/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
     };
     
     const book = await courseBooks.get(bookName.name);
     const buffer = await book.arrayBuffer();
     res.send(Buffer.from(buffer));
     console.log('file is being downloaded');
-    console.log(req.params);
-    //res.send(book);
 });
 
 // this request enables user to see all items in a specifc Deta Drive

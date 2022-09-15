@@ -6,7 +6,7 @@ router.use( (request, response, next) =>{
     console.log(request.sessionID);
     if(request.user) next()
     else {
-        console.log("HERE.......................");
+        console.log("auth");
         // console.log(request);
         response.sendStatus(401)
     }

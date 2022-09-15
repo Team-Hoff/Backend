@@ -3,14 +3,14 @@ const router = express.Router();
 
 const db = require('../models/database')
 
-router.use( (request, response, next) =>{
-    console.log(request.sessionID);
-    if(request.user) next()
-    else {
-        console.log("here");
-        response.status(500).send("Already Logged Out")
-    }
-})
+// router.use( (request, response, next) =>{
+//     console.log(request.sessionID);
+//     if(request.user) next()
+//     else {
+//         console.log("here");
+//         response.status(500).send("Already Logged Out")
+//     }
+// })
 
 router.get("/", async (req, res) => {
     const sql="DELETE FROM sessions WHERE session_id = ?"
