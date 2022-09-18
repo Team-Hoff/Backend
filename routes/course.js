@@ -5,7 +5,7 @@ const router = Router();
 const db = require('../models/database')
 
 router.get('/computerCourse', async(request,response,) =>{
-    let sql = 'SELECT year,semester FROM  CourseInfo WHERE name = "Numerical Analysis" AND IDM = "computer"';
+    let sql = 'SELECT name,IDM,id,year,semester FROM  CourseInfo WHERE IDM = "computer"';
     const result = await db.promise().query(sql);
     //console.log(result);
     response.send(result[0]);
