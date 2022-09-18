@@ -75,7 +75,9 @@ const profileRouter = require('./routes/profile');
 const detaRouter   = require('./routes/DETA/detaStorage')
 const testRouter = require('./routes/testdb');
 const logoutRouter = require("./routes/logout")
-const programRouter = require("./routes/Program")
+const programRouter = require("./routes/Program");
+const resetRouter = require('./routes/resetpassword');
+const forgotRouter = require('./routes/forgotpassword');
 
 
 app.use("/signup", signupRouter);
@@ -86,6 +88,8 @@ app.use("/deta", detaRouter)
 app.use("/testdb", testRouter)
 app.use("/logout", logoutRouter)
 app.use("/program", programRouter)
+app.use("/reset", resetRouter);
+app.use("/forgot", forgotRouter)
 
 
 const port = process.env.PORT || 3500;
