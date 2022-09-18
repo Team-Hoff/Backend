@@ -76,6 +76,7 @@ const detaRouter   = require('./routes/DETA/detaStorage')
 const testRouter = require('./routes/testdb');
 const logoutRouter = require("./routes/logout")
 const programRouter = require("./routes/Program")
+const  courseRouter = require('./routes/course');
 
 
 app.use("/signup", signupRouter);
@@ -86,6 +87,7 @@ app.use("/deta", detaRouter)
 app.use("/testdb", testRouter)
 app.use("/logout", logoutRouter)
 app.use("/program", programRouter)
+app.use("/course", courseRouter)
 
 
 const port = process.env.PORT || 3500;
