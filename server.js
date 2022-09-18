@@ -79,7 +79,6 @@ const logoutRouter = require("./routes/logout")
 const programRouter = require("./routes/Program");
 const resetRouter = require('./routes/resetpassword');
 const forgotRouter = require('./routes/forgotpassword');
-const programRouter = require("./routes/Program")
 const courseRouter = require('./routes/course');
 
 
