@@ -8,15 +8,15 @@ const courseBooks = deta.Drive('courseBooks');
 
 
 
-router.use( (request, response, next) =>{
-    console.log(request.sessionID);
-    if(request.user) next()
-    else {
+// router.use( (request, response, next) =>{
+//     console.log(request.sessionID);
+//     if(request.user) next()
+//     else {
         
-        console.log(response.header);
-        response.sendStatus(401)
-    }
-})
+//         console.log(response.header);
+//         response.sendStatus(401)
+//     }
+// })
 
 
 router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
