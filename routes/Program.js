@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 
-const computerRouter = require("./Programs/computer")
+const computerRouter = require("./Programs/Computer")
 const aerospaceRouter = require("./Programs/Aerospace")
 const agricRouter = require("./Programs/Agricultural")
 const biomedRouter = require("./Programs/Biomedical")
@@ -21,14 +21,14 @@ const telecomRouter = require("./Programs/Telecom")
 
 
 
-router.use( (request, response, next) =>{
-    console.log(request.sessionID);
-    if(request.user) next()
-    else {
-        console.log("Program ");
-        response.sendStatus(401)
-    }
-})
+// router.use( (request, response, next) =>{
+//     console.log(request.sessionID);
+//     if(request.user) next()
+//     else {
+//         console.log("Program ");
+//         response.sendStatus(401)
+//     }
+// })
 
 
 router.use("/computer", computerRouter)

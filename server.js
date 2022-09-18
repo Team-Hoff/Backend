@@ -36,7 +36,7 @@ const sessionStore = new mysqlStore(options, db.promise());
 //middlewares to parse info from site
 app.use(cors(
     {   credentials: true,
-        origin: 'http://localhost:3000'
+        origin: 'http://localhost:3000',
     }
 ));
 app.use(function(req, res, next) {

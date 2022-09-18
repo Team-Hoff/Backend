@@ -48,7 +48,7 @@ check('year')
             console.log(err)
         }
     } else {
-        res.status(409).send("User already exists")
+        res.status(400).send({msg:"User already exists"})
     }
 
 
