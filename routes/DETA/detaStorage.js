@@ -60,8 +60,11 @@ router.get("/download", async (req, res) => {
 });
 
 // this request enables user to see all items in a specifc Deta Drive
-router.get("/list", async (req, res) => {
-    const bookList = await courseBooks.list();
+router.get("/list?name", async (req, res) => {
+    const bookName = {
+        name: 'Computer Engineering/Third Year/First Semester/Numerical Analysis/'
+    };
+    const bookList = await courseBooks.list('Computer Engineering');
     res.send(bookList);
     console.log('All files in drive');
 }); 

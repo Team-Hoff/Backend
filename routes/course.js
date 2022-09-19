@@ -15,10 +15,11 @@ router.get('/:programme', async(request,response,) =>{
 
 router.get('/:programme/:course', async(request, response) => {
     const {programme, course} = request.params;
-    let sql = `SELECT name,id,slides,ext,img FROM  CourseInfo WHERE IDM = ? AND name=?`;
+    let sql = `SELECT * FROM  CourseInfo WHERE IDM = ? AND id=?`;
     const result = await db.promise().query(sql, [programme,course]);
-
+    console.log(request.params);
     response.send(result[0]);
+    
 
 
 })
