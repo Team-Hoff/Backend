@@ -61,7 +61,7 @@ router.get("/download", async (req, res) => {
 
 // this request enables user to see all items in a specifc Deta Drive
 
-//original code in github
+
 // router.get("/list?name", async (req, res) => {
 //     const bookName = {
 //         name: '${proram}/Third Year/First Semester/Numerical Analysis/'
@@ -72,7 +72,7 @@ router.get("/download", async (req, res) => {
 // });
 
 
-//tests 01(all files)
+//lists all files in Deta Drive
 // router.get("/list", async (req, res) => {
 //     // const bookName = {
 //     //     name: 'Computer Engineering/Third Year/First Semester/Numerical Analysis/'
@@ -85,10 +85,10 @@ router.get("/download", async (req, res) => {
 
 
 
-// //tests 02(list files in specific course)
+//places names of course in database
 router.get("/list", async (req, res) => {
-    const program = `Computer Engineering`
-    const name = `Algebra`
+    const program = `Biomedical Engineering`
+    const name = `Applied Electricity`
     const courses = `${program}/First Year/First Semester/${name}/Slides/` //Edit year and semester
     //const {year} = req.params;
     const array = []
@@ -97,40 +97,23 @@ router.get("/list", async (req, res) => {
         {prefix: courses});
     const bookShelf = bookList.names;
     const myarray = bookShelf.map(x=>x.split(courses))
+
     var i = 0;
     myarray.forEach(element => {
         ext[0] = element.map(x=>x.split(`.`))
         array[i]=ext[0][1][0]
         i=i+1
     });
-    
+
+    const jsonArr = JSON.stringify(array);
+    console.log(jsonArr);
 
 
-    const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`
-    db.query(sql, [array, ext[0][1][1], `telecom`, name])//Edit program ere
+    const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`;
+    db.query(sql, [jsonArr, ext[0][1][1], `biomedical`, name])//Edit program ere
     res.send(array);
     console.log(`All files in ${courses}`);
 }); 
-
-
-//tests03
-// router.get("/list/:course/:year", async (req, res) => {
-//     const {course} = req.params;
-//     const {year} = req.params;
-//     const bookList = await courseBooks.list({prefix: `${course}/${year}`});
-//     const bookShelf = bookList.names;
-//     res.send(bookShelf);
-//     console.log(`All files in ${course}`);
-// }); 
-// router.get("/list/:course", async (req, res) => {
-// const {course} = req.params;
-//     const {year} = req.params;
-//     const bookList = await courseBooks.list({prefix: `${course}`});
-//     const bookShelf = bookList.names;
-//     const listBookshelf=bookShelf.filter(element => (element==`${course}`&& element==`${year}`))
-//     res.send(listBookshelf);
-//     console.log(`All files in ${course}`);
-// }); 
 
 
 
