@@ -5,7 +5,7 @@ const upload = require('express-fileupload');
 router.use(upload());
 const deta = Deta('a0h5zcg7_zX38QAiyFSDXG4c4gxt4Qd6WhWxJuBiq');
 const courseBooks = deta.Drive('courseBooks');
-
+const db = require('../../models/database')
 
 
 // router.use( (request, response, next) =>{
@@ -21,13 +21,17 @@ const courseBooks = deta.Drive('courseBooks');
 
 router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
     const {year, semester, course, slide_name} = req.params;
-    const ext = [".pptx"];
+    
     const year_semester = [];
+
+    const sql = "SELECT ext FROM CourseInfo WHERE name = ? AND IDM = ?"
+    const result = await db.promise().query(sql, [course, "computer"])
+    
+    const {ext} = result[0][0];
 
     switch (year) {
         case '1':
             year_semester[0] = "First Year"
-            ext[0] = ".pdf"
             break;
         case '2':
             year_semester[0] = "Second Year"
@@ -55,26 +59,10 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
         default:
             break;
     }
-
-    switch (course) {
-        case "Numerical Analysis":
-        case "Algebra":
-            ext[0] = ".pdf"
-            break;
-        case "Technical Drawing":
-            ext[0] = ".pptx"
-            break;
-        case "Electrical Machines":
-            ext[0] = ".ppt"
-            break;
-    
-        default:
-            break;
-    }
     
     console.log(year_semester);
     const bookName = {
-        name: `Computer Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}${ext[0]}`
+        name: `Computer Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}.${ext}`
         
     };
 

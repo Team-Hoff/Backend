@@ -7,9 +7,22 @@ const {hashpassword} = require("../utils/helper")
 
 
 
-router.get('/' ,(req, res) => {
-    res.send("This is the signup page");
+router.get('/:user_detail' ,async (req, res) => {
+    const {user_detail} = req.params;
+    const sql = "SELECT * FROM student WHERE username = ? OR email =?"
+    const result = await db.promise().query(sql, [user_detail, user_detail])
+    console.log(result[0]);
+    if(result[0] == ""){
+        return res.status(200).send({msg:"Username is free"});
+    }
+    return res.status(409).send({msg: `${user_detail} is taken`})
+
+
 })
+
+
+
+
 
 router.post('/',
 [ check('username')

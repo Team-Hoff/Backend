@@ -74,8 +74,7 @@ const authRouter   = require('./routes/auth')
 const profileRouter = require('./routes/profile');
 const detaRouter   = require('./routes/DETA/detaStorage')
 const testRouter = require('./routes/testdb');
-const logoutRouter = require("./routes/logout")
-
+const logoutRouter = require("./routes/logout");
 const programRouter = require("./routes/Program");
 const resetRouter = require('./routes/resetpassword');
 const forgotRouter = require('./routes/forgotpassword');
@@ -95,6 +94,7 @@ app.use("/reset", resetRouter);
 app.use("/forgot", forgotRouter)
 app.use("/course", courseRouter)
 app.use("/search", searchRouter)
+
 
 
 
