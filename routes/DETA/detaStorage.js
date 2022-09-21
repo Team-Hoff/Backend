@@ -87,9 +87,9 @@ router.get("/download", async (req, res) => {
 
 //places names of course in database
 router.get("/list", async (req, res) => {
-    const program = `Biomedical Engineering`
-    const name = `Applied Electricity`
-    const courses = `${program}/First Year/First Semester/${name}/Slides/` //Edit year and semester
+    const program = `Telecom Engineering`
+    const name = `Electrical Engineering Drawing`
+    const courses = `${program}/First Year/Second Semester/${name}/Slides/` //Edit year and semester
     //const {year} = req.params;
     const array = []
     const ext = []
@@ -105,12 +105,20 @@ router.get("/list", async (req, res) => {
         i=i+1
     });
 
-    const jsonArr = JSON.stringify(array);
-    console.log(jsonArr);
+    
+    console.log(array);
+    const Arrlength = array.length;
+    const newLectarr = [];
+    console.log(Arrlength);
+    //const i =1;
+    for(let i=1;i<=Arrlength;i++){
+    newLectarr.push(i);
 
-
+}
+    console.log(newLectarr);
+    const jsonArr = JSON.stringify(newLectarr);
     const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`;
-    db.query(sql, [jsonArr, ext[0][1][1], `biomedical`, name])//Edit program ere
+    db.query(sql, [jsonArr, ext[0][1][1], `telecom`, name])//Edit program ere
     res.send(array);
     console.log(`All files in ${courses}`);
 }); 
