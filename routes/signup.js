@@ -49,7 +49,7 @@ check('year')
     const result = await db.promise().query(sql, [username, email], (error, result, field) =>{
         console.log(error);
     })
-    console.log("here");
+    console.log("Signup.js");
     if(result[0].length == 0){
         const password = hashpassword(req.body.password);
         try{
@@ -61,7 +61,22 @@ check('year')
             console.log(err)
         }
     } else {
-        res.status(400).send({msg:"User already exists"})
+        // res.status(400).send({msg:"User already exists"})
+        const db_email = result[0][0].email
+        const db_username = result[0][0].username
+
+        if (db_email == email && db_username != username){
+            return res.status(409).send({error_msg: "Email is taken"})
+        }
+        else if (db_email != email && db_username == username){
+            return res.status(409).send({error_msg: "Username is taken"})
+        }
+        else if (db_email == email && db_username == username){
+            return res.status(409).send({error_msg: "Username and Email have been taken"})
+        }
+        
+            return res.status(409).send({error_msg: "Something went wrong"})
+        
     }
 
 

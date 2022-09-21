@@ -8,8 +8,7 @@ const bodyParser   = require("body-parser");
 const passport  = require("passport");
 const db     = require("./models/database");
 const local = require('./strategies/local');
-// const GoogleSetup=require('./strategies/google_setup');
-// const allowedOrigin = require('./utils/allowedOrigin')
+const allowedOrigin = require('./utils/allowedOrigin')
 
 //storing session
 const mysqlStore = require("express-mysql-session")(session);
@@ -22,7 +21,7 @@ const options = {
     database: 'library',
     port: 3306,
     createDatabaseTable: true,
-    endConnectionOnClose: true,
+    endConnectionOnClose: false,
     clearExpired: true,
     checkExpirationInterval: 60*60*24,
     expiration: 14400000
@@ -37,16 +36,12 @@ const sessionStore = new mysqlStore(options, db.promise());
 //middlewares to parse info from site
 app.use(cors(
     {   credentials: true,
+        origin: true
     }
 ));
 app.use(function(req, res, next) {
-    const allowedOrigins = ['http://localhost:3000', "http://ec2-3-89-226-48.compute-1.amazonaws.com:3000"];
-    const origin = req.headers.origin;
-    if (allowedOrigins.includes(origin)) {
-       res.setHeader('Access-Control-Allow-Origin', origin);
-    }
-
     res.header("Access-Control-Allow-Credentials", true)
+    res.header("Access-Control-Allow-Origin", req.headers.origin);
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
   });
