@@ -80,7 +80,6 @@ const resetRouter = require('./routes/resetpassword');
 const forgotRouter = require('./routes/forgotpassword');
 const courseRouter = require('./routes/course');
 const searchRouter = require('./routes/search');
-const settingsRouter     = require('./routes/changeUserDetails')
 
 
 app.use("/signup", signupRouter);
@@ -95,7 +94,6 @@ app.use("/reset", resetRouter);
 app.use("/forgot", forgotRouter)
 app.use("/course", courseRouter)
 app.use("/search", searchRouter)
-app.use("/setting", settingsRouter)
 
 
 

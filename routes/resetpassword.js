@@ -3,8 +3,9 @@ const router = express.Router();
 const db = require('../models/database')
 const {hashpassword} = require("../utils/helper")
 
-router.get('/:token', async function(request, response){
-    const {token} = request.params;
+router.post('/', async function(request, response){
+    const {token} = request.query;
+    // return response.send(token)
     let sql = 'SELECT * FROM password_token WHERE TOKEN = ?'
     const result = await db.promise().query(sql, [token])
 
@@ -18,7 +19,7 @@ router.get('/:token', async function(request, response){
     sql = "UPDATE student SET password = ? WHERE email = ?"
    await db.promise().query(sql, [password, email],
     (error, results, field) =>{
-        
+        console.log("Password has been changed");
     }
     )
     return response.status(200).send({msg:"Password changed"})

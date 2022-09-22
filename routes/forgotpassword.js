@@ -8,7 +8,7 @@ function generate_token() {
   
 }
 
-router.get('/', async function(request, response){
+router.post('/', async function(request, response){
     const {email} = request.body;
 
     const result = await db.promise().query(`SELECT * FROM student WHERE email = '${email}'`)
@@ -22,7 +22,8 @@ router.get('/', async function(request, response){
       encrypt.randomBytes(48,async function(err, buffer) {
       const token = buffer.toString('hex');
       await db.promise().query(sql, [email, token])
-       link.push(`http://ec2-3-89-226-48.compute-1.amazonaws.com:3000/resetpassword?${token}`)
+       link.push(`http://ec2-3-89-226-48.compute-1.amazonaws.com:3000/resetpassword?token=${token}`)
+          // link.push(`http://localhost:3000/resetpassword?token=${token}`)
       
        var transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -44,7 +45,7 @@ router.get('/', async function(request, response){
       
       transporter.sendMail(mailOptions, function(err, info){
         if (err) console.log(err);
-        else console.log("email sent " + info.res);
+        else console.log("email sent " + info);
       });
       response.send(link[0])
     });
