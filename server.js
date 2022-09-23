@@ -9,6 +9,7 @@ const passport  = require("passport");
 const db     = require("./models/database");
 const local = require('./strategies/local');
 const allowedOrigin = require('./utils/allowedOrigin')
+const GoogleSetup=require('./strategies/google_setup');
 
 //storing session
 const mysqlStore = require("express-mysql-session")(session);
@@ -84,7 +85,7 @@ const searchRouter = require('./routes/search');
 
 app.use("/signup", signupRouter);
 app.use("/login", loginRouter);
-app.use("/auth", authRouter);
+app.use("/api/auth", authRouter);
 app.use("/profile", profileRouter);
 app.use("/deta", detaRouter)
 app.use("/testdb", testRouter)

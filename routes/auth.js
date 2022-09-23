@@ -18,13 +18,13 @@ const passport=require('passport');
 
 router.get ('/google',
 passport.authenticate( 'google',{
-  scope:['profile']})
+  scope:['profile', 'email']})
 );
 
 router.get('/google/callback',
     passport.authenticate('google',{
-        successRedirect:'/success',
-        failureRedirect:'/auth/failure'
+        successRedirect:'http://localhost:3000/auth',
+        failureRedirect:'http://localhost:3000/'
     }),(req,res)=>{
         res.send(200);
     });

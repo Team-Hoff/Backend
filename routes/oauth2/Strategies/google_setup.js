@@ -7,12 +7,12 @@ const db = require('../model/database')
 
 
 passport.serializeUser((user, done) => {
+  console.log("...Serializing");
   done(null, user);
 });
 
 passport.deserializeUser((req, user, done) => {
-
-  db.query("SELECT * FROM user WHERE  googleId=?",
+  db.query("SELECT * FROM student WHERE  googleId=?",
    [ 
      user.googleId], (err, rows) => {
       if (err) {
@@ -21,6 +21,7 @@ passport.deserializeUser((req, user, done) => {
       }
           done(null, user);
   });
+  console.log("Deserializing....");
 });
 
 
@@ -31,32 +32,32 @@ passport.use(
     clientID:  keys.google.clientID , 
     clientSecret: keys.google.clientSecret 
      },async(accessToken,refreshToken,profile,done)=>{
-      process.nextTick(function () {
-  db.query("SELECT * FROM user WHERE googleId = ?",
+      process.nextTick(async function () {
+  const result = await db. promise().query("SELECT * FROM student WHERE googleId = ?",
    [profile.id], (err, user) => {
       if (err) {
-    return done(err);
-    } else if (user) {
+    return done(err);}})
+    //....................................
+        let user = result[0][0]
+      if (user) {
     return done(null, user);
     } else {
   let newUser = {
     googleId: profile.id,
-    username: profile.displayName
+    email: profile.emails[0].value
                 };
- db.query("INSERT INTO user (googleId,  username) VALUES (?, ?)",
-   [newUser.googleId, newUser.username], (err, rows) => {
+        console.log(newUser);
+ db.query("UPDATE student SET googleId =? where email = ?",
+   [newUser.googleId, newUser.email], (err, rows) => {
      if (err) {
     console.log(err);
       }
   return done(null, newUser);
   })
   }
-    });
-    });
-  
-    console.log( profile.id )
-  }
-));
-  
+    
+  })
+     })
+)
 
 

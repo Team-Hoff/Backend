@@ -14,7 +14,8 @@ router.post('/', async function(request, response){
     }
 
     
-    const {email} = result[0];
+    const {email} = result[0][0];
+    console.log(email);
     const password = hashpassword(request.body.password)
     sql = "UPDATE student SET password = ? WHERE email = ?"
    await db.promise().query(sql, [password, email],
