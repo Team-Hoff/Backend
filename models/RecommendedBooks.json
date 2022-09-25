@@ -1,0 +1,93 @@
+[
+    {
+        "courseName":"Algebra",
+        "bookName":"Pure Mathematics for Beginners",
+        "image":"https://covers.zlibcdn2.com/covers/books/dd/09/7f/dd097f5bcca61afb3ef9a3fc3210de4f.jpg",
+        "bookLink":"https://b-ok.africa/dl/4999234/fdfd5b"
+    },
+    {
+        "courseName":"Linear Algebra",
+        "bookName":"Introduction to Linear Algebra",
+        "image":"https://covers.zlibcdn2.com/covers299/books/ea/26/b0/ea26b078e4c78a3321ce148c8c2540bc.jpg",
+        "bookLink":"https://b-ok.africa/dl/3515653/8bf89b"
+    },
+    {
+        "courseName":" Algebra",
+        "bookName":"Linear Algebra Step by Step",
+        "image":"https://covers.zlibcdn2.com/covers299/books/3d/b0/c8/3db0c8d83d35d77d10024bd510e95f5f.jpg",
+        "bookLink":"https://b-ok.africa/dl/2353035/835d85?dsource=recommend"
+    },
+    {
+        "courseName":"Basic Mechanics",
+        "bookName":"Engineering Mechanics",
+        "image":"https://covers.zlibcdn2.com/covers299/books/3d/cb/c3/3dcbc3f5ace77224fa4966e5dbfc5bff.jpg",
+        "bookLink":"https://b-ok.africa/dl/23042117/c2b5f5"
+    },
+    {
+        "courseName":"Applied Electricity",
+        "bookName":"Electric Circuit Theory",
+        "image":"https://covers.zlibcdn2.com/covers299/books/74/78/71/747871dc24401fdb7f37a8e47957923d.jpg",
+        "bookLink":"https://b-ok.africa/dl/2276836/d6666c"
+    },
+    {
+        "courseName":"Applied Electricity",
+        "bookName":"Electrical Technology",
+        "image":"https://covers.zlibcdn2.com/covers299/books/36/91/2b/36912b47ff9e851594449c9b7433b27b.jpg",
+        "bookLink":"https://b-ok.africa/dl/674783/8c8fce"
+    },
+    {
+        "courseName":"Applied Electricity",
+        "bookName":"Basic Electrical Engineering",
+        "image":"https://covers.zlibcdn2.com/covers299/books/71/8d/5f/718d5f3667dc90310c5972a5b88244ed.jpg",
+        "bookLink":"https://b-ok.africa/dl/2930456/882ea7"
+    },
+    {
+        "courseName":"Communication Skills",
+        "bookName":"Communication Skills For Dummies",
+        "image":"https://covers.zlibcdn2.com/covers299/books/e2/96/ff/e296ff9320937b261a4b9cfbe001ff8f.jpg",
+        "bookLink":"https://b-ok.africa/dl/2225733/86029d"
+    },
+    {
+        "courseName":"Communication Skills",
+        "bookName":" effective communication",
+        "image":"https://covers.zlibcdn2.com/covers100/books/73/10/4e/73104eab260e83655dbe343f8e1cb199.jpg",
+        "bookLink":"https://b-ok.africa/dl/3558008/cb5530"
+    },
+    {
+        "courseName":"Technical Drawing",
+        "bookName":"Framed Perspective",
+        "image":"https://covers.zlibcdn2.com/covers299/books/c1/6e/cb/c16ecb145f378a0f95187ddf5d1fffc1.jpg",
+        "bookLink":"https://b-ok.africa/dl/3556649/3717ec"
+    },
+    {
+        "courseName":"Technical Drawing",
+        "bookName":"",
+        "image":"https://covers.zlibcdn2.com/covers299/books/ea/9f/e7/ea9fe7f0037953ef51a2e46a500b6099.jpg",
+        "bookLink":"https://b-ok.africa/dl/691678/ff622b"
+    },
+    {
+        "courseName":"Technical Drawing",
+        "bookName":"Manual of Engineering Drawing",
+        "image":"https://covers.zlibcdn2.com/covers299/books/8c/90/bc/8c90bc74eb06deade522159e4b7b0813.jpg",
+        "bookLink":"https://b-ok.africa/dl/5009410/b91708"
+    },
+    {
+        "courseName":"Environmental Studies",
+        "bookName":"Earth Science",
+        "image":"https://covers.zlibcdn2.com/covers299/books/06/16/87/0616873858de9da5b20f08fa55a36143.jpg",
+        "bookLink":"https://b-ok.africa/dl/563072/fbbd33"
+    },
+    {
+        "courseName":"Environmental Studies",
+        "bookName":"The Environment",
+        "image":"https://covers.zlibcdn2.com/covers/books/94/2f/9e/942f9e55165ae7a665e4963f8b992f66.jpg",
+        "bookLink":"https://b-ok.africa/dl/604255/23697a"
+    },
+    {
+        "courseName":"Engineering Technology",
+        "bookName":"How to Be Good at Science, Technology, and Engineering",
+        "image":"https://covers.zlibcdn2.com/covers299/books/40/cd/68/40cd68c8ca7abbde4950e5d4c7c43e6f.jpg",
+        "bookLink":"https://b-ok.africa/dl/3687785/e3a9c0"
+    }
+
+]
