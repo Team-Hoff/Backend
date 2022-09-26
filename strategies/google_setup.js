@@ -1,4 +1,4 @@
-
+ 
 const passport=require('passport');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const keys=require('./keys');
@@ -18,13 +18,13 @@ passport.deserializeUser(async(username, done)=>
     console.log("...deserializing");
 
     try{
-        const result = await db.promise().query(`SELECT * FROM student WHERE username = ?`, username)
+        const result = await db.promise()
+        .query(`SELECT * FROM student WHERE username = ?`, username)
 
         if(result[0][0]){
             done(null, result[0][0]);
         }
-
-    }
+      }
     catch(error){
         done(error, null);
     }
@@ -34,7 +34,8 @@ passport.use(
   new GoogleStrategy({
     callbackURL:'http://localhost:3500/api/auth/google/callback',
     clientID:  keys.google.clientID , 
-    clientSecret: keys.google.clientSecret 
+    clientSecret: keys.google.clientSecret,
+    proxy:true
      },
      
     async( accessToken, refreshToken, profile, done) => {
@@ -47,6 +48,7 @@ passport.use(
     return done(err);
     }})
      //....................................
+     
       let user = result[0][0]
       if (user) {
           return done(null, user);
@@ -57,12 +59,16 @@ passport.use(
           email: profile.emails[0].value
         };
         
-      const res = await db.promise()
-        .query("UPDATE student SET googleId = ? where email = ?",
+      await db.promise()
+      .query("UPDATE student SET googleId = ? where email = ?",
           [newUser.googleId, newUser.email])
+      const res = await db.promise()
+      .query("SELECT * FROM student WHERE email = ?",
+          [newUser.email])
+          newUser = res[0][0]
         return done(null, newUser);
-      }
-    
+      
+    }
   })
      }
      catch(error){

@@ -9,7 +9,7 @@ const passport  = require("passport");
 const db     = require("./models/database");
 const local = require('./strategies/local');
 const allowedOrigin = require('./utils/allowedOrigin')
-const GoogleSetup=require('./strategies/google_setup');
+const GoogleSetup = require('./strategies/google_setup');
 
 //storing session
 const mysqlStore = require("express-mysql-session")(session);
@@ -81,6 +81,7 @@ const resetRouter = require('./routes/resetpassword');
 const forgotRouter = require('./routes/forgotpassword');
 const courseRouter = require('./routes/course');
 const searchRouter = require('./routes/search');
+const changeRouter = require('./routes/changeUserDetails')
 
 
 app.use("/signup", signupRouter);
@@ -95,6 +96,7 @@ app.use("/reset", resetRouter);
 app.use("/forgot", forgotRouter)
 app.use("/course", courseRouter)
 app.use("/search", searchRouter)
+app.use("/settings", changeRouter)
 
 
 

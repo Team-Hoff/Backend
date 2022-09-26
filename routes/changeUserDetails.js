@@ -4,22 +4,33 @@ const db = require("../models/database")
 
 
 
-router.get('/', async(request, response) => {
+router.post('/', async(request, response) => {
 
-    try{
-        const {value,original_email } = request.body
+    // try{
+        const {email} = request.user
+        const {field, new_value} = request.body
+        console.log(field);
+        switch (field) {
+            case 'username':
+                console.log("here");
+                const result = await db.promise()
+                .query('SELECT * FROM student WHERE username = ?', [new_value])
+                console.log(result);
+                break;
+        
+            default:
+                break;
+        }
 
-        sql = `UPDATE student SET ${value[0]} = ? WHERE email=? `
-    
-        db.query(sql, [value[1], original_email])
-    
-        response.sendStatus(200)
-    
-        const result = await db.promise().query(sql, [email])    
-    }
-    catch{
-        console.log("Error")
-    }
+        
+        sql = `UPDATE student SET ${field} = ? WHERE email=? `
+        // db.query(sql, [new_value, email])
+        response.send(request.body)
+        // const result = await db.promise().query(sql, [email])    
+    // }
+    // catch{
+    //     console.log("Error")
+    // }
 
     
     
