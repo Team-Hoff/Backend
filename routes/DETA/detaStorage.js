@@ -2,9 +2,10 @@ const express = require('express');
 const router =express.Router();
 const db = require("../../models/database")
 const {Deta} =require('deta');
-const dotenv = require('dotenv');
-const path = require('path')
-dotenv.config({path: './.env'})
+require('dotenv').config();
+// const dotenv = require('dotenv');
+// const path = require('path')
+// dotenv.config({path: './.env'})
 
 const upload = require('express-fileupload');
 // var http = require('http');
@@ -17,11 +18,11 @@ const upload = require('express-fileupload');
 router.use(upload());
 
 // Product key to access Deta Drive
-const deta = Deta('a0h5zcg7_zX38QAiyFSDXG4c4gxt4Qd6WhWxJuBiq');
+const deta = Deta(projectKey=process.env.DETA_KEY);
 
 
 // Unique name of Deta Drive
-const courseBooks = deta.Drive('courseBooks');
+const courseBooks = deta.Drive(driveName=process.env.DETA_DRIVENAME);
 
 
 //Creates a form to allow user upload a book
@@ -39,7 +40,7 @@ router.get('/', (req, res) => {
 router.post("/upload", async (req, res) => {
 
     
-    const directory = 'Computer Engineering/Fourth Year/First Semester/Computer Networking/Slides'
+    const directory = 'Electrical Engineering/First Year/First Semester/Electrical Machines/Slides'
     const name = `${directory}/${req.files.filetoUpload.name}`;
     
     const contents = req.files.filetoUpload.data;

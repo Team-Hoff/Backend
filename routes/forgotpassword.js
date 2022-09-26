@@ -19,10 +19,11 @@ router.post('/', async function(request, response){
    
     const sql = `INSERT INTO password_token (email, token) VALUES (?,?)` 
     const link = []
+    const varInstance = process.env.EC2_INSTANCE ;
       encrypt.randomBytes(48,async function(err, buffer) {
       const token = buffer.toString('hex');
       await db.promise().query(sql, [email, token])
-        link.push(`http://ec2-3-89-226-48.compute-1.amazonaws.com:3000/resetpassword?token=${token}`)
+        link.push(varInstance+` /resetpassword?token=${token}`)
           // link.push(`http://localhost:3000/resetpassword?token=${token}`)
       
        var transporter = nodemailer.createTransport({
