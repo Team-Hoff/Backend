@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const passport=require('passport');
+const db = require('../models/database')
 
 
 // router.use( (request, response, next) =>{
@@ -24,7 +25,7 @@ passport.authenticate( 'google',{
 router.get('/google/callback',
     passport.authenticate('google',{
         successRedirect:'http://localhost:3000/auth',
-        failureRedirect:'http://localhost:3000/'
+        failureRedirect:'http://localhost:3000?authfailed'
     }),(req,res)=>{
         res.send(200);
     });
@@ -32,7 +33,12 @@ router.get('/google/callback',
 
 
 
-router.get('/', (request, response) => {
-    response.send(request.user)
+router.get('/', async(request, response) => {
+    const {username, email} = request.user
+    const sql = 'SELECT * FROM student WHERE username = ? OR email = ?'
+    const user_details = await db.promise().query(sql, [username, email])
+    let user = user_details[0][0]
+
+    response.send(user)
 })
 module.exports = router
