@@ -88,6 +88,536 @@
         "bookName":"How to Be Good at Science, Technology, and Engineering",
         "image":"https://covers.zlibcdn2.com/covers299/books/40/cd/68/40cd68c8ca7abbde4950e5d4c7c43e6f.jpg",
         "bookLink":"https://b-ok.africa/dl/3687785/e3a9c0"
-    }
+    },
+    {  "courseName":"Applied Thermodynamics",
+       "bookName":"Basic and Applied Thermodynamics",
+        "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
+          "bookLink":"https://b-ok.africa/dl/5472009/dd3529"
+},
+   
+   { 
+    "semester":"two",
+
+    "courseName":"Applied Thermodynamics",
+    "bookName":"Basic and Applied Thermodynamics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
+    "bookLink":"https://b-ok.africa/dl/5472009/dd3529"
+},
+
+{  "courseName":"Communication Skills II",
+"bookName":"Advanced Communication Skills",
+"image":"https://covers.zlibcdn2.com/covers299/books/27/db/67/27db67f3153c201080dc93c8397bb35c.jpg",
+"bookLink":"https://b-ok.africa/dl/1267489/6c8ec1"
+},
+
+{  "courseName":"Communication Skills II",
+"bookName":"Elite Communication Skills for Young Professionals",
+"image":"https://covers.zlibcdn2.com/covers299/books/7b/71/d1/7b71d1c07cfd392796b16503c45e857e.jpg",
+"bookLink":"https://b-ok.africa/dl/21663750/f2db28"
+},
+
+{  "courseName":"Basic Electronics",
+"bookName":"The Fields of Electronics",
+"image":"https://covers.zlibcdn2.com/covers299/books/97/21/b4/9721b42883d33fd338a491aa25bc80e3.jpg",
+"bookLink":"https://b-ok.africa/dl/438246/f795cf"
+},
+
+{  "courseName":"Basic Electronics",
+   "bookName":"Basic Electronics",
+   "image":"https://covers.zlibcdn2.com/covers299/books/b4/5b/7a/b45b7a76138ee515dc9d4a03e6c97f24.jpg",
+"bookLink":"https://b-ok.africa/dl/2956139/3da3e6"
+},
+{  "courseName":"Calculus With Analysis",
+"bookName":"Calculus, Volume I: One-Variable Calculus",
+"image":"https://covers.zlibcdn2.com/covers299/books/02/ea/cc/02eacc10aabf4331c58471a952ea7a94.jpg",
+"bookLink":"https://b-ok.africa/dl/557517/f408f6"
+},
+{  "courseName":"Calculus With Analysis",
+"bookName":"Problems in Calculus of One Variable",
+"image":"https://covers.zlibcdn2.com/covers299/books/33/0b/41/330b41c05eaa0f1dc8fb5d48ef39c63c.jpg",
+"bookLink":"https://b-ok.africa/dl/2615324/ca6e42"
+},
+{  "courseName":"Calculus With Analysis",
+"bookName":"Calculus: One and Several Variables",
+"image":"https://covers.zlibcdn2.com/covers299/books/82/b8/6e/82b86e70ee7d33c29bec91d436d9f639.jpg",
+"bookLink":"https://b-ok.africa/dl/1193007/f6baee"
+},
+{  "courseName":"Electric Machines",
+"bookName":"Electrical Machines",
+"image":"https://covers.zlibcdn2.com/covers299/books/c1/7b/fb/c17bfb6fdb3a9e5ef11e9dce53650048.jpg",
+"bookLink":"https://b-ok.africa/dl/3707638/abb9f2"
+},
+{  "courseName":"Electric Machines",
+"bookName":"Electric Machines",
+"image":"https://covers.zlibcdn2.com/covers299/books/96/ed/48/96ed48a41c24bee42ab1b3161b0f140a.jpg",
+"bookLink":"https://b-ok.africa/dl/2168296/a7ad2a"
+},
+{  "courseName":"Electric Machines",
+"bookName":"Electrical machines",
+"image":"https://covers.zlibcdn2.com/covers299/books/10/a4/38/10a43816d3b79f178a240a36cbbddcce.jpg",
+"bookLink":"https://b-ok.africa/dl/3496322/9a1f56"
+},
+{  "courseName":"Mathlab",
+"bookName":"MATLAB. Text Analytics Toolbox. User's Guide",
+"image":"https://covers.zlibcdn2.com/covers299/books/82/27/fd/8227fd23a6204be451cdcf14be2ba863.jpg",
+"bookLink":"https://b-ok.africa/dl/18617442/354d5a"
+},
+{  "courseName":"Programming and Problem Solving",
+"bookName":"The ANSI C Programming Language",
+"image":"https://covers.zlibcdn2.com/covers299/books/55/6e/6b/556e6bee561b776c95c6872c441baad1.jpg",
+"bookLink":"https://b-ok.africa/dl/633119/e468d8"
+},
+{  "courseName":"Accounting I",
+"bookName":"Accounting Principle",
+"image":"https://covers.zlibcdn2.com/covers299/books/c9/5f/b2/c95fb22faec57174d2922809cb20de2d.jpg",
+"bookLink":"https://b-ok.africa/dl/2717450/a2f772"
+},
+{  "courseName":"French for Communication",
+"bookName":"The Ultimate French Review and Practice : Mastering French Grammar for Confident Communication",
+"image":"https://covers.zlibcdn2.com/covers299/books/0c/4c/52/0c4c52fcf9be401fc7b9a04dadae47c5.jpg",
+"bookLink":"https://b-ok.africa/dl/2457286/17d076"
+},
+{  "courseName":"Introductory Economics I",
+"bookName":"Introduction to economic analysis",
+"image":"https://covers.zlibcdn2.com/covers299/books/76/b7/eb/76b7eb072edee56db4fde38bd741d5c9.jpg",
+"bookLink":"https://b-ok.africa/dl/3714202/528eb5"
+},
+{  "courseName":"Circuit Theory",
+"bookName":"Electrical Circuit Theory and Technology",
+"image":"https://covers.zlibcdn2.com/covers299/books/fe/81/aa/fe81aa6f6d11c07b98342d7c49e72f5d.jpg",
+"bookLink":"https://b-ok.africa/dl/2933697/735eca"
+},
+{  "courseName":"Circuit Theory",
+"bookName":"Introductory Circuit Theory",
+"image":"https://covers.zlibcdn2.com/covers299/books/81/7f/ae/817fae58d851dbc56dfb7996fba83e11.jpg",
+"bookLink":"https://b-ok.africa/dl/5294501/9cda0c"
+},
+{  "courseName":"Communication Systems",
+"bookName":"Principles of Electronic Communication Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/61/ed/92/61ed92d3205c95c1f78a3fa3d51be27a.jpg",
+"bookLink":"https://b-ok.africa/dl/2548558/9113f9"
+},
+
+{  "courseName":"Communication Systems",
+"bookName":"Fundamentals of Communication Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/52/98/11/52981180327395ad3fd6bca4e46e8958.jpg",
+"bookLink":"https://b-ok.africa/dl/2628236/ba416e"
+},
+{  "courseName":"Computer Organizations",
+"bookName":"Structured Computer Organization",
+"image":"https://covers.zlibcdn2.com/covers299/books/0c/37/9a/0c379a31a38988e576779d2531b5dc3c.jpg",
+"bookLink":"https://b-ok.africa/dl/5322233/2f73d9"
+},
+{  "courseName":"Computer Organizations",
+"bookName":"Computer Organization and Design",
+"image":"https://covers.zlibcdn2.com/covers299/books/c5/8f/3d/c58f3d5dd8b40771d8ecbfeda52c6759.jpg",
+"bookLink":"https://b-ok.africa/dl/3350400/c0f2b9"
+},
+{  "courseName":"Differential Equations",
+"bookName":"Fundamentals of Differential Equations",
+"image":"https://covers.zlibcdn2.com/covers299/books/bd/90/6e/bd906e16f137720904a538f075383b8c.jpg",
+"bookLink":"https://b-ok.africa/dl/3413979/007431"
+},
+{  "courseName":"Differential Equations",
+"bookName":"Schaums Outline of Differential Equations, Fourth Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/8f/e3/12/8fe3127e7ecedbcfabc48bdd1808c061.jpg",
+"bookLink":"https://b-ok.africa/dl/3678937/3bb0fc"
+},
+{  "courseName":"Discrete Structures",
+"bookName":"Discrete Mathematical Structures: Pearson New International Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/63/c6/5e/63c65e80c610bea44112378eb31fbae7.jpg",
+"bookLink":"https://b-ok.africa/dl/6106431/e207c3"
+},
+{  "courseName":"Discrete Structures",
+"bookName":"Discrete Structures, Logic, And Computability",
+"image":"https://covers.zlibcdn2.com/covers299/books/04/0e/5d/040e5d57f05810342edf229ecb40fb26.jpg",
+"bookLink":"https://b-ok.africa/dl/2847668/564ef9"
+},
+{  "courseName":"Semiconductor Devices",
+"bookName":"Semiconductor Devices: Physics and Technology",
+"image":"https://covers.zlibcdn2.com/covers299/books/af/0d/3e/af0d3ea002ab461dfdfc92bcfad35bc4.jpg",
+"bookLink":"https://b-ok.africa/dl/2207004/50cafa"
+},
+
+{  "courseName":"Semiconductor Devices",
+"bookName":"Semiconductor Device Fundamentals",
+"image":"https://covers.zlibcdn2.com/covers299/books/4f/8e/b9/4f8eb9f7853c7873e8397b450e728004.jpg",
+"bookLink":"https://b-ok.africa/dl/822233/5b259d"
+},
+
+{  "courseName":"Digital Systems",
+"bookName":"Computer Systems: Digital Design, Fundamentals of Computer Architecture and Assembly Language",
+"image":"https://covers.zlibcdn2.com/covers299/books/01/43/b6/0143b6653e7d250802607c62dc476b29.jpg",
+"bookLink":"https://b-ok.africa/dl/3395202/bc173d"
+},
+
+{  "courseName":"Digital Systems",
+"bookName":"Digital System Design with FPGA: Implementation Using Verilog and VHDL",
+"image":"https://covers.zlibcdn2.com/covers299/books/55/c2/f4/55c2f4958aa20f7d72bd33d1521ed7e2.jpg",
+"bookLink":"https://b-ok.africa/dl/3493207/2d3199"
+},
+
+{  "courseName":"Data Structures and Algorithm",
+"bookName":"Data Structures and Algorithms Made Easy in Java",
+"image":"https://covers.zlibcdn2.com/covers299/books/ac/a0/ef/aca0ef6f38ddfdd318aab29aa6786666.jpg",
+"bookLink":"https://b-ok.africa/dl/3629736/28e955"
+},
+
+{  "courseName":"Data Structures and Algorithm",
+"bookName":"Data Structures and Algorithms in C++",
+"image":"https://covers.zlibcdn2.com/covers299/books/e6/ce/94/e6ce94a53248171201b7bfe9765121cb.jpg",
+"bookLink":"https://b-ok.africa/dl/2315271/f16aa1"
+},
+
+{  "courseName":"Electrical Measurements and Instrumentation",
+"bookName":"Electrical and Electronics Measurements and Instrumentation",
+"image":"https://covers.zlibcdn2.com/covers299/books/8d/7d/21/8d7d21a0d329051bb9d87db69a690f4b.jpg",
+"bookLink":"https://b-ok.africa/dl/2563619/8b948f"
+},
+
+{  "courseName":"Electrical Measurements and Instrumentation",
+"bookName":"An Introduction to Electrical Instrumentation and Measurement Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/7a/43/f6/7a43f6fae8abb7450fd3a2978d5e295c.jpg",
+"bookLink":"https://b-ok.africa/dl/2672968/5c504e"
+},
+
+{  "courseName":"Electromagnetic Fields Theory",
+"bookName":"Electromagnetic Field Theory Fundamentals",
+"image":"https://covers.zlibcdn2.com/covers299/books/86/f4/0b/86f40b8a63022c76f69bf9cbc4ad1f81.jpg",
+"bookLink":"https://b-ok.africa/dl/635531/475ddc"
+},
+
+{  "courseName":"Electromagnetic Fields Theory",
+"bookName":"Electromagnetic Field Theory: A Problem Solving Approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/f6/fb/e3/f6fbe3e249fe9876e8c7d4d6c45687e4.jpg",
+"bookLink":"https://b-ok.africa/dl/2293141/f3a7aa"
+},
+
+{  "courseName":"Literature in English II",
+"bookName":"AMSCO® Advanced Placement® English Literature and Composition",
+"image":"https://covers.zlibcdn2.com/covers299/books/6a/83/bf/6a83bf021f72d25fb7203681d83ac07a.jpg",
+"bookLink":"https://b-ok.africa/dl/17804893/d0e3f2"
+},
+
+{  "courseName":"",
+"bookName":"Ways of Reading: Advanced Reading Skills for Students of English Literature",
+"image":"https://covers.zlibcdn2.com/covers299/books/0a/3e/ae/0a3eaefb907e60b8c2b4b9e64ff461dc.jpg",
+"bookLink":"https://b-ok.africa/dl/1004848/4c915e"
+},
+
+
+
+{  "courseName":"Introduction to Accounting II",
+"bookName":"Advanced Accounting (Twelfth Edition)",
+"image":"https://covers.zlibcdn2.com/covers299/books/36/a1/c1/36a1c19cdfacb157da4ede67ad817180.jpg",
+"bookLink":"https://b-ok.africa/dl/3679447/b46fe7"
+},
+
+{  "courseName":"French for Communication II",
+"bookName":"French for Dummies",
+"image":"https://covers.zlibcdn2.com/covers299/books/e1/b6/10/e1b61020f94e7f27fcac3e996c277909.jpg",
+"bookLink":"https://b-ok.africa/dl/1253329/911429"
+},
+
+{  "courseName":"Introductory Economics II",
+"bookName":"Principles of Economics",
+"image":"https://covers.zlibcdn2.com/covers299/books/be/eb/b4/beebb41b7172b2b73e94d0ee3da2a6b7.jpg",
+"bookLink":"https://b-ok.africa/dl/3342786/ca3bb8"
+},
+
+{"third year":"3",
+    
+"courseName":"Classical Control Systems",
+"bookName":"Control Systems - Classical Controls",
+"image":"https://covers.zlibcdn2.com/covers299/books/1c/06/74/1c06743bb07e466757841d30571f0e5a.jpg",
+"bookLink":"https://b-ok.africa/dl/991747/76e7ee"
+},
+
+{  "courseName":"Classical Control Systems",
+"bookName":"Classical Methods of Control Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/1d/c4/0d/1dc40d713a8afc3bd2a3ba7dfeedfbee.jpg",
+"bookLink":"https://b-ok.africa/dl/557806/df44e8"
+},
+
+{  "courseName":"Information Theory",
+"bookName":"Elements of Information Theory",
+"image":"https://covers.zlibcdn2.com/covers299/books/f8/4d/70/f84d706dd712f25317df40949026f072.jpg",
+"bookLink":"https://b-ok.africa/dl/459980/4eebad"
+},
+
+{  "courseName":"Information Theory",
+"bookName":"Information Theory: A Tutorial Introduction",
+"image":"https://covers.zlibcdn2.com/covers299/books/f1/73/21/f17321e77ec3215129080ed3a6c231cf.jpg",
+"bookLink":"https://b-ok.africa/dl/2853051/a05a72"
+},
+
+{  "courseName":"Linear Electronics Circuit",
+"bookName":"Micro Electronic Circuits Theory And Applicatication",
+"image":"https://covers.zlibcdn2.com/covers299/books/50/c7/06/50c7060306b1b02943bc2641c68d386c.jpg",
+"bookLink":"https://b-ok.africa/dl/2747114/686a5b"
+},
+
+{  "courseName":"Linear Electronics Circuit",
+"bookName":"Basic electronics and linear circuits",
+"image":"https://covers.zlibcdn2.com/covers299/books/ee/8b/da/ee8bda793a9c1a4bf5301428fd0129cf.jpg",
+"bookLink":"https://b-ok.africa/dl/5932956/5d923a"
+},
+
+{  "courseName":"Microprocessors",
+"bookName":" An Illustrated Introduction to Microprocessors and Computer Architecture",
+"image":"https://covers.zlibcdn2.com/covers299/books/2e/fc/fb/2efcfbfe1fe97bf56428cbace3a5e093.jpg",
+"bookLink":""
+},
+
+{  "courseName":"Microprocessors",
+"bookName":"Introduction to Microprocessors and Microcontrollers",
+"image":"https://covers.zlibcdn2.com/covers299/books/33/56/e5/3356e59c36e83d654d96a6218c7de7ef.jpg",
+"bookLink":"https://b-ok.africa/dl/510467/7df4ec"
+},
+
+{  "courseName":"Numerical Analysis",
+"bookName":"Numerical Analysis",
+"image":"https://covers.zlibcdn2.com/covers299/books/3e/3c/28/3e3c2891e445a1a151ee5c6bc1345e5f.jpg",
+"bookLink":"https://b-ok.africa/dl/2853297/46dfdc"
+},
+
+{  "courseName":"Numerical Analysis",
+"bookName":"Schaum's Outline of Numerical Analysis, Second Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/fe/8b/60/fe8b6045cb1bad3ba1784912b9f7c521.jpg",
+"bookLink":"https://b-ok.africa/dl/1223761/d48d01"
+},
+{  "courseName":"Object Oriented Programming ",
+"bookName":"Interactive Object-Oriented Programming in Java",
+"image":"https://covers.zlibcdn2.com/covers299/books/59/e5/9a/59e59a4244d9bbc83d766dec0b577068.jpg",
+"bookLink":""
+},
+
+{  "courseName":"Object Oriented Programming",
+"bookName":"Python 3 Object-Oriented Programming",
+"image":"https://covers.zlibcdn2.com/covers299/books/db/87/51/db87515bbf7d17d224ad3058ab3439ea.jpg",
+"bookLink":"https://b-ok.africa/dl/5572197/feb661"
+},
+{  "courseName":"Probability and Statistics",
+"bookName":"Probability and statistics by example",
+"image":"https://covers.zlibcdn2.com/covers299/books/14/86/60/14866067ee1914a00affabbd19f5dfc5.jpg",
+"bookLink":"https://b-ok.africa/dl/448283/99adb0"
+},
+
+{  "courseName":"Probability and Statistics",
+"bookName":"Probability and Statistics: A Course for Physicists and Engineers",
+"image":"https://covers.zlibcdn2.com/covers299/books/f0/88/be/f088bec0274051c2cc1d0be7f161eb76.jpg",
+"bookLink":"https://b-ok.africa/dl/3657835/30f7b1"
+},
+{  "courseName":"Autotronics Lab",
+"bookName":"Automobile Electrical & Electronic Systems. Essential Theory and Practice",
+"image":"https://covers.zlibcdn2.com/covers299/books/00/35/31/003531e88f4aab838cc5ea4cc086a7a0.jpg",
+"bookLink":"https://b-ok.africa/dl/3034580/a1f4fc"
+},
+
+{"third year":"second Semester",
+      "courseName":"Autotronics Lab",
+"bookName":"Automobile electrical and electronic systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/df/8b/69/df8b69327be19c6b8a8101773d88fab9.jpg",
+"bookLink":"https://b-ok.africa/dl/5407634/376a1c"
+},
+{  "courseName":"Database and Information Retrieval",
+"bookName":"Database System Concepts",
+"image":"https://covers.zlibcdn2.com/covers299/books/7e/a8/b6/7ea8b6552592a7c2096ee3ebcc3fb4bf.jpg",
+"bookLink":"https://b-ok.africa/dl/5233549/bebaad"
+},
+
+{  "courseName":"Database and Information Retrieval",
+"bookName":"SQL & NoSQL Databases",
+"image":"https://covers.zlibcdn2.com/covers299/books/b9/64/92/b96492da730dcbc6b1df98a906cf8552.jpg",
+"bookLink":"https://b-ok.africa/dl/5214039/4b84ba"
+},
+{  "courseName":"Digital Computer Design",
+"bookName":"Digital Design and Computer Architecture",
+"image":"https://covers.zlibcdn2.com/covers299/books/a0/75/9f/a0759fe57a183c40967f5c563082581d.jpg",
+"bookLink":"https://b-ok.africa/dl/2083220/02ea51"
+},
+
+{  "courseName":"Digital Computer Design",
+"bookName":"Digital Logic and Computer Design",
+"image":"https://covers.zlibcdn2.com/covers299/books/e4/cb/21/e4cb21617a343bf5372aa891bad932a7.png",
+"bookLink":"https://b-ok.africa/dl/5440626/3bceb2"
+},
+{  "courseName":"Embedded SystemS",
+"bookName":"Design Patterns for Embedded Systems in C",
+"image":"https://covers.zlibcdn2.com/covers299/books/34/c4/0a/34c40aaecb0a254d07ecd1896a5cd148.jpg",
+"bookLink":"https://b-ok.africa/dl/2083684/b426f1"
+},
+
+{  "courseName":"Embedded SystemS",
+"bookName":"Embedded Hardware",
+"image":"https://covers.zlibcdn2.com/covers299/books/fc/39/8d/fc398dd7f1c1325f5e95445d4638d474.jpg",
+"bookLink":"https://b-ok.africa/dl/511011/5d9082"
+},
+{  "courseName":"Embedded SystemS",
+"bookName":"Embedded Systems: A Contemporary Design Tool",
+"image":"https://covers.zlibcdn2.com/covers/books/67/9b/8d/679b8d2d47f1bf86e17aca48f596f5cc.jpg",
+"bookLink":"https://b-ok.africa/dl/5227130/96b0eb"
+},
+
+{  "courseName":"Operating System",
+"bookName":"Modern Operating Systems",
+"image":"https://covers.zlibcdn2.com/covers/books/15/6c/f9/156cf9f53cc80458097cebf1876be746.jpg",
+"bookLink":"https://b-ok.africa/dl/5156445/c7e1d6"
+},
+{  "courseName":"Operating System",
+"bookName":"Operating System Concepts",
+"image":"https://covers.zlibcdn2.com/covers299/books/73/12/96/7312960d0fb110104ea01347f30cc98a.jpg",
+"bookLink":"https://b-ok.africa/dl/3509014/af7018"
+},
+
+{  "courseName":"Operating System",
+"bookName":"Operating System Concepts",
+"image":"https://covers.zlibcdn2.com/covers/books/37/6e/69/376e69c9ca2df90bdf5748c3c16bda69.jpg",
+"bookLink":"https://b-ok.africa/dl/2039471/e43964"
+},
+{  "courseName":"Introduction to Software Engineering",
+"bookName":"Engineering Software Products: An Introduction to Modern Software Engineering",
+"image":"https://covers.zlibcdn2.com/covers100/books/da/25/eb/da25ebf44233b913a5fab94990b3bad9.jpg",
+"bookLink":"https://b-ok.africa/dl/11341271/41aa5b"
+},
+
+{  "courseName":"Introduction to Software Engineering",
+"bookName":"Software Engineering: A Practitioner's Approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/63/8a/04/638a0440a3116ab56d796e156abc9b7e.jpg",
+"bookLink":"https://b-ok.africa/dl/2374988/a3049c"
+},
+{ "fourth Year":"Semester one",
+     "courseName":"Project I",
+"bookName":"Real-World Software Projects for Computer Science and Engineering Students",
+"image":"https://covers.zlibcdn2.com/covers299/books/e4/2f/eb/e42feb53796d38ba169db3ff4a010c41.jpg",
+"bookLink":"https://b-ok.africa/dl/11738070/15f5d2"
+},
+
+{  "courseName":"Computer Networking",
+"bookName":"Computer Networking: A Top-Down Approach, 7th Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/25/91/f0/2591f0b3def9b956b60b853697a6808c.jpg",
+"bookLink":"https://b-ok.africa/dl/3422999/607747"
+},
+{  "courseName":"Computer Networking",
+"bookName":"Computer Networking: A Top-Down Approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/8b/54/7b/8b547bcdf967b08655d6360f6fe9d809.jpg",
+"bookLink":"https://b-ok.africa/dl/11489897/da7c00"
+},
+
+{  "courseName":"Computer Architecture",
+"bookName":"Computer Architecture, Sixth Edition: A Quantitative Approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/58/73/4d/58734dae75228cd8ccf1be995da2893a.jpg",
+"bookLink":"https://b-ok.africa/dl/3423170/d9678f"
+},
+{  "courseName":"Computer Architecture",
+"bookName":"Computer Organization and Architecture Designing for Performance 10th Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/23/f3/13/23f31322bee8afe15949d3ba83be62c9.jpg",
+"bookLink":"https://b-ok.africa/dl/3710986/799766"
+},
+
+{  "courseName":"Computer Graphics",
+"bookName":"Fundamentals of Computer Graphics, Fourth Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/e9/26/7c/e9267cad8d28991256f4346d4cae661a.jpg",
+"bookLink":"https://b-ok.africa/dl/3373253/1af789"
+},
+
+{  "courseName":"Computer Graphics",
+"bookName":"Computer Graphics: Principles and Practice",
+"image":"https://covers.zlibcdn2.com/covers299/books/71/33/2d/71332d5e6e0c464844e455372701a28f.jpg",
+"bookLink":"https://b-ok.africa/dl/2293789/3fc891"
+},
+{  "courseName":"Distributed Computing",
+"bookName":"Distributed Computing: Principles, Algorithms, and Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/e0/b9/a0/e0b9a06c44a264596481bf62bd592796.jpg",
+"bookLink":"https://b-ok.africa/dl/437133/a59b79"
+},
+{  "courseName":"Distributed Computing",
+"bookName":"Distributed Computing: Fundamentals, Simulations, and Advanced Topics",
+"image":"https://covers.zlibcdn2.com/covers299/books/82/5c/97/825c975ed0efcccc75f3f4afe7d8e0b4.jpg",
+"bookLink":"https://b-ok.africa/dl/437079/f08b9b"
+},
+{  "courseName":"Artificial Intelligence",
+"bookName":"Artificial Intelligence for Dummies",
+"image":"https://covers.zlibcdn2.com/covers299/books/89/54/bd/8954bd61a02a3c1f01efb6df48f1bd74.jpg",
+"bookLink":"https://b-ok.africa/dl/3698849/e58a00"
+},
+{  "courseName":"Artificial Intelligence",
+"bookName":"Artificial Intelligence: A Modern Approach, 3rd Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/fd/da/c2/fddac27adb8598b2ad709f1d8b31bd90.jpg",
+"bookLink":"https://b-ok.africa/dl/3704484/a65731"
+},
+{ "fourth Year":"Semester Two",
+     "courseName":"Entrepreneurship Development",
+"bookName":"Entrepreneurship Development & Small Business Enterprises",
+"image":"https://covers.zlibcdn2.com/covers299/books/72/42/ab/7242abefccce1f677ea611f86bf759f4.jpg",
+"bookLink":"https://b-ok.africa/dl/5440911/415f37"
+},
+{  "courseName":"Entrepreneurship Development",
+"bookName":"Entrepreneurship and Local Economic Development",
+"image":"https://covers.zlibcdn2.com/covers299/books/50/6f/5b/506f5b0e44611808897f70b215356a9e.jpg",
+"bookLink":"https://b-ok.africa/dl/823981/d5df84"
+},
+{  "courseName":"Introduction to VLSI",
+"bookName":"Introduction to VLSI Systems : A Logic, Circuit, and System Perspective",
+"image":"https://covers.zlibcdn2.com/covers299/books/af/4b/ed/af4bed51f38466bec6a8eaeb2ee11488.jpg",
+"bookLink":"https://b-ok.africa/dl/2542951/5e49a8"
+},
+{  "courseName":"Introduction to VLSI",
+"bookName":"Introduction to VLSI Circuits and Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/a6/92/97/a69297a4b871d0e2663f1ea9f1dc48ab.jpg",
+"bookLink":"https://b-ok.africa/dl/5461257/7ea217"
+},
+{  "courseName":"Introduction to VLSI",
+"bookName":"Introduction to VLSI Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/0a/24/c2/0a24c2fe448cf331be1b81a15eebe6f6.jpg",
+"bookLink":"https://b-ok.africa/dl/5601093/635f1c"
+},
+{  "courseName":"Compiler Construction",
+"bookName":"Compiler Construction",
+"image":"https://covers.zlibcdn2.com/covers299/books/53/4b/16/534b16d00c0741423a3b13c6bf899ff2.jpg",
+"bookLink":"https://b-ok.africa/dl/492151/5529f5"
+},
+{  "courseName":"Compiler Construction",
+"bookName":"A Practical Approach to Compiler Construction",
+"image":"https://covers.zlibcdn2.com/covers299/books/d1/50/d4/d150d4c0630cd2937a36022e8c6737ec.jpg",
+"bookLink":"https://b-ok.africa/dl/2929326/b48abe"
+
+},
+{  "courseName":"Software Engineering",
+"bookName":"Software engineering : a practitioner’s approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/45/65/06/456506e9fffd82b5157b0c76e20d6bbb.jpg",
+"bookLink":"https://b-ok.africa/dl/5003875/e9b556"
+},
+{  "courseName":"Secure Network Systems",
+"bookName":"Computer Networking",
+"image":"https://covers.zlibcdn2.com/covers299/books/b6/83/a8/b683a889e3af41e8d1b39abd035c798b.jpg",
+"bookLink":"https://b-ok.africa/dl/11029641/d4e034"
+},
+{  "courseName":"Secure Network Systems",
+"bookName":"Computer Networking and Cybersecurity",
+"image":"https://covers.zlibcdn2.com/covers299/books/6c/0f/8d/6c0f8dd6b236013c25aacee0c0c1f794.jpg",
+"bookLink":"https://b-ok.africa/dl/5849065/e975fb"
+},
+{  "courseName":"Computer Vision and Robotics",
+"bookName":"Advanced Topics on Computer Vision, Control and Robotics in Mechatronics",
+"image":"https://covers.zlibcdn2.com/covers299/books/3d/fd/b9/3dfdb907ee7caf64e8f6af6ca089697b.jpg",
+"bookLink":"https://b-ok.africa/dl/3574876/af7a62"
+},
+{  "courseName":"Computer Vision and Robotics",
+"bookName":"Linear Algebra for Computer Vision, Robotics, and Machine Learning",
+"image":"https://covers.zlibcdn2.com/covers299/books/8b/26/d5/8b26d5af6305625f281951b4a484ab54.jpg",
+"bookLink":"https://b-ok.africa/dl/5394602/4dac8e"
+},
+{  "courseName":"Fault Diagnosis and Failure Tolerance",
+"bookName":"Fault Diagnosis and Fault Tolerance: A Systematic Approach to Special Topics",
+"image":"https://covers.zlibcdn2.com/covers299/books/7d/eb/09/7deb09dcea4609f2e7f4b5a0c7f92c41.jpg",
+"bookLink":"https://b-ok.africa/dl/2112078/9323f7"
+},
+{  "courseName":"Fault Diagnosis and Failure Tolerance",
+"bookName":"Integrated Fault Diagnosis and Control Design of Linear Complex Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/43/14/b4/4314b4adb83979d4314a8281123baaa3.jpg",
+"bookLink":"https://b-ok.africa/dl/3607664/38297f"
+}
+
 
 ]
