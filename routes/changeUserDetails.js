@@ -2,7 +2,13 @@ const express = require("express")
 const router = express.Router();
 const db = require("../models/database")
 
-
+router.use( (request, response, next) =>{
+    if(request.user) next()
+    else {
+        console.log("Program ");
+        response.sendStatus(401)
+    }
+})
 
 router.post('/', async(request, response) => {
 

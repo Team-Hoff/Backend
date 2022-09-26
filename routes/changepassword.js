@@ -6,7 +6,6 @@ const db = require("../models/database")
 router.use( (request, response, next) =>{
     if(request.user) next()
     else {
-        console.log("here");
         response.sendStatus(401)
     }
 })

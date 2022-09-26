@@ -4,9 +4,6 @@ const db =  require("../models/database");
 const nodemailer = require('nodemailer')
 const encrypt = require('crypto')
 
-function generate_token() {
-  
-}
 
 router.post('/', async function(request, response){
     const {email} = request.body;
@@ -29,8 +26,8 @@ router.post('/', async function(request, response){
        var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth:{
-          user:'dlsark13@gmail.com',
-          pass:'zusaywgcxaenvbqj'
+          user:'hoffteam59@gmail.com',
+          pass:'ynyqaswefmopnpqb'
         },
         tls: {
             rejectUnauthorized: false
@@ -38,15 +35,15 @@ router.post('/', async function(request, response){
       });
       
       var mailOptions = {
-        from: 'dlsark13@gmail.com',
+        from: 'hoffteam59@gmail.com',
         to: `${email}`,
         subject: 'Team Hoff Virtual Library',
-        text: `Click on the link below to reset your password /n ${link[0]}`
+        html: `<p>Click <a href=`+varInstance+`/resetpassword?token=${token}` + '>here</a> to reset your password</p>'
       };
       
       transporter.sendMail(mailOptions, function(err, info){
         if (err) console.log(err);
-        else console.log("email sent " + info);
+        else console.log("email sent " + `to ${email}`);
       });
       response.send(link[0])
     });
