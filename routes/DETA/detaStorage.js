@@ -2,7 +2,9 @@ const express = require('express');
 const router =express.Router();
 const db = require("../../models/database")
 const {Deta} =require('deta');
-
+const dotenv = require('dotenv');
+const path = require('path')
+dotenv.config({path: './.env'})
 
 const upload = require('express-fileupload');
 // var http = require('http');
@@ -87,9 +89,9 @@ router.get("/download", async (req, res) => {
 
 //places names of course in database
 router.get("/list", async (req, res) => {
-    const program = `Telecom Engineering`
-    const name = `Electrical Engineering Drawing`
-    const courses = `${program}/First Year/Second Semester/${name}/Slides/` //Edit year and semester
+    const program = `Biomedical Engineering`
+    const name = `Engineering Economics and Management`
+    const courses = `${program}/Four Year/First Semester/${name}/Slides/` //Edit year and semester
     //const {year} = req.params;
     const array = []
     const ext = []
@@ -118,9 +120,9 @@ router.get("/list", async (req, res) => {
     console.log(newLectarr);
     const jsonArr = JSON.stringify(newLectarr);
     const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`;
-    db.query(sql, [jsonArr, ext[0][1][1], `telecom`, name])//Edit program ere
-    res.send(array);
-    console.log(`All files in ${courses}`);
+    db.query(sql, [jsonArr, ext[0][1][1], `biomedical`, name])//Edit program ere
+    res.send(` ${program} ${name} lectures uploaded to database: `+array);
+    //console.log(` ${program} ${name} lectures uploaded to database`);
 }); 
 
 

@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 const app = express();
 
 const cors = require('cors')
@@ -16,10 +17,10 @@ const mysqlStore = require("express-mysql-session")(session);
 
 const options = {
     connectionLimit: 10,
-    host:"virtual-library.cp1myldql9kf.us-east-1.rds.amazonaws.com",
+    host:process.env.HOST_NAME,
     user:"admin",
-    password:"JnFbLwKjL7jtczy",
-    database: 'library',
+    password:process.env.HOST_KEY,
+    database: process.env.HOST_DBNAME,
     port: 3306,
     createDatabaseTable: true,
     endConnectionOnClose: false,
@@ -82,6 +83,7 @@ const forgotRouter = require('./routes/forgotpassword');
 const courseRouter = require('./routes/course');
 const searchRouter = require('./routes/search');
 const changeRouter = require('./routes/changeUserDetails')
+const adminRouter = require('./routes/admin')
 
 
 app.use("/signup", signupRouter);
@@ -97,6 +99,8 @@ app.use("/forgot", forgotRouter)
 app.use("/course", courseRouter)
 app.use("/search", searchRouter)
 app.use("/settings", changeRouter)
+app.use("/settings", changeRouter)
+app.use("/admin", adminRouter)
 
 
 

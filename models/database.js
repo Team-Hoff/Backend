@@ -1,14 +1,13 @@
 const mysql = require('mysql2');
-const dotenv = require('dotenv');
+require('dotenv').config();
 const path = require('path')
-dotenv.config({path: './.env'})
 
-
+console.log(process.env);
 module.exports = mysql.createConnection({
-    host:"virtual-library.cp1myldql9kf.us-east-1.rds.amazonaws.com",
+    host:process.env.HOST_NAME,
     user:"admin",
-    password:"JnFbLwKjL7jtczy",
-    port: "3306",
+    password:process.env.HOST_KEY,
+    port:3306,
     database: "library"
 });
 
