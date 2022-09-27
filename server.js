@@ -84,23 +84,24 @@ const courseRouter = require('./routes/course');
 const searchRouter = require('./routes/search');
 const changeRouter = require('./routes/changeUserDetails')
 const adminRouter = require('./routes/admin')
+const booksRouter = require('./routes/recommended_books')
 
 
 app.use("/signup", signupRouter);
 app.use("/login", loginRouter);
 app.use("/api/auth", authRouter);
 app.use("/profile", profileRouter);
-app.use("/deta", detaRouter)
-app.use("/testdb", testRouter)
-app.use("/logout", logoutRouter)
-app.use("/program", programRouter)
+app.use("/deta", detaRouter);
+app.use("/testdb", testRouter);
+app.use("/logout", logoutRouter);
+app.use("/program", programRouter);
 app.use("/reset", resetRouter);
-app.use("/forgot", forgotRouter)
-app.use("/course", courseRouter)
-app.use("/search", searchRouter)
-app.use("/settings", changeRouter)
-app.use("/settings", changeRouter)
-app.use("/admin", adminRouter)
+app.use("/forgot", forgotRouter);
+app.use("/course", courseRouter);
+app.use("/search", searchRouter);
+app.use("/settings", changeRouter);
+app.use("/admin", adminRouter);
+app.use("/books", booksRouter);
 
 
 
