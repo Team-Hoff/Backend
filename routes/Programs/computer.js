@@ -20,6 +20,7 @@ const db = require('../../models/database')
 
 
 router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
+
     const {year, semester, course, slide_name} = req.params;
     
     const year_semester = [];
@@ -63,9 +64,8 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
     console.log(year_semester);
     const bookName = {
         name: `Computer Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}.${ext}`
-        
     };
-
+    console.log(bookName.name);
 
     try{
         const book = await courseBooks.get(bookName.name);

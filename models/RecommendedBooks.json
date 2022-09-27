@@ -6,13 +6,17 @@
         "bookLink":"https://b-ok.africa/dl/4999234/fdfd5b"
     },
     {
+<<<<<<< HEAD
         "courseName":" Algebra",
+=======
+        "courseName":"Algebra",
+>>>>>>> f83ae23262d562f61749ec0f5757bf6b371244cf
         "bookName":"Introduction to Linear Algebra",
         "image":"https://covers.zlibcdn2.com/covers299/books/ea/26/b0/ea26b078e4c78a3321ce148c8c2540bc.jpg",
         "bookLink":"https://b-ok.africa/dl/3515653/8bf89b"
     },
     {
-        "courseName":" Algebra",
+        "courseName":"Algebra",
         "bookName":"Linear Algebra Step by Step",
         "image":"https://covers.zlibcdn2.com/covers299/books/3d/b0/c8/3db0c8d83d35d77d10024bd510e95f5f.jpg",
         "bookLink":"https://b-ok.africa/dl/2353035/835d85?dsource=recommend"

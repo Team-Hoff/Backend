@@ -2,7 +2,10 @@ const express = require('express');
 const router =express.Router();
 const db = require("../../models/database")
 const {Deta} =require('deta');
-
+require('dotenv').config();
+// const dotenv = require('dotenv');
+// const path = require('path')
+// dotenv.config({path: './.env'})
 
 const upload = require('express-fileupload');
 // var http = require('http');
@@ -15,11 +18,11 @@ const upload = require('express-fileupload');
 router.use(upload());
 
 // Product key to access Deta Drive
-const deta = Deta('a0h5zcg7_zX38QAiyFSDXG4c4gxt4Qd6WhWxJuBiq');
+const deta = Deta(projectKey=process.env.DETA_KEY);
 
 
 // Unique name of Deta Drive
-const courseBooks = deta.Drive('courseBooks');
+const courseBooks = deta.Drive(driveName=process.env.DETA_DRIVENAME);
 
 
 //Creates a form to allow user upload a book
@@ -37,7 +40,7 @@ router.get('/', (req, res) => {
 router.post("/upload", async (req, res) => {
 
     
-    const directory = 'Computer Engineering/Fourth Year/First Semester/Computer Networking/Slides'
+    const directory = 'Computer Engineering/Fourth Year/Second Semester/Entrepreneurship Development/Slides'
     const name = `${directory}/${req.files.filetoUpload.name}`;
     
     const contents = req.files.filetoUpload.data;
@@ -50,7 +53,7 @@ router.post("/upload", async (req, res) => {
 router.get("/download", async (req, res) => {
     
     const bookName = {
-        name: '${proram}/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
+        name: '${program}/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
     };
     
     const book = await courseBooks.get(bookName.name);
@@ -87,9 +90,9 @@ router.get("/download", async (req, res) => {
 
 //places names of course in database
 router.get("/list", async (req, res) => {
-    const program = `Telecom Engineering`
-    const name = `Electrical Engineering Drawing`
-    const courses = `${program}/First Year/Second Semester/${name}/Slides/` //Edit year and semester
+    const program = `Biomedical Engineering`
+    const name = `Engineering Economics and Management`
+    const courses = `${program}/Four Year/First Semester/${name}/Slides/` //Edit year and semester
     //const {year} = req.params;
     const array = []
     const ext = []
@@ -118,9 +121,9 @@ router.get("/list", async (req, res) => {
     console.log(newLectarr);
     const jsonArr = JSON.stringify(newLectarr);
     const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`;
-    db.query(sql, [jsonArr, ext[0][1][1], `telecom`, name])//Edit program ere
-    res.send(array);
-    console.log(`All files in ${courses}`);
+    db.query(sql, [jsonArr, ext[0][1][1], `biomedical`, name])//Edit program ere
+    res.send(` ${program} ${name} lectures uploaded to database: `+array);
+    //console.log(` ${program} ${name} lectures uploaded to database`);
 }); 
 
 

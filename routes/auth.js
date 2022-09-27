@@ -4,15 +4,13 @@ const passport=require('passport');
 const db = require('../models/database')
 
 
-// router.use( (request, response, next) =>{
-//     console.log(request.sessionID);
-//     if(request.user) next()
-//     else {
-//         console.log("auth");
-//         // console.log(request);
-//         response.sendStatus(401)
-//     }
-// })
+router.use( (request, response, next) =>{
+    
+    if(request.user) next()
+    else {
+        response.sendStatus(401)
+    }
+})
 
 
 // creating the routes for the end point
