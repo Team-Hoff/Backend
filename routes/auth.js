@@ -32,11 +32,11 @@ router.get('/google/callback',
 
 
 router.get('/', async(request, response) => {
-    const {username, email} = request.user
-    const sql = 'SELECT * FROM student WHERE username = ? OR email = ?'
-    const user_details = await db.promise().query(sql, [username, email])
+    const {email} = request.user
+    const sql = 'SELECT * FROM student WHERE email = ?'
+    const user_details = await db.promise().query(sql, [email])
     let user = user_details[0][0]
-
+    console.log(user);
     response.send(user)
 })
 module.exports = router
