@@ -1892,13 +1892,13 @@
 "bookLink":"https://b-ok.africa/dl/592177/5a3c77"
 },
 
+{"fourth Year":"First Semester"},
+
 {"courseName":"Engineering Economics and Management",
 "bookName":"Handbook in Monte Carlo Simulation: Applications in Financial Engineering, Risk Management, and Economics",
 "image":"https://covers.zlibcdn2.com/covers299/books/81/5d/69/815d69c2f216c4a7935f61df8c22e60d.jpg",
 "bookLink":"https://b-ok.africa/dl/2352582/e73b3e"
 },
-{"fourth Year":"First Semester"},
-
 {"courseName":"Engineering Economics and Management",
 "bookName":"Economics and finance for engineers and planners : managing infrastructure and natural resources",
 "image":"https://covers.zlibcdn2.com/covers299/books/79/7d/d2/797dd2d5a9ff928b25c3791da24bdbd1.jpg",
@@ -2021,6 +2021,7 @@
 "bookLink":"https://b-ok.africa/dl/1314361/820ec1"
 },
 {"fourth Year":"Semester Two"},
+
 {"courseName":"Entrepreneurship Development",
 "bookName":"Entrepreneurship Development & Small Business Enterprises",
 "image":"https://covers.zlibcdn2.com/covers299/books/72/42/ab/7242abefccce1f677ea611f86bf759f4.jpg",
@@ -2144,5 +2145,711 @@
 "bookName":"Safety of Computer Control Systems",
 "image":"https://covers.zlibcdn2.com/covers299/books/5a/30/f2/5a30f2abfb5b91686112841882b45d37.gif",
 "bookLink":"https://b-ok.africa/dl/2366941/db92a6"
+},
+{
+    "Telecom Engineering":"First Year"
+},
+{
+    "courseName":"Algebra",
+    "bookName":"Pure Mathematics for Beginners",
+    "image":"https://covers.zlibcdn2.com/covers/books/dd/09/7f/dd097f5bcca61afb3ef9a3fc3210de4f.jpg",
+    "bookLink":"https://b-ok.africa/dl/4999234/fdfd5b"
+},
+{
+    "courseName":" Algebra",
+    "bookName":"Introduction to Linear Algebra",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ea/26/b0/ea26b078e4c78a3321ce148c8c2540bc.jpg",
+    "bookLink":"https://b-ok.africa/dl/3515653/8bf89b"
+},
+{
+    "courseName":"Algebra",
+    "bookName":"Linear Algebra Step by Step",
+    "image":"https://covers.zlibcdn2.com/covers299/books/3d/b0/c8/3db0c8d83d35d77d10024bd510e95f5f.jpg",
+    "bookLink":"https://b-ok.africa/dl/2353035/835d85?dsource=recommend"
+},
+
+{
+    "courseName":"Communication Skills",
+    "bookName":"Communication Skills For Dummies",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e2/96/ff/e296ff9320937b261a4b9cfbe001ff8f.jpg",
+    "bookLink":"https://b-ok.africa/dl/2225733/86029d"
+},
+{
+    "courseName":"Communication Skills",
+    "bookName":" effective communication",
+    "image":"https://covers.zlibcdn2.com/covers100/books/73/10/4e/73104eab260e83655dbe343f8e1cb199.jpg",
+    "bookLink":"https://b-ok.africa/dl/3558008/cb5530"
+},
+
+{
+    "courseName":"Environmental Studies",
+    "bookName":"Earth Science",
+    "image":"https://covers.zlibcdn2.com/covers299/books/06/16/87/0616873858de9da5b20f08fa55a36143.jpg",
+    "bookLink":"https://b-ok.africa/dl/563072/fbbd33"
+},
+{
+    "courseName":"Environmental Studies",
+    "bookName":"The Environment",
+    "image":"https://covers.zlibcdn2.com/covers/books/94/2f/9e/942f9e55165ae7a665e4963f8b992f66.jpg",
+    "bookLink":"https://b-ok.africa/dl/604255/23697a"
+},
+
+{
+    "courseName":"Technical Drawing",
+    "bookName":"Framed Perspective",
+    "image":"https://covers.zlibcdn2.com/covers299/books/c1/6e/cb/c16ecb145f378a0f95187ddf5d1fffc1.jpg",
+    "bookLink":"https://b-ok.africa/dl/3556649/3717ec"
+},
+{
+    "courseName":"Technical Drawing",
+    "bookName":"Manual of Engineering Drawing",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ea/9f/e7/ea9fe7f0037953ef51a2e46a500b6099.jpg",
+    "bookLink":"https://b-ok.africa/dl/691678/ff622b"
+},
+{
+    "courseName":"Technical Drawing",
+    "bookName":"Technical Drawing",
+    "image":"https://covers.zlibcdn2.com/covers299/books/8c/90/bc/8c90bc74eb06deade522159e4b7b0813.jpg",
+    "bookLink":"https://b-ok.africa/dl/5009410/b91708"
+},
+
+{
+    "courseName":"Basic Mechanics",
+    "bookName":"Engineering Mechanics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/3d/cb/c3/3dcbc3f5ace77224fa4966e5dbfc5bff.jpg",
+    "bookLink":"https://b-ok.africa/dl/23042117/c2b5f5"
+},
+
+{
+    "courseName":"Applied Electricity",
+    "bookName":"Electric Circuit Theory",
+    "image":"https://covers.zlibcdn2.com/covers299/books/74/78/71/747871dc24401fdb7f37a8e47957923d.jpg",
+    "bookLink":"https://b-ok.africa/dl/2276836/d6666c"
+},
+{
+    "courseName":"Applied Electricity",
+    "bookName":"Electrical Technology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/36/91/2b/36912b47ff9e851594449c9b7433b27b.jpg",
+    "bookLink":"https://b-ok.africa/dl/674783/8c8fce"
+},
+{
+    "courseName":"Applied Electricity",
+    "bookName":"Basic Electrical Engineering",
+    "image":"https://covers.zlibcdn2.com/covers299/books/71/8d/5f/718d5f3667dc90310c5972a5b88244ed.jpg",
+    "bookLink":"https://b-ok.africa/dl/2930456/882ea7"
+},
+{"First year":"second semester"},
+
+{"courseName":"Electrical Engineering Drawing",
+"bookName":"Mastering Electrical Schematics Drawings",
+"image":"https://covers.zlibcdn2.com/covers299/books/d1/9c/71/d19c7108b718f08f3b5b6d86572f2b5c.jpg",
+"bookLink":"https://b-ok.africa/dl/19184060/bd0580"
+},
+{"courseName":"Electrical Engineering Drawing",
+"bookName":"Requirements for Electrical Installations",
+"image":"https://covers.zlibcdn2.com/covers299/books/29/19/f7/2919f7230579ed1b3b8fb057f3b6157b.jpg",
+"bookLink":"https://b-ok.africa/dl/662420/6be3a7"
+},
+
+{  "courseName":"Calculus With Analysis",
+"bookName":"Calculus, Volume I: One-Variable Calculus",
+"image":"https://covers.zlibcdn2.com/covers299/books/02/ea/cc/02eacc10aabf4331c58471a952ea7a94.jpg",
+"bookLink":"https://b-ok.africa/dl/557517/f408f6"
+},
+{  "courseName":"Calculus With Analysis",
+"bookName":"Problems in Calculus of One Variable",
+"image":"https://covers.zlibcdn2.com/covers299/books/33/0b/41/330b41c05eaa0f1dc8fb5d48ef39c63c.jpg",
+"bookLink":"https://b-ok.africa/dl/2615324/ca6e42"
+},
+{  "courseName":"Calculus With Analysis",
+"bookName":"Calculus: One and Several Variables",
+"image":"https://covers.zlibcdn2.com/covers299/books/82/b8/6e/82b86e70ee7d33c29bec91d436d9f639.jpg",
+"bookLink":"https://b-ok.africa/dl/1193007/f6baee"
+},
+
+
+{  "courseName":"Communication Skills ",
+"bookName":"Advanced Communication Skills",
+"image":"https://covers.zlibcdn2.com/covers299/books/27/db/67/27db67f3153c201080dc93c8397bb35c.jpg",
+"bookLink":"https://b-ok.africa/dl/1267489/6c8ec1"
+},
+
+{  "courseName":"Communication Skills ",
+"bookName":"Elite Communication Skills for Young Professionals",
+"image":"https://covers.zlibcdn2.com/covers299/books/7b/71/d1/7b71d1c07cfd392796b16503c45e857e.jpg",
+"bookLink":"https://b-ok.africa/dl/21663750/f2db28"
+},
+{   "courseName":"Applied Thermodynamics",
+    "bookName":"Basic and Applied Thermodynamics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
+    "bookLink":"https://b-ok.africa/dl/5472009/dd3529"
+},
+
+{"courseName":"Applied Thermodynamics",
+"bookName":"Thermodynamics: An Engineering Approach 8th Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/6a/4e/d7/6a4ed73ae00d3eef0b078cfb696c02e2.jpg",
+"bookLink":"https://b-ok.africa/dl/2577672/1f1b65"
+},
+
+{"courseName":"Applied Thermodynamics",
+"bookName":"Thermodynamics: An Engineering Approach, Ninth Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/da/5d/f4/da5df4f314c567ddd8f39ebe664d2b07.jpg",
+"bookLink":"https://b-ok.africa/dl/3718022/b6ce86"
+},
+
+{  "courseName":"Basic Electronics",
+"bookName":"The Fields of Electronics",
+"image":"https://covers.zlibcdn2.com/covers299/books/97/21/b4/9721b42883d33fd338a491aa25bc80e3.jpg",
+"bookLink":"https://b-ok.africa/dl/438246/f795cf"
+},
+
+{  "courseName":"Basic Electronics",
+   "bookName":"Basic Electronics",
+   "image":"https://covers.zlibcdn2.com/covers299/books/b4/5b/7a/b45b7a76138ee515dc9d4a03e6c97f24.jpg",
+"bookLink":"https://b-ok.africa/dl/2956139/3da3e6"
+},
+
+{  "courseName":"Electrical Machines",
+"bookName":"Electrical Machines",
+"image":"https://covers.zlibcdn2.com/covers299/books/c1/7b/fb/c17bfb6fdb3a9e5ef11e9dce53650048.jpg",
+"bookLink":"https://b-ok.africa/dl/3707638/abb9f2"
+},
+{  "courseName":"Electrical Machines",
+"bookName":"Electric Machines",
+"image":"https://covers.zlibcdn2.com/covers299/books/96/ed/48/96ed48a41c24bee42ab1b3161b0f140a.jpg",
+"bookLink":"https://b-ok.africa/dl/2168296/a7ad2a"
+},
+{  "courseName":"Electrical Machines",
+"bookName":"Electrical machines",
+"image":"https://covers.zlibcdn2.com/covers299/books/10/a4/38/10a43816d3b79f178a240a36cbbddcce.jpg",
+"bookLink":"https://b-ok.africa/dl/3496322/9a1f56"
+},
+
+{
+
+    "courseName":"Introduction to IT",
+    "bookName":"Introduction to Information Technology Law",
+    "image":"https://covers.zlibcdn2.com/covers299/books/fd/6a/c2/fd6ac2d42fb8f8b3e8db85cc45c2e7e9.jpg",
+    "bookLink":"https://b-ok.africa/dl/1223491/ec6fc0"
+    },
+    {"courseName":"Introduction to IT",
+    "bookName":"Using Information Technology: A Practical Introduction to Computers and Communications",
+    "image":"https://covers.zlibcdn2.com/covers299/books/76/62/56/76625606714ef2c33cb05cd0c2e8783a.jpg",
+    "bookLink":"https://b-ok.africa/dl/5575179/5ca396"
+    },
+    
+{  "courseName":"Differential Equations",
+"bookName":"Fundamentals of Differential Equations",
+"image":"https://covers.zlibcdn2.com/covers299/books/bd/90/6e/bd906e16f137720904a538f075383b8c.jpg",
+"bookLink":"https://b-ok.africa/dl/3413979/007431"
+},
+{"second Year":"First Semester"},
+
+{  "courseName":"Differential Equations",
+"bookName":"Schaums Outline of Differential Equations, Fourth Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/8f/e3/12/8fe3127e7ecedbcfabc48bdd1808c061.jpg",
+"bookLink":"https://b-ok.africa/dl/3678937/3bb0fc"
+},
+
+{  "courseName":" C Programming ",
+"bookName":"The ANSI C Programming Language",
+"image":"https://covers.zlibcdn2.com/covers299/books/55/6e/6b/556e6bee561b776c95c6872c441baad1.jpg",
+"bookLink":"https://b-ok.africa/dl/633119/e468d8"
+},
+
+{  "courseName":"Semiconductor Devices",
+"bookName":"Semiconductor Devices: Physics and Technology",
+"image":"https://covers.zlibcdn2.com/covers299/books/af/0d/3e/af0d3ea002ab461dfdfc92bcfad35bc4.jpg",
+"bookLink":"https://b-ok.africa/dl/2207004/50cafa"
+},
+
+{  "courseName":"Semiconductor Devices",
+"bookName":"Semiconductor Device Fundamentals",
+"image":"https://covers.zlibcdn2.com/covers299/books/4f/8e/b9/4f8eb9f7853c7873e8397b450e728004.jpg",
+"bookLink":"https://b-ok.africa/dl/822233/5b259d"
+},
+
+{  "courseName":"Circuit Theory",
+"bookName":"Electrical Circuit Theory and Technology",
+"image":"https://covers.zlibcdn2.com/covers299/books/fe/81/aa/fe81aa6f6d11c07b98342d7c49e72f5d.jpg",
+"bookLink":"https://b-ok.africa/dl/2933697/735eca"
+},
+{  "courseName":"Circuit Theory",
+"bookName":"Introductory Circuit Theory",
+"image":"https://covers.zlibcdn2.com/covers299/books/81/7f/ae/817fae58d851dbc56dfb7996fba83e11.jpg",
+"bookLink":"https://b-ok.africa/dl/5294501/9cda0c"
+},
+
+{"courseName":"Analog Communication Systems",
+"bookName":"Digital and Analog Communication Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/f1/a6/63/f1a6636d9b080be823318e5a32c440ef.jpg",
+"bookLink":"https://b-ok.africa/dl/2173924/d68e2d"
+},
+
+{"courseName":"Analog Communication Systems",
+"bookName":"Modern Digital and Analog Communication Systems, Third Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/f6/d4/ed/f6d4ed8fbe20259955369bcfa9052123.jpg",
+"bookLink":"https://b-ok.africa/dl/671852/227db8?dsource=recommend"
+},
+
+{"courseName":"Analog Communication Systems",
+"bookName":"Analog Communication",
+"image":"https://covers.zlibcdn2.com/covers299/books/49/2e/aa/492eaa2cb3247f8cfa2e80eafcebf2b3.jpg",
+"bookLink":"https://b-ok.africa/dl/5464950/ac726a?dsource=recommend"
+},
+
+{"courseName":"Telecommunications Lab I",
+"bookName":"Integrating Psychoinformatics with Ubiquitous Social Networking: Advanced Mobile-Sensing Concepts and Applications (T-Labs Series in Telecommunication Services)",
+"image":"https://covers.zlibcdn2.com/covers299/books/5a/f2/b6/5af2b6fd56409ab8336755fdea34e844.jpg",
+"bookLink":"https://b-ok.africa/dl/18216935/a6bbca"
+},
+
+{"courseName":"Telecommunications Lab I",
+"bookName":"Changing Nature of Telecommunications/Information Infrastructure",
+"image":"https://covers.zlibcdn2.com/covers299/books/22/cd/5d/22cd5d197ab6f18f62b43d465ae2b627.jpg",
+"bookLink":"https://b-ok.africa/dl/562330/79f0bb"
+},
+
+{"courseName":"Engineering in Society",
+"bookName":"Science in Action: How to Follow Scientists and Engineers through Society",
+"image":"https://covers.zlibcdn2.com/covers299/books/b4/1e/fb/b41efb2fca7f13757d80b4cb7b19f28c.jpg",
+"bookLink":"https://b-ok.africa/dl/1205292/17d18b"
+},
+
+{  "courseName":"French for Communication I",
+"bookName":"The Ultimate French Review and Practice : Mastering French Grammar for Confident Communication",
+"image":"https://covers.zlibcdn2.com/covers299/books/0c/4c/52/0c4c52fcf9be401fc7b9a04dadae47c5.jpg",
+"bookLink":"https://b-ok.africa/dl/2457286/17d076"
+},
+
+{ "second Year":"Second Semester",
+
+     "courseName":"Calculus With Several Variables",
+"bookName":"Calculus: One and Several Variables",
+"image":"https://covers.zlibcdn2.com/covers299/books/82/b8/6e/82b86e70ee7d33c29bec91d436d9f639.jpg",
+"bookLink":"https://b-ok.africa/dl/1193007/f6baee"
+},
+
+{  "courseName":"Digital Systems",
+"bookName":"Computer Systems: Digital Design, Fundamentals of Computer Architecture and Assembly Language",
+"image":"https://covers.zlibcdn2.com/covers299/books/01/43/b6/0143b6653e7d250802607c62dc476b29.jpg",
+"bookLink":"https://b-ok.africa/dl/3395202/bc173d"
+},
+
+{  "courseName":"Digital Systems",
+"bookName":"Digital System Design with FPGA: Implementation Using Verilog and VHDL",
+"image":"https://covers.zlibcdn2.com/covers299/books/55/c2/f4/55c2f4958aa20f7d72bd33d1521ed7e2.jpg",
+"bookLink":"https://b-ok.africa/dl/3493207/2d3199"
+},
+
+
+{  "courseName":"Electrical Measurement and Instrumentation",
+"bookName":"Electrical and Electronics Measurements and Instrumentation",
+"image":"https://covers.zlibcdn2.com/covers299/books/8d/7d/21/8d7d21a0d329051bb9d87db69a690f4b.jpg",
+"bookLink":"https://b-ok.africa/dl/2563619/8b948f"
+},
+
+{  "courseName":"Electrical Measurement and Instrumentation",
+"bookName":"An Introduction to Electrical Instrumentation and Measurement Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/7a/43/f6/7a43f6fae8abb7450fd3a2978d5e295c.jpg",
+"bookLink":"https://b-ok.africa/dl/2672968/5c504e"
+},
+
+{  "courseName":"Electromagnetic Field",
+"bookName":"Electromagnetic Field Theory Fundamentals",
+"image":"https://covers.zlibcdn2.com/covers299/books/86/f4/0b/86f40b8a63022c76f69bf9cbc4ad1f81.jpg",
+"bookLink":"https://b-ok.africa/dl/635531/475ddc"
+},
+
+{  "courseName":"Electromagnetic Field",
+"bookName":"Electromagnetic Field Theory: A Problem Solving Approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/f6/fb/e3/f6fbe3e249fe9876e8c7d4d6c45687e4.jpg",
+"bookLink":"https://b-ok.africa/dl/2293141/f3a7aa"
+},
+{"courseName":"Telecommunication Lab II",
+"bookName":"The Digital Hand:Volume II: How Computers Changed the Work of American Financial, Telecommunications, Media, and Entertainment Industries",
+"image":"https://covers.zlibcdn2.com/covers299/books/96/b5/84/96b584cb437fb474345027b6934f7350.jpg",
+"bookLink":"https://b-ok.africa/dl/950835/686fd3"
+},
+
+{  "courseName":"French for Communication ",
+"bookName":"French for Dummies",
+"image":"https://covers.zlibcdn2.com/covers299/books/e1/b6/10/e1b61020f94e7f27fcac3e996c277909.jpg",
+"bookLink":"https://b-ok.africa/dl/1253329/911429"
+},
+{"Third Year":"First Semester"},
+ 
+{  "courseName":"Numerical Analysis",
+"bookName":"Numerical Analysis",
+"image":"https://covers.zlibcdn2.com/covers299/books/3e/3c/28/3e3c2891e445a1a151ee5c6bc1345e5f.jpg",
+"bookLink":"https://b-ok.africa/dl/2853297/46dfdc"
+},
+
+{  "courseName":"Numerical Analysis",
+"bookName":"Schaum's Outline of Numerical Analysis, Second Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/fe/8b/60/fe8b6045cb1bad3ba1784912b9f7c521.jpg",
+"bookLink":"https://b-ok.africa/dl/1223761/d48d01"
+}, 
+
+{  "courseName":" Statistics",
+"bookName":"Probability and Statistics: A Course for Physicists and Engineers",
+"image":"https://covers.zlibcdn2.com/covers299/books/f0/88/be/f088bec0274051c2cc1d0be7f161eb76.jpg",
+"bookLink":"https://b-ok.africa/dl/3657835/30f7b1"
+},    
+{"courseName":" Statistics",
+"bookName":"Bayesian Statistics The Fun Way",
+"image":"https://covers.zlibcdn2.com/covers299/books/5f/60/69/5f6069c42f31f62fe2aee3d3a3fa0940.jpg",
+"bookLink":"https://b-ok.africa/dl/5065937/2c540b"
+}, 
+
+{  "courseName":"Microprocessor",
+"bookName":" An Illustrated Introduction to Microprocessors and Computer Architecture",
+"image":"https://covers.zlibcdn2.com/covers299/books/2e/fc/fb/2efcfbfe1fe97bf56428cbace3a5e093.jpg",
+"bookLink":""
+},
+
+{  "courseName":"Microprocessor",
+"bookName":"Introduction to Microprocessors and Microcontrollers",
+"image":"https://covers.zlibcdn2.com/covers299/books/33/56/e5/3356e59c36e83d654d96a6218c7de7ef.jpg",
+"bookLink":"https://b-ok.africa/dl/510467/7df4ec"
+}, 
+
+{"courseName":"Signal and Systems",
+"bookName":"Schaum’s Outline of Signals and Systems, Second Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/95/5d/21/955d21d884d027fab9bbedf0db866cef.jpg",
+"bookLink":"https://b-ok.africa/dl/2086080/44a385"
+},
+{"courseName":"Signal and Systems",
+"bookName":"Solutions Manual for Signals and Systems, 2nd Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/f1/24/6a/f1246a14e064fb5b90ee22c783825cd1.jpg",
+"bookLink":"https://b-ok.africa/dl/604721/d187ab"
+},
+{"courseName":"Signal and Systems",
+"bookName":"Signals and Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/8b/c7/3c/8bc73c383687206666b2ebed70d221ca.jpg",
+"bookLink":"https://b-ok.africa/dl/746435/c0e1a2"
+}, 
+
+{  "courseName":"Information Theory",
+"bookName":"Elements of Information Theory",
+"image":"https://covers.zlibcdn2.com/covers299/books/f8/4d/70/f84d706dd712f25317df40949026f072.jpg",
+"bookLink":"https://b-ok.africa/dl/459980/4eebad"
+},
+
+{  "courseName":"Information Theory",
+"bookName":"Information Theory: A Tutorial Introduction",
+"image":"https://covers.zlibcdn2.com/covers299/books/f1/73/21/f17321e77ec3215129080ed3a6c231cf.jpg",
+"bookLink":"https://b-ok.africa/dl/2853051/a05a72"
+},
+{"courseName":"Optical Communications",
+"bookName":"Fiber Optic Communications: Fundamentals and Applications",
+"image":"https://covers.zlibcdn2.com/covers299/books/53/c9/2b/53c92bab1bc44f2e23879eeb66a14d4a.jpg",
+"bookLink":"https://b-ok.africa/dl/2575929/2c29b7"
+},
+
+{"courseName":"Optical Communications",
+"bookName":"Optical Fiber Communication Systems with MATLAB® and Simulink® Models, Second Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/a0/f5/0f/a0f50fdffa19efa3a516b5ba39a4192e.jpg",
+"bookLink":"https://b-ok.africa/dl/2572678/f9d087"
+},
+
+{"courseName":"Optical Communications",
+"bookName":"Optical Fiber Communications: Principles and Practice (3rd Edition)",
+"image":"https://covers.zlibcdn2.com/covers299/books/7d/d9/47/7dd947fd2d1533799960e22522557409.jpg",
+"bookLink":"https://b-ok.africa/dl/1191923/059ef8"
+},
+
+{"courseName":"Optical Communications",
+"bookName":"Optical Fiber Communications",
+"image":"https://covers.zlibcdn2.com/covers299/books/e5/dc/72/e5dc7225a044504c3cd16da8a4f79a35.gif",
+"bookLink":"https://b-ok.africa/dl/603078/22e32e"
+},
+
+{  "courseName":"Linear Electronics Circuit",
+"bookName":"Micro Electronic Circuits Theory And Applicatication",
+"image":"https://covers.zlibcdn2.com/covers299/books/50/c7/06/50c7060306b1b02943bc2641c68d386c.jpg",
+"bookLink":"https://b-ok.africa/dl/2747114/686a5b"
+},
+
+{  "courseName":"Linear Electronics Circuit",
+"bookName":"Basic electronics and linear circuits",
+"image":"https://covers.zlibcdn2.com/covers299/books/ee/8b/da/ee8bda793a9c1a4bf5301428fd0129cf.jpg",
+"bookLink":"https://b-ok.africa/dl/5932956/5d923a"
+},
+{"courseName":"Telecommunication Lab III",
+"bookName":"The 2000-2005 World Outlook for Telecommunications Services (Strategic Planning Series)",
+"image":"https://covers.zlibcdn2.com/covers299/books/91/4f/a1/914fa13401285bc1b1b6a574a0f5545f.jpg",
+"bookLink":"https://b-ok.africa/dl/1066278/5243ec"
+},
+{"third year":"second Semester"},
+
+{"courseName":"Telecom Infrastructure",
+"bookName":"VoIP Cookbook : Building your own Telecommunication Infrastructure",
+"image":"https://covers.zlibcdn2.com/covers299/books/c2/7d/1b/c27d1b1e777fd15b1e04b528f32baecd.jpg",
+"bookLink":"https://b-ok.africa/dl/914892/257891"
+},
+
+{"courseName":"Telecom Infrastructure",
+"bookName":"Changing Nature of Telecommunications/Information Infrastructure",
+"image":"https://covers.zlibcdn2.com/covers299/books/22/cd/5d/22cd5d197ab6f18f62b43d465ae2b627.jpg",
+"bookLink":"https://b-ok.africa/dl/562330/79f0bb"
+},
+
+{"courseName":" Communication Circuit",
+"bookName":"Modern Communication Circuits",
+"image":"https://covers.zlibcdn2.com/covers299/books/59/47/70/5947700e7bb778f6c3ebd610d6705ee6.jpg",
+"bookLink":"https://b-ok.africa/dl/465358/a7b00a"
+},
+
+{"courseName":"Communication Circuit",
+"bookName":"Electromagnetics for High-Speed Analog and Digital Communication Circuits",
+"image":"https://covers.zlibcdn2.com/covers299/books/45/07/74/45077479c3687abb9f2ea0656d822593.jpg",
+"bookLink":"https://b-ok.africa/dl/550887/f57a39"
+},
+
+{"courseName":"Communication Circuit",
+"bookName":"Radio-Frequency and Microwave Communication Circuits: Analysis and Design",
+"image":"https://covers.zlibcdn2.com/covers299/books/eb/c6/f9/ebc6f93c638ac3d1499d4ec47982acba.jpg",
+"bookLink":"https://b-ok.africa/dl/594200/4ac5c0"
+},
+
+{"courseName":"Antennas & Propagation",
+"bookName":"The ARRL Antenna Book: The Ultimate Reference for Amateur Radio Antennas, Transmission Lines And Propagation ",
+"image":"https://covers.zlibcdn2.com/covers299/books/f3/55/f1/f355f1562847a3201efb787897d2cf35.jpg",
+"bookLink":"https://b-ok.africa/dl/1220966/a7bd11"
+},
+
+{"courseName":"Antennas & Propagation",
+"bookName":"Antennas and Wave Propagation",
+"image":"https://covers.zlibcdn2.com/covers299/books/55/6c/b6/556cb67cafc6450318a86c255e864223.jpg",
+"bookLink":"https://b-ok.africa/dl/2353908/010ef7"
+},
+{"courseName":"Data Communication Networks",
+"bookName":"Data Communications and Networking",
+"image":"https://covers.zlibcdn2.com/covers299/books/3d/f5/e1/3df5e1e3c1d82f75afd6f9c269905c5a.jpg",
+"bookLink":"https://b-ok.africa/dl/2196530/2da91a"
+},
+
+{"courseName":"Data Communication Networks",
+"bookName":"Data Communications and Networking",
+"image":"https://covers.zlibcdn2.com/covers299/books/ad/c4/28/adc428e106509e583184d5cb83f4e376.jpg",
+"bookLink":"https://b-ok.africa/dl/700774/a226c5?dsource=recommend"
+},
+
+{"courseName":"Data Communication Networks",
+"bookName":"Data Communications and Networking",
+"image":"https://covers.zlibcdn2.com/covers299/books/0f/a2/70/0fa2702b9653a8260e0dd110cdc8ae13.jpg",
+"bookLink":"https://b-ok.africa/dl/614700/f241f0"
+},
+
+{"courseName":"Data Communication Networks",
+"bookName":"Data Communications and Networking Solution Manual",
+"image":"https://covers.zlibcdn2.com/covers299/books/a6/1d/44/a61d44ab3ee0f81aa35770fb8660a299.jpg",
+"bookLink":"https://b-ok.africa/dl/1201808/171305"
+},
+
+{"courseName":"Switching Engineering in Communication",
+"bookName":"The Switching Function: analysis of power electronic circuits",
+"image":"https://covers.zlibcdn2.com/covers299/books/af/26/e4/af26e4595dbcf66e264556daa5a90aff.jpg",
+"bookLink":"https://b-ok.africa/dl/681718/ae5dd2"
+},
+{"courseName":"Switching Engineering in Communication",
+"bookName":"Switching Power Supplies A to Z",
+"image":"https://covers.zlibcdn2.com/covers299/books/85/51/0d/85510d927989ea33f25025b02b4c1780.jpg",
+"bookLink":"https://b-ok.africa/dl/665620/06a077?dsource=recommend"
+},
+
+{"courseName":"Digital Communication Systems",
+"bookName":"Digital Communication Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/a2/f6/98/a2f6980579ed6f7872f9b4ad7bb1f914.jpg",
+"bookLink":"https://b-ok.africa/dl/2208489/fcb7f2"
+},
+{"courseName":"Digital Communication Systems",
+"bookName":"Modern Digital and Analog Communication Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/c2/f4/7d/c2f47de45fb79fb8d8fc3d2ae1844b7a.jpg",
+"bookLink":"https://b-ok.africa/dl/3437214/8e2a7e"
+},
+{"courseName":"Digital Communication Systems",
+"bookName":"Principles of Digital Communication",
+"image":"https://covers.zlibcdn2.com/covers299/books/c3/00/99/c3009936c76cd3bb69b4893bf2b18b22.jpg",
+"bookLink":"https://b-ok.africa/dl/438226/d33e40?dsource=recommend"
+},
+{"fourth Year":"First Semester"},
+
+{"courseName":"Telecommunication Lab IV",
+"bookName":"The 2000-2005 World Outlook for Telecommunications Services (Strategic Planning Series)",
+"image":"https://covers.zlibcdn2.com/covers299/books/91/4f/a1/914fa13401285bc1b1b6a574a0f5545f.jpg",
+"bookLink":"https://b-ok.africa/dl/1066278/5243ec"
+},
+{"courseName":"Computer Application & Project Design",
+"bookName":"Pervasive Computing and Communications Design and Deployment: Technologies, Trends and Applications",
+"image":"https://covers.zlibcdn2.com/covers299/books/cd/07/a5/cd07a5326399f4f40284a9e386ae3f4a.jpg",
+"bookLink":"https://b-ok.africa/dl/1211458/6f4ce7"
+},
+
+{"courseName":"Electromagnetic Compatibility",
+"bookName":"Modeling and Design of Electromagnetic Compatibility for High-Speed Printed Circuit Boards and Packaging",
+"image":"https://covers.zlibcdn2.com/covers299/books/20/4c/71/204c71a7d74d39f522d78b86a8366c96.jpg",
+"bookLink":"https://b-ok.africa/dl/3391905/fd6ee1"
+},
+
+{"courseName":"Electromagnetic Compatibility",
+"bookName":"Electromagnetic Compatibility Engineering",
+"image":"https://covers.zlibcdn2.com/covers299/books/5a/fb/ca/5afbcaac73ac4851f5f53d5513350fd3.jpg",
+"bookLink":"https://b-ok.africa/dl/689985/828b76"
+},
+
+{"courseName":"Electromagnetic Compatibility",
+"bookName":"Introduction to Electromagnetic Compatibility",
+"image":"https://covers.zlibcdn2.com/covers299/books/8c/7a/18/8c7a18b23ce37105e8f66af5d5a1567d.jpg",
+"bookLink":"https://b-ok.africa/dl/464168/82bd33"
+},
+
+{"courseName":"Electromagnetic Compatibility",
+"bookName":"Electromagnetic Theory for Electromagnetic Compatibility Engineers",
+"image":"https://covers.zlibcdn2.com/covers299/books/6f/31/66/6f31666c50a6a911ef4d230d46b2c37b.jpg",
+"bookLink":"https://b-ok.africa/dl/2328055/1a04c2"
+},
+
+{"courseName":"Wireless Data Communications Networks",
+"bookName":"Data Communication Principles. For Fixed and Wireless Networks",
+"image":"https://covers.zlibcdn2.com/covers299/books/b8/e0/31/b8e03164deef9970816043ff82c609bf.jpg",
+"bookLink":"https://b-ok.africa/dl/458413/25883b"
+},
+
+{"courseName":"Wireless Data Communications Networks",
+"bookName":"Data communication principles : for fixed and wireless networks",
+"image":"https://covers.zlibcdn2.com/covers299/books/b3/84/a7/b384a728593b808a5843415e8a30bf55.jpg",
+"bookLink":"https://b-ok.africa/dl/2049846/8b7285"
+},
+
+{"courseName":"Wireless Data Communications Networks",
+"bookName":"Optimization for Wireless Powered Communication Networks",
+"image":"https://covers.zlibcdn2.com/covers299/books/7d/df/65/7ddf650e685b65015ff2981a9d0f5e65.jpg",
+"bookLink":"https://b-ok.africa/dl/3660154/690406"
+},
+
+{"courseName":"Engineering Econ & management",
+"bookName":"Handbook in Monte Carlo Simulation: Applications in Financial Engineering, Risk Management, and Economics",
+"image":"https://covers.zlibcdn2.com/covers299/books/81/5d/69/815d69c2f216c4a7935f61df8c22e60d.jpg",
+"bookLink":"https://b-ok.africa/dl/2352582/e73b3e"
+},
+{"courseName":"Engineering Econ & management",
+"bookName":"Economics and finance for engineers and planners : managing infrastructure and natural resources",
+"image":"https://covers.zlibcdn2.com/covers299/books/79/7d/d2/797dd2d5a9ff928b25c3791da24bdbd1.jpg",
+"bookLink":"https://b-ok.africa/dl/2089056/a0c624"
+},
+
+{"courseName":"Engineering Econ & management",
+"bookName":"Economic and Financial Analysis for Engineering and Project Management",
+"image":"https://covers.zlibcdn2.com/covers299/books/bd/7e/b1/bd7eb1524c8e61f3b0a8fd6540e2097b.jpg",
+"bookLink":"https://b-ok.africa/dl/919065/b2e52f"
+},
+
+{  "courseName":"Computer Networking",
+"bookName":"Computer Networking: A Top-Down Approach, 7th Edition",
+"image":"https://covers.zlibcdn2.com/covers299/books/25/91/f0/2591f0b3def9b956b60b853697a6808c.jpg",
+"bookLink":"https://b-ok.africa/dl/3422999/607747"
+},
+{  "courseName":"Computer Networking",
+"bookName":"Computer Networking: A Top-Down Approach",
+"image":"https://covers.zlibcdn2.com/covers299/books/8b/54/7b/8b547bcdf967b08655d6360f6fe9d809.jpg",
+"bookLink":"https://b-ok.africa/dl/11489897/da7c00"
+},
+{"fourth Year":"Second semester"},
+
+{"courseName":"Entrepreneurship Development",
+"bookName":"Entrepreneurship Development & Small Business Enterprises",
+"image":"https://covers.zlibcdn2.com/covers299/books/72/42/ab/7242abefccce1f677ea611f86bf759f4.jpg",
+"bookLink":"https://b-ok.africa/dl/5440911/415f37"
+},
+{  "courseName":"Entrepreneurship Development",
+"bookName":"Entrepreneurship and Local Economic Development",
+"image":"https://covers.zlibcdn2.com/covers299/books/50/6f/5b/506f5b0e44611808897f70b215356a9e.jpg",
+"bookLink":"https://b-ok.africa/dl/823981/d5df84"
+},
+{"courseName":"Telecom Policy",
+"bookName":"Digital crossroads: American telecommunications policy in the Internet age",
+"image":"https://covers.zlibcdn2.com/covers299/books/33/74/f1/3374f15110b5e451d81bf25db977b842.jpg",
+"bookLink":"https://b-ok.africa/dl/634084/c01a25"
+},
+
+{"courseName":"Telecom Policy",
+"bookName":"The Political Economy of European Union Competition Policy: A Case Study of the Telecommunications Industry",
+"image":"https://covers.zlibcdn2.com/covers299/books/db/2d/f9/db2df924a207299cc6c5b82a30441701.jpg",
+"bookLink":"https://b-ok.africa/dl/685448/c8563f"
+},
+
+{"courseName":"Digital Signal Processing",
+"bookName":"Digital Signal Processing",
+"image":"https://covers.zlibcdn2.com/covers299/books/59/53/60/5953602ef8942dce9c6513947dbf6d86.jpg",
+"bookLink":"https://b-ok.africa/dl/1182934/fd4cca"
+},
+{"courseName":"Digital Signal Processing",
+"bookName":"Digital Signal Processing: Principles, Algorithms, and Applications, Fourth Edition - Instructor Solution Manual",
+"image":"https://covers.zlibcdn2.com/covers299/books/ef/ff/b3/efffb3d589bd4d967380b025b0aba504.jpg",
+"bookLink":"https://b-ok.africa/dl/1220138/da6b3a"
+},
+{"courseName":"Digital Signal Processing",
+"bookName":"Schaum’s Outline of Digital Signal Processing",
+"image":"https://covers.zlibcdn2.com/covers299/books/e9/8f/98/e98f98d98c85bfa1a9e84744bd2504a3.jpg",
+"bookLink":"https://b-ok.africa/dl/461589/607df2?dsource=recommend"
+},
+{"courseName":"Microwave Engineering",
+"bookName":"Microwave Engineering",
+"image":"https://covers.zlibcdn2.com/covers299/books/53/b6/5f/53b65fb687d04417aa2d723da607b411.jpg",
+"bookLink":"https://b-ok.africa/dl/1292654/5472d1"
+},
+
+{"courseName":"Microwave Engineering",
+"bookName":"Microwave, Radar & RF Engineering",
+"image":"https://covers.zlibcdn2.com/covers299/books/b0/b1/0f/b0b10f3a29cdd7b9f744bc1c5dd750c2.jpg",
+"bookLink":"https://b-ok.africa/dl/3578128/d403bb"
+},
+
+{"courseName":"Microwave Engineering",
+"bookName":"RF and Microwave Engineering: Fundamentals of Wireless Communications",
+"image":"https://covers.zlibcdn2.com/covers299/books/2c/5b/e1/2c5be18659124c1da54ed54774ae68e5.jpg",
+"bookLink":"https://b-ok.africa/dl/2696805/5a3752"
+},
+
+{  "courseName":"Introduction to VLSI",
+"bookName":"Introduction to VLSI Systems : A Logic, Circuit, and System Perspective",
+"image":"https://covers.zlibcdn2.com/covers299/books/af/4b/ed/af4bed51f38466bec6a8eaeb2ee11488.jpg",
+"bookLink":"https://b-ok.africa/dl/2542951/5e49a8"
+},
+{  "courseName":"Introduction to VLSI",
+"bookName":"Introduction to VLSI Circuits and Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/a6/92/97/a69297a4b871d0e2663f1ea9f1dc48ab.jpg",
+"bookLink":"https://b-ok.africa/dl/5461257/7ea217"
+},
+{  "courseName":"Introduction to VLSI",
+"bookName":"Introduction to VLSI Systems",
+"image":"https://covers.zlibcdn2.com/covers299/books/0a/24/c2/0a24c2fe448cf331be1b81a15eebe6f6.jpg",
+"bookLink":"https://b-ok.africa/dl/5601093/635f1c"
+},
+{"courseName":"Network planning",
+"bookName":"Airline network planning and scheduling",
+"image":"https://covers.zlibcdn2.com/covers299/books/65/e3/17/65e3177c83b61e5559a2b015c09aeb0e.jpg",
+"bookLink":"https://b-ok.africa/dl/4976030/897cd2"
+},
+
+{"courseName":"Network planning",
+"bookName":"Fundamentals of network planning and optimisation 2G/3G/4G : evolution to 5G",
+"image":"https://covers.zlibcdn2.com/covers299/books/d2/7e/29/d27e29f2d2e229e66a58f31e215f7b92.jpg",
+"bookLink":"https://b-ok.africa/dl/3571757/843a36"
+},
+
+{"courseName":"Network planning",
+"bookName":"Opportunities in 5G Networks: A Research and Development Perspective",
+"image":"https://covers.zlibcdn2.com/covers299/books/88/31/23/8831230b4b740d51fcafd7c0223552f4.jpg",
+"bookLink":"https://b-ok.africa/dl/2716892/be6b36?dsource=recommend"
+},
+
+{"courseName":"Network planning",
+"bookName":"5G System Design: An end to end perspective",
+"image":"https://covers.zlibcdn2.com/covers299/books/d4/a7/63/d4a7631467c9e997655751b33b707f7c.jpg",
+"bookLink":"https://b-ok.africa/dl/5239368/916ab2?dsource=recommend"
 }
+
 ]
