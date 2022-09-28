@@ -93,8 +93,6 @@
 
    
    { 
-    "semester":"two",
-
     "courseName":"Applied Thermodynamics",
     "bookName":"Basic and Applied Thermodynamics",
     "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
@@ -414,7 +412,7 @@
 "bookLink":"https://b-ok.africa/dl/3034580/a1f4fc"
 },
 
-{"third year":"second Semester",
+{
       "courseName":"Autotronics Lab",
 "bookName":"Automobile electrical and electronic systems",
 "image":"https://covers.zlibcdn2.com/covers299/books/df/8b/69/df8b69327be19c6b8a8101773d88fab9.jpg",
@@ -486,7 +484,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/63/8a/04/638a0440a3116ab56d796e156abc9b7e.jpg",
 "bookLink":"https://b-ok.africa/dl/2374988/a3049c"
 },
-{ "fourth Year":"Semester one",
+{
      "courseName":"Project I",
 "bookName":"Real-World Software Projects for Computer Science and Engineering Students",
 "image":"https://covers.zlibcdn2.com/covers299/books/e4/2f/eb/e42feb53796d38ba169db3ff4a010c41.jpg",
@@ -546,7 +544,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/fd/da/c2/fddac27adb8598b2ad709f1d8b31bd90.jpg",
 "bookLink":"https://b-ok.africa/dl/3704484/a65731"
 },
-{ "fourth Year":"Semester Two"},
+
      {"courseName":"Entrepreneurship Development",
 "bookName":"Entrepreneurship Development & Small Business Enterprises",
 "image":"https://covers.zlibcdn2.com/covers299/books/72/42/ab/7242abefccce1f677ea611f86bf759f4.jpg",
@@ -719,7 +717,6 @@
 "bookLink":"https://b-ok.africa/dl/2611274/6188a6"
 },
 {  
-    "semester":"two",
 "courseName":"Basic Electronics",
 "bookName":"The Fields of Electronics",
 "image":"https://covers.zlibcdn2.com/covers299/books/97/21/b4/9721b42883d33fd338a491aa25bc80e3.jpg",
@@ -826,7 +823,6 @@
 "bookLink":"https://b-ok.africa/dl/3341211/f0f1f0"
 },
 {
-    "second Year":"First Semester",
 "courseName":"Biomedical Engineering Design",
 "bookName":"Biomedical Engineering and Design Handbook, Volume 1: Second Edition, Biomedical Engineering Fundamentals",
 "image":"https://covers.zlibcdn2.com/covers299/books/1d/79/85/1d798505ad70e7ebe616317661a7a857.jpg",
@@ -904,8 +900,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/0c/4c/52/0c4c52fcf9be401fc7b9a04dadae47c5.jpg",
 "bookLink":"https://b-ok.africa/dl/2457286/17d076"
 },
-{ "second Year":"Second Semester",
-     "courseName":"Calculus With Several Variables",
+{"courseName":"Calculus With Several Variables",
 "bookName":"Calculus: One and Several Variables",
 "image":"https://covers.zlibcdn2.com/covers299/books/82/b8/6e/82b86e70ee7d33c29bec91d436d9f639.jpg",
 "bookLink":"https://b-ok.africa/dl/1193007/f6baee"
@@ -983,7 +978,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/ee/8b/da/ee8bda793a9c1a4bf5301428fd0129cf.jpg",
 "bookLink":"https://b-ok.africa/dl/5932956/5d923a"
 },
-{"third year":"First Semester",
+{
     "courseName":"Signals and Systems",
 "bookName":"Schaum’s Outline of Signals and Systems, Second Edition",
 "image":"https://covers.zlibcdn2.com/covers299/books/95/5d/21/955d21d884d027fab9bbedf0db866cef.jpg",
@@ -1059,7 +1054,7 @@
 "bookLink":"https://b-ok.africa/dl/5572197/feb661"
 },
 
-{"third year":"second Semester",
+{
     "courseName":"Biomedical Optics",
 "bookName":"Handbook of Optical Biomedical Diagnostics, Volume 2: Methods",
 "image":"https://covers.zlibcdn2.com/covers299/books/c9/65/fc/c965fc08edcf8c503ed3d0187eddc64c.jpg",
@@ -1134,7 +1129,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/3e/40/c4/3e40c453355e3c59e362f6edff11406d.jpg",
 "bookLink":"https://b-ok.africa/dl/5612451/951681"
 },
-{"fourth Year":"Semester one",
+{
     "courseName":"Biomaterial II",
 "bookName":"Chitosan for Biomaterials II",
 "image":"https://covers.zlibcdn2.com/covers299/books/10/1e/81/101e813f052273ab33bac622c5dec469.jpg",
@@ -1208,7 +1203,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/fd/c5/f2/fdc5f2533360d4d4f988fbc72193e9f6.jpg",
 "bookLink":"https://b-ok.africa/dl/2800872/9d45ca?dsource=recommend"
 },
-{"fourth Year":"Semester Two",
+{
     "courseName":"Biomechanics II",
 "bookName":"Advances in Biomechanics and Tissue Regeneration",
 "image":"https://covers.zlibcdn2.com/covers299/books/77/37/da/7737dafbdee41ba9efa5e5d8de64656f.jpg",
@@ -1351,7 +1346,6 @@
     "image":"https://covers.zlibcdn2.com/covers299/books/40/cd/68/40cd68c8ca7abbde4950e5d4c7c43e6f.jpg",
     "bookLink":"https://b-ok.africa/dl/3687785/e3a9c0"
 },
-{"First year":"second semester"},
 { "courseName":"Applied Thermodynamics",
     "bookName":"Basic and Applied Thermodynamics",
     "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
@@ -1452,10 +1446,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/7b/71/d1/7b71d1c07cfd392796b16503c45e857e.jpg",
 "bookLink":"https://b-ok.africa/dl/21663750/f2db28"
 },
-{
-    "second Year":"First Semester"
-    
-    },
 {  "courseName":"Differential Equations",
 "bookName":"Fundamentals of Differential Equations",
 "image":"https://covers.zlibcdn2.com/covers299/books/bd/90/6e/bd906e16f137720904a538f075383b8c.jpg",
@@ -1512,10 +1502,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/76/b7/eb/76b7eb072edee56db4fde38bd741d5c9.jpg",
 "bookLink":"https://b-ok.africa/dl/3714202/528eb5"
 },
-{
-    "second Year":"Second Semester"
-    
-    },
+
 {"courseName":"Synchronous Machines",
 "bookName":"Analysis of Synchronous Machines, Second Edition",
 "image":"https://covers.zlibcdn2.com/covers299/books/ce/e3/36/cee3364442bda9906dfb699bec1fbed8.jpg",
@@ -1617,11 +1604,6 @@
 "bookLink":"https://b-ok.africa/dl/3342786/ca3bb8"
 },
 
-{
-    "Third Year":"First Semester"
-    
-    },
-
     {  "courseName":"Probability and Statistics",
     "bookName":"Probability and Statistics: A Course for Physicists and Engineers",
     "image":"https://covers.zlibcdn2.com/covers299/books/f0/88/be/f088bec0274051c2cc1d0be7f161eb76.jpg",
@@ -1720,7 +1702,7 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/33/c9/e5/33c9e5d7e87ae92b00f23d8583574efe.jpg",
 "bookLink":"https://b-ok.africa/dl/656625/046199"
 },
-{"third year":"second Semester",
+{
     
 "courseName":"Classical Control Systems",
 "bookName":"Control Systems - Classical Controls",
@@ -1892,8 +1874,6 @@
 "bookLink":"https://b-ok.africa/dl/592177/5a3c77"
 },
 
-{"fourth Year":"First Semester"},
-
 {"courseName":"Engineering Economics and Management",
 "bookName":"Handbook in Monte Carlo Simulation: Applications in Financial Engineering, Risk Management, and Economics",
 "image":"https://covers.zlibcdn2.com/covers299/books/81/5d/69/815d69c2f216c4a7935f61df8c22e60d.jpg",
@@ -2020,7 +2000,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/47/9f/92/479f927ef5e533eea7d31cf66f96f118.jpg",
 "bookLink":"https://b-ok.africa/dl/1314361/820ec1"
 },
-{"fourth Year":"Semester Two"},
 
 {"courseName":"Entrepreneurship Development",
 "bookName":"Entrepreneurship Development & Small Business Enterprises",
@@ -2238,7 +2217,6 @@
     "image":"https://covers.zlibcdn2.com/covers299/books/71/8d/5f/718d5f3667dc90310c5972a5b88244ed.jpg",
     "bookLink":"https://b-ok.africa/dl/2930456/882ea7"
 },
-{"First year":"second semester"},
 
 {"courseName":"Electrical Engineering Drawing",
 "bookName":"Mastering Electrical Schematics Drawings",
@@ -2343,7 +2321,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/bd/90/6e/bd906e16f137720904a538f075383b8c.jpg",
 "bookLink":"https://b-ok.africa/dl/3413979/007431"
 },
-{"second Year":"First Semester"},
 
 {  "courseName":"Differential Equations",
 "bookName":"Schaums Outline of Differential Equations, Fourth Edition",
@@ -2422,7 +2399,7 @@
 "bookLink":"https://b-ok.africa/dl/2457286/17d076"
 },
 
-{ "second Year":"Second Semester",
+{
 
      "courseName":"Calculus With Several Variables",
 "bookName":"Calculus: One and Several Variables",
@@ -2477,7 +2454,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/e1/b6/10/e1b61020f94e7f27fcac3e996c277909.jpg",
 "bookLink":"https://b-ok.africa/dl/1253329/911429"
 },
-{"Third Year":"First Semester"},
  
 {  "courseName":"Numerical Analysis",
 "bookName":"Numerical Analysis",
@@ -2581,7 +2557,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/91/4f/a1/914fa13401285bc1b1b6a574a0f5545f.jpg",
 "bookLink":"https://b-ok.africa/dl/1066278/5243ec"
 },
-{"third year":"second Semester"},
 
 {"courseName":"Telecom Infrastructure",
 "bookName":"VoIP Cookbook : Building your own Telecommunication Infrastructure",
@@ -2674,7 +2649,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/c3/00/99/c3009936c76cd3bb69b4893bf2b18b22.jpg",
 "bookLink":"https://b-ok.africa/dl/438226/d33e40?dsource=recommend"
 },
-{"fourth Year":"First Semester"},
 
 {"courseName":"Telecommunication Lab IV",
 "bookName":"The 2000-2005 World Outlook for Telecommunications Services (Strategic Planning Series)",
@@ -2756,7 +2730,6 @@
 "image":"https://covers.zlibcdn2.com/covers299/books/8b/54/7b/8b547bcdf967b08655d6360f6fe9d809.jpg",
 "bookLink":"https://b-ok.africa/dl/11489897/da7c00"
 },
-{"fourth Year":"Second semester"},
 
 {"courseName":"Entrepreneurship Development",
 "bookName":"Entrepreneurship Development & Small Business Enterprises",

@@ -103,7 +103,7 @@ app.use("/search", searchRouter);
 app.use("/settings", changeRouter);
 app.use("/admin", adminRouter);
 app.use("/books", booksRouter);
-app.use("delete", deleteAccountRouter);
+app.use("/delete", deleteAccountRouter);
 
 
 
