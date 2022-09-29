@@ -82,10 +82,10 @@ const resetRouter = require('./routes/resetpassword');
 const forgotRouter = require('./routes/forgotpassword');
 const courseRouter = require('./routes/course');
 const searchRouter = require('./routes/search');
-const changeRouter = require('./routes/changeUserDetails')
-const adminRouter = require('./routes/admin')
-const booksRouter = require('./routes/recommended_books')
-const deleteAccountRouter = require('./routes/deleteAccount')
+const changeRouter = require('./routes/changeUserDetails');
+const adminRouter = require('./routes/admin');
+const booksRouter = require('./routes/recommended_books');
+const deleteAccountRouter = require('./routes/deleteAccount');
 
 
 app.use("/signup", signupRouter);

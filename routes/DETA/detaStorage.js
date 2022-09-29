@@ -38,8 +38,6 @@ router.get('/', (req, res) => {
 
 //this request handles the upload of the specified book to the Deta drive
 router.post("/upload", async (req, res) => {
-
-    
     const directory = 'Computer Engineering/Fourth Year/Second Semester/Entrepreneurship Development/Slides'
     const name = `${directory}/${req.files.filetoUpload.name}`;
     

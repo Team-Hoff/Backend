@@ -5,26 +5,31 @@ const upload = require('express-fileupload');
 router.use(upload());
 const deta = Deta('a0h5zcg7_zX38QAiyFSDXG4c4gxt4Qd6WhWxJuBiq');
 const courseBooks = deta.Drive('courseBooks');
+const db = require('../../models/database')
 
 
-
-// router.use( (request, response, next) =>{
-//     if(request.user) next()
-//     else {
-//         console.log("here");
-//         response.sendStatus(401)
-//     }
-// })
+router.use( (request, response, next) =>{
+    console.log("telecom");
+    console.log(request.sessionID);
+    if(request.user) next()
+    else {
+        console.log(response.header);
+        response.sendStatus(401)
+    }
+})
 
 
 router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
+
     const {year, semester, course, slide_name} = req.params;
+    
     const year_semester = [];
 
     const sql = "SELECT ext FROM CourseInfo WHERE name = ? AND IDM = ?"
     const result = await db.promise().query(sql, [course, "telecom"])
     
     const {ext} = result[0][0];
+
     switch (year) {
         case '1':
             year_semester[0] = "First Year"
@@ -56,11 +61,11 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
             break;
     }
     
+    console.log(year_semester);
     const bookName = {
-        name: `Telecommunication Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}.${ext}`
-        
+        name: `Telecom Engineering/${year_semester[0]}/${year_semester[1]}/${course}/Slides/${slide_name}.${ext}`
     };
-
+    console.log(bookName.name);
 
     try{
         const book = await courseBooks.get(bookName.name);

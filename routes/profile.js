@@ -4,9 +4,9 @@ const router = express.Router()
 
 
 router.use( (request, response, next) =>{
+    console.log({"profile": request.sessionID});
     if(request.user) next()
     else {
-        console.log("here");
         response.sendStatus(401)
     }
 })
