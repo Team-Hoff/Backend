@@ -15,14 +15,11 @@ passport.serializeUser((user, done)=>
 passport.deserializeUser(async(email, done)=>
 {
     console.log("...deserializing");
-
     try{
         const result = await db.promise().query(`SELECT * FROM student WHERE email = ?`, email)
-
         if(result[0][0]){
             done(null, result[0][0]);
         }
-
     }
     catch(error){
         done(error, null);

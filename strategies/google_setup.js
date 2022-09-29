@@ -32,7 +32,7 @@ passport.deserializeUser(async(username, done)=>
 
 passport.use(
   new GoogleStrategy({
-    callbackURL:'http://localhost:3500/api/auth/google/callback',
+    callbackURL:'http://ec2-54-235-68-39.compute-1.amazonaws.com:3500/api/auth/google/callback',
     clientID:  keys.google.clientID , 
     clientSecret: keys.google.clientSecret,
     proxy:true

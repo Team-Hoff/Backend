@@ -2,8 +2,15 @@ const express = require("express")
 const router = express.Router();
 const db = require("../models/database")
 
-router.delete('/', async(request, response) => {
+router.use( (request, response, next) =>{
+    console.log({"DELETE ":request.sessionID});
+    if(request.user) next()
+    else {
+        response.sendStatus(401).send({msg: "User is not Logged In"})
+    }
+})
 
+router.delete('/', async(request, response) => {
     try{
 
         //Deletes account from database
