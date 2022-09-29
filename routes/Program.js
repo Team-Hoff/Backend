@@ -1,6 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
+router.use( (request, response, next) =>{
+    if(request.user) next()
+    else {
+        response.status(401).send({msg: "User is not Logged In"})
+    }
+})
+
 
 const computerRouter = require("./Programs/Computer")
 const aerospaceRouter = require("./Programs/Aerospace")

@@ -20,10 +20,6 @@ router.get('/:user_detail' ,async (req, res) => {
 
 })
 
-
-
-
-
 router.post('/',
 [ check('username')
 .notEmpty(),
