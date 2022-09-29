@@ -7,8 +7,9 @@ router.get('/:course', async (req, res) => {
     const sql = `SELECT * FROM CourseBooks WHERE courseName = ?`
     const results = await db.promise().query(sql, [course]);
     const books = results[0]
+    console.log("haha");
 
-    res.send(books)
+    return res.send(books)
 })
 
 

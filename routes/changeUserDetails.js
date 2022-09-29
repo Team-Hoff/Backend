@@ -4,6 +4,7 @@ const db = require("../models/database")
 const {comparepassword, hashpassword} = require("../utils/helper")
 
 router.use( (request, response, next) =>{
+    console.log(request.user);
     if(request.user) next()
     else {
         console.log("Program ");

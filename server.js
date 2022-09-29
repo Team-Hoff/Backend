@@ -85,6 +85,7 @@ const searchRouter = require('./routes/search');
 const changeRouter = require('./routes/changeUserDetails')
 const adminRouter = require('./routes/admin')
 const booksRouter = require('./routes/recommended_books')
+const deleteAccountRouter = require('./routes/deleteAccount')
 
 
 app.use("/signup", signupRouter);
@@ -102,6 +103,7 @@ app.use("/search", searchRouter);
 app.use("/settings", changeRouter);
 app.use("/admin", adminRouter);
 app.use("/books", booksRouter);
+app.use("/delete", deleteAccountRouter);
 
 
 

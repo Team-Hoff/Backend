@@ -4,7 +4,7 @@ const db = require("../models/database")
 
 router.get('/update', async(request,response,) =>{
     //const {course} = request.params;
-    let sql = `UPDATE CourseInfo SET name = "" WHERE IDM = "mechanical" AND name = "Mechanical Engineering Lab II" `;
+    let sql = `UPDATE CourseInfo SET img = "https://th.bing.com/th/id/R.d03c6da728d2d9db994ced40346e68d5?rik=cMUcZXiBNEIdAg&pid=ImgRaw&r=0" WHERE IDM = "biomedical" AND name="Algebra" `;
     const result = await db.promise().query(sql);
     //console.log(result);
     response.send(`Update Successful`);
