@@ -72,9 +72,9 @@ app.use(passport.session());
 //ROUTERS
 const signupRouter = require('./routes/signup.js');
 const loginRouter  = require('./routes/login');
-const authRouter   = require('./routes/auth')
+const authRouter   = require('./routes/auth');
 const profileRouter = require('./routes/profile');
-const detaRouter   = require('./routes/DETA/detaStorage')
+const detaRouter   = require('./routes/DETA/detaStorage');
 const testRouter = require('./routes/testdb');
 const logoutRouter = require("./routes/logout");
 const programRouter = require("./routes/Program");

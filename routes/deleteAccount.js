@@ -2,7 +2,6 @@ const express = require("express")
 const router = express.Router();
 const db = require("../models/database")
 
-
 router.delete('/', async(request, response) => {
 
     try{

@@ -4,11 +4,10 @@ const db = require("../models/database")
 const {comparepassword, hashpassword} = require("../utils/helper")
 
 router.use( (request, response, next) =>{
-    console.log(request.user);
     if(request.user) next()
     else {
         console.log("Program ");
-        response.sendStatus(401)
+        response.sendStatus(401).send({msg: "User is not Logged In"})
     }
 })
 

@@ -6,7 +6,7 @@ const db = require("../models/database")
 router.use( (request, response, next) =>{
     if(request.user) next()
     else {
-        response.sendStatus(401)
+        response.sendStatus(401).send({msg: "User is not Logged In"})
     }
 })
 
