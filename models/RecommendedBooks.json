@@ -663,6 +663,622 @@
     "bookName":"Integrated Fault Diagnosis and Control Design of Linear Complex Systems",
     "image":"https://covers.zlibcdn2.com/covers299/books/43/14/b4/4314b4adb83979d4314a8281123baaa3.jpg",
     "bookLink":"https://b-ok.africa/dl/3607664/38297f"
-  }
-
+  },
+    {"courseName":"Cell Biology",
+    "bookName":"Cell Biology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/70/3a/ed/703aed842020c6f1a1439c99414ecddf.jpg",
+    "bookLink":"https://b-ok.africa/dl/2861582/50e773"
+    },
+    {"courseName":"Cell Biology",
+    "bookName":"Essential Cell Biology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ea/6a/c8/ea6ac8101116bc55e18630727839426f.jpg",
+    "bookLink":"https://b-ok.africa/dl/2722501/c247fe"
+    },
+    {"courseName":"Engineering Technology",
+    "bookName":"How to Be Good at Science, Technology, and Engineering",
+    "image":"https://covers.zlibcdn2.com/covers299/books/40/cd/68/40cd68c8ca7abbde4950e5d4c7c43e6f.jpg",
+    "bookLink":"https://b-ok.africa/dl/3687785/6b5649"
+    },
+    {
+        "courseName":"Applied Electricity",
+        "bookName":"Electric Circuit Theory",
+        "image":"https://covers.zlibcdn2.com/covers299/books/74/78/71/747871dc24401fdb7f37a8e47957923d.jpg",
+        "bookLink":"https://b-ok.africa/dl/2276836/d6666c"
+    },
+    {
+        "courseName":"Applied Electricity",
+        "bookName":"Electrical Technology",
+        "image":"https://covers.zlibcdn2.com/covers299/books/36/91/2b/36912b47ff9e851594449c9b7433b27b.jpg",
+        "bookLink":"https://b-ok.africa/dl/674783/8c8fce"
+    },
+    {
+        "courseName":"Applied Electricity",
+        "bookName":"Basic Electrical Engineering",
+        "image":"https://covers.zlibcdn2.com/covers299/books/71/8d/5f/718d5f3667dc90310c5972a5b88244ed.jpg",
+        "bookLink":"https://b-ok.africa/dl/2930456/882ea7"
+    },
+    {
+        "courseName":"Communication Skills",
+        "bookName":"Communication Skills For Dummies",
+        "image":"https://covers.zlibcdn2.com/covers299/books/e2/96/ff/e296ff9320937b261a4b9cfbe001ff8f.jpg",
+        "bookLink":"https://b-ok.africa/dl/2225733/86029d"
+    },
+    {
+        "courseName":"Communication Skills",
+        "bookName":" effective communication",
+        "image":"https://covers.zlibcdn2.com/covers100/books/73/10/4e/73104eab260e83655dbe343f8e1cb199.jpg",
+        "bookLink":"https://b-ok.africa/dl/3558008/cb5530"
+    },
+    {
+        "courseName":"Algebra",
+        "bookName":"Pure Mathematics for Beginners",
+        "image":"https://covers.zlibcdn2.com/covers/books/dd/09/7f/dd097f5bcca61afb3ef9a3fc3210de4f.jpg",
+        "bookLink":"https://b-ok.africa/dl/4999234/fdfd5b"
+    },
+    {
+        "courseName":" Algebra",
+        "bookName":"Introduction to Linear Algebra",
+        "image":"https://covers.zlibcdn2.com/covers299/books/ea/26/b0/ea26b078e4c78a3321ce148c8c2540bc.jpg",
+        "bookLink":"https://b-ok.africa/dl/3515653/8bf89b"
+    },
+    {
+        "courseName":" Algebra",
+        "bookName":"Linear Algebra Step by Step",
+        "image":"https://covers.zlibcdn2.com/covers299/books/3d/b0/c8/3db0c8d83d35d77d10024bd510e95f5f.jpg",
+        "bookLink":"https://b-ok.africa/dl/2353035/835d85?dsource=recommend"
+    },
+    {
+        "courseName":"Technical Drawing",
+        "bookName":"Technical Drawing ",
+        "image":"https://covers.zlibcdn2.com/covers299/books/8c/90/bc/8c90bc74eb06deade522159e4b7b0813.jpg",
+        "bookLink":"https://b-ok.africa/dl/5009410/b91708"
+    },
+    {
+        "courseName":"Technical Drawing",
+        "bookName":"Framed Perspective",
+        "image":"https://covers.zlibcdn2.com/covers299/books/c1/6e/cb/c16ecb145f378a0f95187ddf5d1fffc1.jpg",
+        "bookLink":"https://b-ok.africa/dl/3556649/3717ec"
+    },
+    {
+        "courseName":"Technical Drawing",
+        "bookName":"Manual of Engineering Drawing",
+        "image":"https://covers.zlibcdn2.com/covers299/books/ea/9f/e7/ea9fe7f0037953ef51a2e46a500b6099.jpg",
+        "bookLink":"https://b-ok.africa/dl/691678/ff622b"
+    },
+    {
+        "courseName":"Basic Mechanics",
+        "bookName":"Engineering Mechanics",
+        "image":"https://covers.zlibcdn2.com/covers299/books/3d/cb/c3/3dcbc3f5ace77224fa4966e5dbfc5bff.jpg",
+        "bookLink":"https://b-ok.africa/dl/23042117/c2b5f5"
+    },
+    {"courseName":"Introduction to Ethics and Morality",
+    "bookName":"Engineering Ethics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e6/87/12/e6871278bdedf0d02130462824894a73.jpg",
+    "bookLink":"https://b-ok.africa/dl/2483190/d931a1"
+    },
+    {"courseName":"Introduction to Ethics and Morality",
+    "bookName":"Ethics, Technology, and Engineering",
+    "image":"https://covers.zlibcdn2.com/covers299/books/fe/8b/1a/fe8b1adc88b6c583f5dd3b3ba059aef9.jpg",
+    "bookLink":"https://b-ok.africa/dl/2611274/6188a6"
+    },
+    {  
+        "semester":"two",
+    "courseName":"Basic Electronics",
+    "bookName":"The Fields of Electronics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/97/21/b4/9721b42883d33fd338a491aa25bc80e3.jpg",
+    "bookLink":"https://b-ok.africa/dl/438246/f795cf"
+    },
+    {  "courseName":"Basic Electronics",
+       "bookName":"Basic Electronics",
+       "image":"https://covers.zlibcdn2.com/covers299/books/b4/5b/7a/b45b7a76138ee515dc9d4a03e6c97f24.jpg",
+    "bookLink":"https://b-ok.africa/dl/2956139/3da3e6"
+    },
+    {
+    "courseName":"Introduction to Information Technology",
+    "bookName":"Introduction to Information Technology Law",
+    "image":"https://covers.zlibcdn2.com/covers299/books/fd/6a/c2/fd6ac2d42fb8f8b3e8db85cc45c2e7e9.jpg",
+    "bookLink":"https://b-ok.africa/dl/1223491/ec6fc0"
+    },
+    {"courseName":"Introduction to Information Technology",
+    "bookName":"Using Information Technology: A Practical Introduction to Computers and Communications",
+    "image":"https://covers.zlibcdn2.com/covers299/books/76/62/56/76625606714ef2c33cb05cd0c2e8783a.jpg",
+    "bookLink":"https://b-ok.africa/dl/5575179/5ca396"
+    },
+    {"courseName":"Electrical Engineering Drawing",
+    "bookName":"Mastering Electrical Schematics Drawings",
+    "image":"https://covers.zlibcdn2.com/covers299/books/d1/9c/71/d19c7108b718f08f3b5b6d86572f2b5c.jpg",
+    "bookLink":"https://b-ok.africa/dl/19184060/bd0580"
+    },
+    {"courseName":"Electrical Engineering Drawing",
+    "bookName":"Requirements for Electrical Installations",
+    "image":"https://covers.zlibcdn2.com/covers299/books/29/19/f7/2919f7230579ed1b3b8fb057f3b6157b.jpg",
+    "bookLink":"https://b-ok.africa/dl/662420/6be3a7"
+    },
+    {  "courseName":"Communication Skills II",
+    "bookName":"Advanced Communication Skills",
+    "image":"https://covers.zlibcdn2.com/covers299/books/27/db/67/27db67f3153c201080dc93c8397bb35c.jpg",
+    "bookLink":"https://b-ok.africa/dl/1267489/6c8ec1"
+    },
+    {  "courseName":"Communication Skills II",
+    "bookName":"Elite Communication Skills for Young Professionals",
+    "image":"https://covers.zlibcdn2.com/covers299/books/7b/71/d1/7b71d1c07cfd392796b16503c45e857e.jpg",
+    "bookLink":"https://b-ok.africa/dl/21663750/f2db28"
+    },
+    {  "courseName":"Calculus With Single Variable",
+    "bookName":"Calculus, Volume I: One-Variable Calculus",
+    "image":"https://covers.zlibcdn2.com/covers299/books/02/ea/cc/02eacc10aabf4331c58471a952ea7a94.jpg",
+    "bookLink":"https://b-ok.africa/dl/557517/f408f6"
+    },
+    {  "courseName":"Calculus With Single Variable",
+    "bookName":"Problems in Calculus of One Variable",
+    "image":"https://covers.zlibcdn2.com/covers299/books/33/0b/41/330b41c05eaa0f1dc8fb5d48ef39c63c.jpg",
+    "bookLink":"https://b-ok.africa/dl/2615324/ca6e42"
+    },
+    {  "courseName":"Calculus With Single Variable",
+    "bookName":"Calculus: One and Several Variables",
+    "image":"https://covers.zlibcdn2.com/covers299/books/82/b8/6e/82b86e70ee7d33c29bec91d436d9f639.jpg",
+    "bookLink":"https://b-ok.africa/dl/1193007/f6baee"
+    },
+    {"courseName":"Properties of Matter",
+    "bookName":"Properties of Matter",
+    "image":"https://covers.zlibcdn2.com/covers299/books/13/d1/55/13d15513302576a466999ea23e911fa7.jpg",
+    "bookLink":"https://b-ok.africa/dl/2027936/acfc7c"
+    },
+    {"courseName":"Properties of Matter",
+    "bookName":"General Properties of Matter",
+    "image":"https://covers.zlibcdn2.com/covers299/books/bf/7b/fa/bf7bfa0c7cadc45e01caeac46edb108a.jpg",
+    "bookLink":"https://b-ok.africa/dl/2299174/d8f70e"
+    },
+    {"courseName":"Properties of Matter",
+    "bookName":"Understanding the Properties of Matter",
+    "image":"https://covers.zlibcdn2.com/covers299/books/29/ea/c2/29eac231889a4a9582e90a720d46dfa6.jpg",
+    "bookLink":"https://b-ok.africa/dl/5955861/fa4c42"
+    },
+    {"courseName":"Introduction to Sociology",
+    "bookName":"Introduction to Sociology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f2/1d/6e/f21d6ec364ac325eed980631ce604fb9.jpg",
+    "bookLink":"https://b-ok.africa/dl/5010486/413a48"
+    },
+    {"courseName":"Introduction to Sociology",
+    "bookName":"An Introduction to the Sociology of Health and Illness, 3rd Ed",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f0/d5/97/f0d5975c9b5ef00dff380983b3bc87f9.jpg",
+    "bookLink":"https://b-ok.africa/dl/3336010/54723e"
+    },
+    {"courseName":"Introduction to Sociology",
+    "bookName":"Introduction to Sociology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ea/25/6c/ea256c49e32f50506ccb207a4ec7f589.jpg",
+    "bookLink":"https://b-ok.africa/dl/5740949/b19b55"
+    },
+    {"courseName":"Biochemistry",
+    "bookName":"Biochemistry",
+    "image":"https://covers.zlibcdn2.com/covers299/books/64/ce/27/64ce276a2bdae6d5473e83a210879b42.jpg",
+    "bookLink":"https://b-ok.africa/dl/3632727/9bdeb4"
+    },
+    {"courseName":"Biochemistry",
+    "bookName":"Harper’s Illustrated Biochemistry, 31st Edition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/74/71/c0/7471c064dd98cca3c1ed67c500f98535.jpg",
+    "bookLink":"https://b-ok.africa/dl/3553352/edb3ab"
+    },
+    {"courseName":"Biochemistry",
+    "bookName":"Lehninger Principles of Biochemistry",
+    "image":"https://covers.zlibcdn2.com/covers299/books/1e/73/71/1e73710f18590d2b6217a8e86cff45d5.jpg",
+    "bookLink":"https://b-ok.africa/dl/3341211/f0f1f0"
+    },
+    {
+        "second Year":"First Semester",
+    "courseName":"Biomedical Engineering Design",
+    "bookName":"Biomedical Engineering and Design Handbook, Volume 1: Second Edition, Biomedical Engineering Fundamentals",
+    "image":"https://covers.zlibcdn2.com/covers299/books/1d/79/85/1d798505ad70e7ebe616317661a7a857.jpg",
+    "bookLink":"https://b-ok.africa/dl/990868/ae25eb"
+    },
+    {"courseName":"Biomedical Engineering Design",
+    "bookName":"Biomedical Engineering and Design Handbook, Volume 2: 2nd Edition, Biomedical Engineering Applications",
+    "image":"https://covers.zlibcdn2.com/covers299/books/80/5e/20/805e20566d945692bd92f2f69b21c6d4.jpg",
+    "bookLink":"https://b-ok.africa/dl/830386/93e6b6"
+    },
+    {"courseName":"Biomedical Engineering Design",
+    "bookName":"Standard Handbook of Biomedical Engineering and Design",
+    "image":"https://covers.zlibcdn2.com/covers299/books/bb/8d/ae/bb8dae3b4327ca2f598894b16574dfcb.jpg",
+    "bookLink":"https://b-ok.africa/dl/551857/6dcb70"
+    },
+    {  "courseName":" C Programming ",
+    "bookName":"The ANSI C Programming Language",
+    "image":"https://covers.zlibcdn2.com/covers299/books/55/6e/6b/556e6bee561b776c95c6872c441baad1.jpg",
+    "bookLink":"https://b-ok.africa/dl/633119/e468d8"
+    },
+    {"courseName":"Anatomy and Physiology for Engineers I",
+    "bookName":"Anatomy & Physiology: The Unity of Form and Function",
+    "image":"https://covers.zlibcdn2.com/covers299/books/89/8c/7e/898c7eac14db545910553db4d59a5728.jpg",
+    "bookLink":"https://b-ok.africa/dl/464868/77eacd"
+    },
+    {"courseName":"Anatomy and Physiology for Engineers I",
+    "bookName":"Human Anatomy and Physiology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/85/cc/b6/85ccb651d7613751bba3447d03de1ea5.jpg",
+    "bookLink":"https://b-ok.africa/dl/3690507/26ec3e"
+    },
+    {"courseName":"Anatomy and Physiology for Engineers I",
+    "bookName":"Anatomy and Physiology For Dummies",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e8/37/f3/e837f3ac897afa73daf9171cd5319693.jpg",
+    "bookLink":"https://b-ok.africa/dl/2083402/850343"
+    },
+    {"courseName":"Engineering in Society",
+    "bookName":"Science in Action: How to Follow Scientists and Engineers through Society",
+    "image":"https://covers.zlibcdn2.com/covers299/books/b4/1e/fb/b41efb2fca7f13757d80b4cb7b19f28c.jpg",
+    "bookLink":"https://b-ok.africa/dl/1205292/17d18b"
+    },
+    {  "courseName":"Semiconductor Devices",
+    "bookName":"Semiconductor Devices: Physics and Technology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/af/0d/3e/af0d3ea002ab461dfdfc92bcfad35bc4.jpg",
+    "bookLink":"https://b-ok.africa/dl/2207004/50cafa"
+    },
+    {  "courseName":"Semiconductor Devices",
+    "bookName":"Semiconductor Device Fundamentals",
+    "image":"https://covers.zlibcdn2.com/covers299/books/4f/8e/b9/4f8eb9f7853c7873e8397b450e728004.jpg",
+    "bookLink":"https://b-ok.africa/dl/822233/5b259d"
+    },
+    {"courseName":"Literature in English I",
+    "bookName":"Reader's Guide to Literature in English (Reader's Guide Series)",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f4/c3/0c/f4c30c3ef99f6adaae6d06f9fb273e2c.jpg",
+    "bookLink":"https://b-ok.africa/dl/873861/d90892"
+    },
+    {"courseName":"Literature in English I",
+    "bookName":"Encyclopedia Of Feminist Literature",
+    "image":"https://covers.zlibcdn2.com/covers299/books/73/90/c9/7390c93a0f040e33fed6114a5f220439.jpg",
+    "bookLink":"https://b-ok.africa/dl/610104/f57273?dsource=recommend"
+    },
+    {  "courseName":"Differential Equations",
+    "bookName":"Fundamentals of Differential Equations",
+    "image":"https://covers.zlibcdn2.com/covers299/books/bd/90/6e/bd906e16f137720904a538f075383b8c.jpg",
+    "bookLink":"https://b-ok.africa/dl/3413979/007431"
+    },
+    {  "courseName":"Differential Equations",
+    "bookName":"Schaums Outline of Differential Equations, Fourth Edition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/8f/e3/12/8fe3127e7ecedbcfabc48bdd1808c061.jpg",
+    "bookLink":"https://b-ok.africa/dl/3678937/3bb0fc"
+    },
+    {  "courseName":"French for Communication Purposes I",
+    "bookName":"The Ultimate French Review and Practice : Mastering French Grammar for Confident Communication",
+    "image":"https://covers.zlibcdn2.com/covers299/books/0c/4c/52/0c4c52fcf9be401fc7b9a04dadae47c5.jpg",
+    "bookLink":"https://b-ok.africa/dl/2457286/17d076"
+    },
+    { "second Year":"Second Semester",
+         "courseName":"Calculus With Several Variables",
+    "bookName":"Calculus: One and Several Variables",
+    "image":"https://covers.zlibcdn2.com/covers299/books/82/b8/6e/82b86e70ee7d33c29bec91d436d9f639.jpg",
+    "bookLink":"https://b-ok.africa/dl/1193007/f6baee"
+    },
+    {  "courseName":"Digital Systems",
+    "bookName":"Computer Systems: Digital Design, Fundamentals of Computer Architecture and Assembly Language",
+    "image":"https://covers.zlibcdn2.com/covers299/books/01/43/b6/0143b6653e7d250802607c62dc476b29.jpg",
+    "bookLink":"https://b-ok.africa/dl/3395202/bc173d"
+    },
+    {  "courseName":"Digital Systems",
+    "bookName":"Digital System Design with FPGA: Implementation Using Verilog and VHDL",
+    "image":"https://covers.zlibcdn2.com/covers299/books/55/c2/f4/55c2f4958aa20f7d72bd33d1521ed7e2.jpg",
+    "bookLink":"https://b-ok.africa/dl/3493207/2d3199"
+    },
+    {"courseName":"Biomedical Engineering Design II",
+    "bookName":"Biomedical Engineering II. Recent Developments",
+    "image":"https://covers.zlibcdn2.com/covers299/books/9d/e7/23/9de723dcea43ed75d04b8b316e326c9d.gif",
+    "bookLink":"https://b-ok.africa/dl/2367072/06f68b"
+    },
+    {"courseName":"Biomedical Engineering Design II",
+    "bookName":"Standard Handbook of Biomedical Engineering & Design",
+    "image":"https://covers.zlibcdn2.com/covers299/books/2e/67/89/2e6789730b35d75ab56cb5fbb200e521.jpg",
+    "bookLink":"https://b-ok.africa/dl/1306965/916285"
+    },
+    {"courseName":"Chemical Pathology",
+    "bookName":"A Primer of Chemical Pathology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/03/66/45/03664536df6b6ee4406a9e8cdc794791.jpg",
+    "bookLink":"https://b-ok.africa/dl/1081250/34bdc1"
+    },
+    {"courseName":"Chemical Pathology",
+    "bookName":"Case Presentations in Chemical Pathology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/5a/21/92/5a21923bc61147ba9140e1ccdfd0dd73.gif",
+    "bookLink":"https://b-ok.africa/dl/2280158/91bb28"
+    },
+    {  "courseName":"French for Communication II",
+    "bookName":"French for Dummies",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e1/b6/10/e1b61020f94e7f27fcac3e996c277909.jpg",
+    "bookLink":"https://b-ok.africa/dl/1253329/911429"
+    },
+    {  "courseName":"Literature in English II",
+    "bookName":"AMSCO® Advanced Placement® English Literature and Composition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/6a/83/bf/6a83bf021f72d25fb7203681d83ac07a.jpg",
+    "bookLink":"https://b-ok.africa/dl/17804893/d0e3f2"
+    },
+    {  "courseName":"Literature in English II",
+    "bookName":"Ways of Reading: Advanced Reading Skills for Students of English Literature",
+    "image":"https://covers.zlibcdn2.com/covers299/books/0a/3e/ae/0a3eaefb907e60b8c2b4b9e64ff461dc.jpg",
+    "bookLink":"https://b-ok.africa/dl/1004848/4c915e"
+    },
+    {"courseName":"Anatomy and Physiology for Engineers II",
+    "bookName":"Principles of Anatomy and Physiology, Thirteenth Edition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/d4/d3/31/d4d331fd1ea5da7d4753bc50a2dec65c.jpg",
+    "bookLink":"https://b-ok.africa/dl/1213380/8cdefd"
+    },
+    {"courseName":"Anatomy and Physiology for Engineers II",
+    "bookName":"Seeley's Essentials of Anatomy and Physiology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/1d/17/91/1d17919ed697885559f24d5fb315b835.jpg",
+    "bookLink":"https://b-ok.africa/dl/2548779/a7f7e4?dsource=recommend"
+    },
+    {"courseName":"Anatomy and Physiology for Engineers II",
+    "bookName":"Schaum's Outline of Human Anatomy and Physiology",
+    "image":"https://covers.zlibcdn2.com/covers299/books/64/0e/c7/640ec736a4328e0624e2bf1450708f45.jpg",
+    "bookLink":"https://b-ok.africa/dl/466363/42fcb5?dsource=recommend"
+    },
+    {  "courseName":"Linear Electronics Circuit",
+    "bookName":"Micro Electronic Circuits Theory And Applicatication",
+    "image":"https://covers.zlibcdn2.com/covers299/books/50/c7/06/50c7060306b1b02943bc2641c68d386c.jpg",
+    "bookLink":"https://b-ok.africa/dl/2747114/686a5b"
+    },
+    {  "courseName":"Linear Electronics Circuit",
+    "bookName":"Basic electronics and linear circuits",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ee/8b/da/ee8bda793a9c1a4bf5301428fd0129cf.jpg",
+    "bookLink":"https://b-ok.africa/dl/5932956/5d923a"
+    },
+    {"third year":"First Semester",
+        "courseName":"Signals and Systems",
+    "bookName":"Schaum’s Outline of Signals and Systems, Second Edition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/95/5d/21/955d21d884d027fab9bbedf0db866cef.jpg",
+    "bookLink":"https://b-ok.africa/dl/2086080/44a385"
+    },
+    {"courseName":"Signals and Systems",
+    "bookName":"Solutions Manual for Signals and Systems, 2nd Edition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f1/24/6a/f1246a14e064fb5b90ee22c783825cd1.jpg",
+    "bookLink":"https://b-ok.africa/dl/604721/d187ab"
+    },
+    {"courseName":"Signals and Systems",
+    "bookName":"Signals and Systems",
+    "image":"https://covers.zlibcdn2.com/covers299/books/8b/c7/3c/8bc73c383687206666b2ebed70d221ca.jpg",
+    "bookLink":"https://b-ok.africa/dl/746435/c0e1a2"
+    },
+    {  "courseName":"Probability and Statistics",
+    "bookName":"Probability and statistics by example",
+    "image":"https://covers.zlibcdn2.com/covers299/books/14/86/60/14866067ee1914a00affabbd19f5dfc5.jpg",
+    "bookLink":"https://b-ok.africa/dl/448283/99adb0"
+    },
+    {  "courseName":"Probability and Statistics",
+    "bookName":"Probability and Statistics: A Course for Physicists and Engineers",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f0/88/be/f088bec0274051c2cc1d0be7f161eb76.jpg",
+    "bookLink":"https://b-ok.africa/dl/3657835/30f7b1"
+    },
+    {  "courseName":"Numerical Methods",
+    "bookName":"Numerical Analysis",
+    "image":"https://covers.zlibcdn2.com/covers299/books/3e/3c/28/3e3c2891e445a1a151ee5c6bc1345e5f.jpg",
+    "bookLink":"https://b-ok.africa/dl/2853297/46dfdc"
+    },
+    {  "courseName":"Numerical Methods",
+    "bookName":"Schaum's Outline of Numerical Analysis, Second Edition",
+    "image":"https://covers.zlibcdn2.com/covers299/books/fe/8b/60/fe8b6045cb1bad3ba1784912b9f7c521.jpg",
+    "bookLink":"https://b-ok.africa/dl/1223761/d48d01"
+    },
+    {  "courseName":"Microprocessors",
+    "bookName":" An Illustrated Introduction to Microprocessors and Computer Architecture",
+    "image":"https://covers.zlibcdn2.com/covers299/books/2e/fc/fb/2efcfbfe1fe97bf56428cbace3a5e093.jpg",
+    "bookLink":""
+    },
+    {  "courseName":"Microprocessors",
+    "bookName":"Introduction to Microprocessors and Microcontrollers",
+    "image":"https://covers.zlibcdn2.com/covers299/books/33/56/e5/3356e59c36e83d654d96a6218c7de7ef.jpg",
+    "bookLink":"https://b-ok.africa/dl/510467/7df4ec"
+    },
+    {"courseName":"Research Methods",
+    "bookName":"Introduction to Research Methods: A Practical Guide for Anyone Undertaking a Research Project",
+    "image":"https://covers.zlibcdn2.com/covers299/books/54/98/16/549816a9bb02de3a67609354774ab788.jpg",
+    "bookLink":"https://b-ok.africa/dl/825729/0a7621"
+    },
+    {"courseName":"Research Methods",
+    "bookName":"Practical Research Methods: A User-Friendly Guide to Mastering Research Techniques and Projects",
+    "image":"https://covers.zlibcdn2.com/covers299/books/07/45/aa/0745aa8e48902dc42e77e6d80cb84974.jpg",
+    "bookLink":"https://b-ok.africa/dl/449067/3df9b0"
+    },
+    {"courseName":"Research Methods",
+    "bookName":"Research Design and Methods: A Process Approach",
+    "image":"https://covers.zlibcdn2.com/covers299/books/0e/9e/52/0e9e52de255cb13a533315e248598937.jpg",
+    "bookLink":"https://b-ok.africa/dl/3378498/cca725"
+    },
+    {  "courseName":"Object Oriented Programming ",
+    "bookName":"Interactive Object-Oriented Programming in Java",
+    "image":"https://covers.zlibcdn2.com/covers299/books/59/e5/9a/59e59a4244d9bbc83d766dec0b577068.jpg",
+    "bookLink":""
+    },
+    {  "courseName":"Object Oriented Programming",
+    "bookName":"Python 3 Object-Oriented Programming",
+    "image":"https://covers.zlibcdn2.com/covers299/books/db/87/51/db87515bbf7d17d224ad3058ab3439ea.jpg",
+    "bookLink":"https://b-ok.africa/dl/5572197/feb661"
+    },
+    {"third year":"second Semester",
+        "courseName":"Biomedical Optics",
+    "bookName":"Handbook of Optical Biomedical Diagnostics, Volume 2: Methods",
+    "image":"https://covers.zlibcdn2.com/covers299/books/c9/65/fc/c965fc08edcf8c503ed3d0187eddc64c.jpg",
+    "bookLink":"https://b-ok.africa/dl/3425294/dd6012"
+    },
+    {"courseName":"Biomedical Optics",
+    "bookName":"Handbook of Optical Biomedical Diagnostics, Volume 1: Light-tissue Interaction",
+    "image":"https://covers.zlibcdn2.com/covers299/books/60/c4/ae/60c4aedb50b5c39d39d993faa36b0647.jpg",
+    "bookLink":"https://b-ok.africa/dl/3425271/994488"
+    },
+    {"courseName":"Biomedical Optics",
+    "bookName":"Optical Sensors for Biomedical Diagnostics and Environmental Monitoring",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e0/b8/20/e0b8200924cf1719cc701acc6d87df14.jpg",
+    "bookLink":"https://b-ok.africa/dl/3419229/b6f6ff"
+    },
+    {"courseName":"Biomaterial I",
+    "bookName":"Fundamentals of Biomaterials",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f7/24/6d/f7246d777caf64bf0ff88bb18655a5b4.jpg",
+    "bookLink":"https://b-ok.africa/dl/3659869/8e9148"
+    },
+    {"courseName":"Biomaterial I",
+    "bookName":"Biomaterials: Principles and Practices",
+    "image":"https://covers.zlibcdn2.com/covers299/books/bd/7f/a2/bd7fa253eeb91a7ec6281175052e8494.jpg",
+    "bookLink":"https://b-ok.africa/dl/2352361/6602e3?dsource=recommend"
+    },
+    {"courseName":"Biomaterial I",
+    "bookName":"Biomaterials: An Introduction",
+    "image":"https://covers.zlibcdn2.com/covers299/books/2e/cb/19/2ecb1952f0de0850d127268682fb7053.jpg",
+    "bookLink":"https://b-ok.africa/dl/1172330/bfb14b?dsource=recommend"
+    },
+    {"courseName":"Bio Instrumentation I",
+    "bookName":"Virtual Bio Instrumentation Biomedical, Clinical, and Healthcare Applications in LabVIEW",
+    "image":"https://covers.zlibcdn2.com/covers100/books/cf/33/7b/cf337b7aa613ea299414037fad475051.jpg",
+    "bookLink":"https://b-ok.africa/dl/2746863/b001d6"
+    },
+    {"courseName":"Biosignal Processes and Analysis",
+    "bookName":"BioMEMS and Biomedical Nanotechnology: Biomolecular Sensing, Processing and Analysis",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f8/1d/90/f81d90b04385733b0f13b51fda6674dd.jpg",
+    "bookLink":"https://b-ok.africa/dl/609458/70224d"
+    },
+    {  "courseName":"Embedded Systems",
+    "bookName":"Design Patterns for Embedded Systems in C",
+    "image":"https://covers.zlibcdn2.com/covers299/books/34/c4/0a/34c40aaecb0a254d07ecd1896a5cd148.jpg",
+    "bookLink":"https://b-ok.africa/dl/2083684/b426f1"
+    },
+    {  "courseName":"Embedded Systems",
+    "bookName":"Embedded Hardware",
+    "image":"https://covers.zlibcdn2.com/covers299/books/fc/39/8d/fc398dd7f1c1325f5e95445d4638d474.jpg",
+    "bookLink":"https://b-ok.africa/dl/511011/5d9082"
+    },
+    {  "courseName":"Embedded Systems",
+    "bookName":"Embedded Systems: A Contemporary Design Tool",
+    "image":"https://covers.zlibcdn2.com/covers/books/67/9b/8d/679b8d2d47f1bf86e17aca48f596f5cc.jpg",
+    "bookLink":"https://b-ok.africa/dl/5227130/96b0eb"
+    },
+    {"courseName":"Medical Imaging I",
+    "bookName":"Oxford Handbook of Medical Imaging",
+    "image":"https://covers.zlibcdn2.com/covers299/books/79/0e/0e/790e0edba7ed4d826bd5ef6a1e2a4fbc.jpg",
+    "bookLink":"https://b-ok.africa/dl/2663753/59b465"
+    },
+    {"courseName":"Medical Imaging I",
+    "bookName":"Fundamentals of medical imaging",
+    "image":"https://covers.zlibcdn2.com/covers299/books/30/9b/88/309b88bc741982ffe6c762a994ee84c5.jpg",
+    "bookLink":"https://b-ok.africa/dl/572139/49a5c7?dsource=recommend"
+    },
+    {"courseName":"Medical Imaging I",
+    "bookName":"The essential physics of medical imaging",
+    "image":"https://covers.zlibcdn2.com/covers299/books/3e/40/c4/3e40c453355e3c59e362f6edff11406d.jpg",
+    "bookLink":"https://b-ok.africa/dl/5612451/951681"
+    },
+    {"fourth Year":"Semester one",
+        "courseName":"Biomaterial II",
+    "bookName":"Chitosan for Biomaterials II",
+    "image":"https://covers.zlibcdn2.com/covers299/books/10/1e/81/101e813f052273ab33bac622c5dec469.jpg",
+    "bookLink":"https://b-ok.africa/dl/1227298/e7625c"
+    },
+    {"courseName":"Biomaterial II",
+    "bookName":"Metal and Ceramic Biomaterials : Volume II: Strength and Surface",
+    "image":"https://covers.zlibcdn2.com/covers299/books/be/c2/0d/bec20dcbebe244064d434dab5e7c1ef1.jpg",
+    "bookLink":"https://b-ok.africa/dl/3496140/cd5c66"
+    },
+    {"courseName":"Biomaterial II",
+    "bookName":"Polymer Biocatalysis and Biomaterials II",
+    "image":"https://covers.zlibcdn2.com/covers299/books/7e/d9/c5/7ed9c54838b052bc25724362857f44bb.jpg",
+    "bookLink":"https://b-ok.africa/dl/2088221/b4d453"
+    },
+    {"courseName":"Bioinstrumentation II",
+    "bookName":"Bioinstrumentation",
+    "image":"https://covers.zlibcdn2.com/covers299/books/8f/a4/83/8fa4833554f50318bf92f3918bbbb1fd.jpg",
+    "bookLink":"https://b-ok.africa/dl/2422111/597072"
+    },
+    {"courseName":"Bioinstrumentation II",
+    "bookName":"Introduction to Bioinstrumentation: With Biological, Environmental, and Medical Applications",
+    "image":"https://covers.zlibcdn2.com/covers299/books/c5/99/55/c599555cf481c0dbc8f7399cee3b0df5.jpg",
+    "bookLink":"https://b-ok.africa/dl/2246776/2fc288"
+    },
+    {"courseName":"Engineering Economics and Management",
+    "bookName":"Handbook in Monte Carlo Simulation: Applications in Financial Engineering, Risk Management, and Economics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/81/5d/69/815d69c2f216c4a7935f61df8c22e60d.jpg",
+    "bookLink":"https://b-ok.africa/dl/2352582/e73b3e"
+    },
+    {"courseName":"Engineering Economics and Management",
+    "bookName":"Economics and finance for engineers and planners : managing infrastructure and natural resources",
+    "image":"https://covers.zlibcdn2.com/covers299/books/79/7d/d2/797dd2d5a9ff928b25c3791da24bdbd1.jpg",
+    "bookLink":"https://b-ok.africa/dl/2089056/a0c624"
+    },
+    {"courseName":"Engineering Economics and Management",
+    "bookName":"Economic and Financial Analysis for Engineering and Project Management",
+    "image":"https://covers.zlibcdn2.com/covers299/books/bd/7e/b1/bd7eb1524c8e61f3b0a8fd6540e2097b.jpg",
+    "bookLink":"https://b-ok.africa/dl/919065/b2e52f"
+    },
+    {"courseName":"Biomechanics I",
+    "bookName":"Fundamentals of Biomechanics: Equilibrium, Motion, and Deformation",
+    "image":"https://covers.zlibcdn2.com/covers299/books/b2/8a/88/b28a8806ec5996505e193c13dd1d24cc.jpg",
+    "bookLink":"https://b-ok.africa/dl/2868291/75417f"
+    },
+    {"courseName":"Biomechanics I",
+    "bookName":"Biomechanics: principles and applications",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e3/ea/5b/e3ea5b8c6063a05d32d804f7494b814e.jpg",
+    "bookLink":"https://b-ok.africa/dl/436446/3444cf?dsource=recommend"
+    },
+    {"courseName":"Biomechanics I",
+    "bookName":"Basic Biomechanics",
+    "image":"https://covers.zlibcdn2.com/covers299/books/b4/48/1f/b4481fcdadfda3a764ede4809066d222.jpg",
+    "bookLink":"https://b-ok.africa/dl/3508401/c88a5d"
+    },
+    {"courseName":"Medical Imaging II",
+    "bookName":"Artificial Intelligence in Medical Imaging: Opportunities, Applications and Risks",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e7/e8/c0/e7e8c078bdcc46853466b69e4f3b57b9.jpg",
+    "bookLink":"https://b-ok.africa/dl/4980206/236ef1"
+    },
+    {"courseName":"Medical Imaging II",
+    "bookName":"Deep Learning for Medical Image Analysis",
+    "image":"https://covers.zlibcdn2.com/covers299/books/b4/ed/b1/b4edb14ac417ecc92ed13d809470d98d.gif",
+    "bookLink":"https://b-ok.africa/dl/3307289/5af196?dsource=recommend"
+    },
+    {"courseName":"Medical Imaging II",
+    "bookName":"Machine Learning and Medical Imaging",
+    "image":"https://covers.zlibcdn2.com/covers299/books/fd/c5/f2/fdc5f2533360d4d4f988fbc72193e9f6.jpg",
+    "bookLink":"https://b-ok.africa/dl/2800872/9d45ca?dsource=recommend"
+    },
+    {"fourth Year":"Semester Two",
+        "courseName":"Biomechanics II",
+    "bookName":"Advances in Biomechanics and Tissue Regeneration",
+    "image":"https://covers.zlibcdn2.com/covers299/books/77/37/da/7737dafbdee41ba9efa5e5d8de64656f.jpg",
+    "bookLink":"https://b-ok.africa/dl/5511266/fb3d9e"
+    },
+    {"courseName":"Biomechanics II",
+    "bookName":"Biomechanics: Concepts and Computation",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f2/40/4a/f2404acfa50ca1c812477bd414ccd9b4.jpg",
+    "bookLink":"https://b-ok.africa/dl/3492406/7e7bfe?dsource=recommend"
+    },
+    {"courseName":"Biomechanics II",
+    "bookName":"Introductory Biomechanics - From Cells to Organisms",
+    "image":"https://covers.zlibcdn2.com/covers299/books/24/71/a2/2471a26f0f85ba3daa193f3880b1618c.jpg",
+    "bookLink":"https://b-ok.africa/dl/550780/78ae8e?dsource=recommend"
+    },
+    {"courseName":"Medical Device Regulation",
+    "bookName":"Medical devices : regulations, standards and practices",
+    "image":"https://covers.zlibcdn2.com/covers299/books/75/f7/51/75f751fa268d3f5d011020441b4146d7.jpg",
+    "bookLink":"https://b-ok.africa/dl/2650344/35e41a"
+    },
+    {"courseName":"Medical Device Regulation",
+    "bookName":"Medical Device Design and Regulation",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ce/10/97/ce109776d03fca8bc2fbc44a0021de82.jpg",
+    "bookLink":"https://b-ok.africa/dl/2347503/99865c"
+    },
+    {"courseName":"Medical Device Regulation",
+    "bookName":"Medical Device Regulations: Global Overview and Guiding Principles",
+    "image":"https://covers.zlibcdn2.com/covers299/books/b8/db/6f/b8db6f48e00756adfcba133f0067e4f8.jpg",
+    "bookLink":"https://b-ok.africa/dl/923349/ffcbc3"
+    },
+    {  "courseName":"Entrepreneurship Development",
+    "bookName":"Entrepreneurship and Local Economic Development",
+    "image":"https://covers.zlibcdn2.com/covers299/books/50/6f/5b/506f5b0e44611808897f70b215356a9e.jpg",
+    "bookLink":"https://b-ok.africa/dl/823981/d5df84"
+    },
+    {"courseName":"Digital Signal Processing",
+    "bookName":"Digital Signal Processing",
+    "image":"https://covers.zlibcdn2.com/covers299/books/59/53/60/5953602ef8942dce9c6513947dbf6d86.jpg",
+    "bookLink":"https://b-ok.africa/dl/1182934/fd4cca"
+    },
+    {"courseName":"Digital Signal Processing",
+    "bookName":"Digital Signal Processing: Principles, Algorithms, and Applications, Fourth Edition - Instructor Solution Manual",
+    "image":"https://covers.zlibcdn2.com/covers299/books/ef/ff/b3/efffb3d589bd4d967380b025b0aba504.jpg",
+    "bookLink":"https://b-ok.africa/dl/1220138/da6b3a"
+    },
+    {"courseName":"Digital Signal Processing",
+    "bookName":"Schaum’s Outline of Digital Signal Processing",
+    "image":"https://covers.zlibcdn2.com/covers299/books/e9/8f/98/e98f98d98c85bfa1a9e84744bd2504a3.jpg",
+    "bookLink":"https://b-ok.africa/dl/461589/607df2?dsource=recommend"
+    }
 ]
