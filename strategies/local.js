@@ -8,16 +8,16 @@ const { comparepassword } = require("../utils/helper");
 passport.serializeUser((user, done)=>
 {
     console.log("Serializing...");
-    done(null, user.username);
+    done(null, user.email);
 });
 
 
-passport.deserializeUser(async(username, done)=>
+passport.deserializeUser(async(email, done)=>
 {
     console.log("...deserializing");
 
     try{
-        const result = await db.promise().query(`SELECT * FROM student WHERE username = ?`, username)
+        const result = await db.promise().query(`SELECT * FROM student WHERE email = ?`, email)
 
         if(result[0][0]){
             done(null, result[0][0]);

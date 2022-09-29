@@ -40,7 +40,7 @@ router.get('/', (req, res) => {
 router.post("/upload", async (req, res) => {
 
     
-    const directory = 'Electrical Engineering/First Year/First Semester/Electrical Machines/Slides'
+    const directory = 'Computer Engineering/Fourth Year/Second Semester/Entrepreneurship Development/Slides'
     const name = `${directory}/${req.files.filetoUpload.name}`;
     
     const contents = req.files.filetoUpload.data;
@@ -53,7 +53,7 @@ router.post("/upload", async (req, res) => {
 router.get("/download", async (req, res) => {
     
     const bookName = {
-        name: '${proram}/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
+        name: '${program}/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
     };
     
     const book = await courseBooks.get(bookName.name);

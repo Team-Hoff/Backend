@@ -4,15 +4,13 @@ const passport=require('passport');
 const db = require('../models/database')
 
 
-// router.use( (request, response, next) =>{
-//     console.log(request.sessionID);
-//     if(request.user) next()
-//     else {
-//         console.log("auth");
-//         // console.log(request);
-//         response.sendStatus(401)
-//     }
-// })
+router.use( (request, response, next) =>{
+    
+    if(request.user) next()
+    else {
+        response.sendStatus(401)
+    }
+})
 
 
 // creating the routes for the end point
@@ -34,11 +32,11 @@ router.get('/google/callback',
 
 
 router.get('/', async(request, response) => {
-    const {username, email} = request.user
-    const sql = 'SELECT * FROM student WHERE username = ? OR email = ?'
-    const user_details = await db.promise().query(sql, [username, email])
+    const {email} = request.user
+    const sql = 'SELECT * FROM student WHERE email = ?'
+    const user_details = await db.promise().query(sql, [email])
     let user = user_details[0][0]
-
+    console.log(user);
     response.send(user)
 })
 module.exports = router

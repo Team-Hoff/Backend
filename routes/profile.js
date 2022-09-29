@@ -11,8 +11,6 @@ router.use( (request, response, next) =>{
     }
 })
 
-
-
 router.get("/", (request, response) => {
     response.send(request.user)
 })
