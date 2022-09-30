@@ -51,7 +51,7 @@ router.post("/upload", async (req, res) => {
 router.get("/download", async (req, res) => {
     
     const bookName = {
-        name: '${program}/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
+        name: 'Computer Engineering/Third Year/First Semester/Numerical Analysis/Slides/Lecture One.pdf'
     };
     
     const book = await courseBooks.get(bookName.name);

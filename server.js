@@ -73,6 +73,7 @@ app.use(passport.session());
 const signupRouter = require('./routes/signup.js');
 const loginRouter  = require('./routes/login');
 const authRouter   = require('./routes/auth');
+const googleRouter = require('./routes/google_auth')
 const profileRouter = require('./routes/profile');
 const detaRouter   = require('./routes/DETA/detaStorage');
 const testRouter = require('./routes/testdb');
@@ -90,7 +91,8 @@ const deleteAccountRouter = require('./routes/deleteAccount');
 
 app.use("/signup", signupRouter);
 app.use("/login", loginRouter);
-app.use("/api/auth", authRouter);
+app.use("/api/auth", googleRouter);
+app.use("/auth", authRouter);
 app.use("/profile", profileRouter);
 app.use("/deta", detaRouter);
 app.use("/testdb", testRouter);
