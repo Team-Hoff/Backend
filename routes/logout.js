@@ -13,9 +13,7 @@ router.use( (request, response, next) =>{
 
 router.get("/", async (req, res) => {
     const sql="DELETE FROM sessions WHERE session_id = ?"
-    await db.promise().query(sql, [req?.sessionID], (error, result, field) =>{
-        console.log(error);
-    })
+    await db.promise().query(sql, [req?.sessionID])
     res.sendStatus(200)
     
 })

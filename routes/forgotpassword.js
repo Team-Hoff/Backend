@@ -7,10 +7,9 @@ const encrypt = require('crypto')
 
 router.post('/', async function(request, response){
     const {email} = request.body;
-
     const result = await db.promise().query(`SELECT * FROM student WHERE email = '${email}'`)
     if(result[0].length == 0){
-        return response.Status(400).send("User does not exist")
+        return response.status(400).send("User does not exist")
     }
 
    
@@ -40,10 +39,10 @@ router.post('/', async function(request, response){
       };
       
       transporter.sendMail(mailOptions, function(err, info){
-        if (err) console.log(err);
-        else console.log("email sent " + `to ${email}`);
+        if (err) return console.log(err);
+        else return console.log("email sent " + `to ${email}`);
       });
-      response.send(link[0])
+      return response.send(link[0])
     });
 
     

@@ -25,9 +25,9 @@ router.delete('/', async(request, response) => {
         sql = `DELETE FROM student WHERE session_id=?`
         
         await db.promise().query(sql, [req?.sessionID], (error, result, field) =>{
-            console.log(error);
+            return console.log(error);
         })
-        res.sendStatus(200)
+        return res.sendStatus(200)
 
 
     }

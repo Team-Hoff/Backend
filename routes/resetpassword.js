@@ -18,11 +18,7 @@ router.post('/', async function(request, response){
     console.log(email);
     const password = hashpassword(request.body.password)
     sql = "UPDATE student SET password = ? WHERE email = ?"
-   await db.promise().query(sql, [password, email],
-    (error, results, field) =>{
-        console.log("Password has been changed");
-    }
-    )
+   await db.promise().query(sql, [password, email])
     return response.status(200).send({msg:"Password changed"})
     
     

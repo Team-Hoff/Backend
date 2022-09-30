@@ -13,13 +13,13 @@ router.use( (request, response, next) =>{
 router.get('/', async(request, response) => {
     const { oldPassword, newPassword, username } = request.params
     const sql = `SELECT (username, password) FROM student WHERE username=?`
-    const result = await db.promise().query(sql, [username])
+    const result = await db.promise().query(sql, [username]);
     
     try{
     if(result[0]?.password == oldPassword){
         //change password
         sql = "UPDATE student SET password=? WHERE username = ? "
-        db.query(sql, [newPassword, username])
+        db.query(sql, [newPassword, username]);
         response.sendStatus(200)
     }
     }   catch(error){
