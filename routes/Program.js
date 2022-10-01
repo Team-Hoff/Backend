@@ -39,7 +39,7 @@ router.use( (request, response, next) =>{
 
 
 router.use("/computer", computerRouter);
-router.use("/biomed", biomedRouter);
+router.use("/biomedical", biomedRouter);
 router.use("/telecom", telecomRouter);
 router.use("/electrical", electricalRouter);
 

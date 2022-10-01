@@ -13,8 +13,6 @@ router.use( (request, response, next) =>{
     console.log(request.sessionID);
     if(request.user) next()
     else {
-        
-        console.log(response.header);
         response.sendStatus(401)
     }
 })
@@ -76,15 +74,10 @@ router.get("/:year/:semester/:course/:slide_name", async(req, res) => {
         const buffer = await book.arrayBuffer();
         
         res.send(Buffer.from(buffer));
-        console.log('file is being downloaded');
-        console.log(req.params);
             }
         catch(error){
-            
             console.log(error);
         }
-
-    
 })
 
 module.exports = router;

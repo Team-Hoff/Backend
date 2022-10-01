@@ -7,7 +7,7 @@ router.use( (request, response, next) =>{
     console.log({"CHANGE USER DETAILS":request.sessionID});
     if(request.user) next()
     else {
-        response.sendStatus(401).send({msg: "User is not Logged In"})
+        response.status(401).send({msg: "User is not Logged In"})
     }
 })
 

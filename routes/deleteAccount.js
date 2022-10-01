@@ -6,7 +6,7 @@ router.use( (request, response, next) =>{
     console.log({"DELETE ":request.sessionID});
     if(request.user) next()
     else {
-        response.sendStatus(401).send({msg: "User is not Logged In"})
+        response.status(401).send({msg: "User is not Logged In"})
     }
 })
 
@@ -14,22 +14,13 @@ router.delete('/', async(request, response) => {
     try{
 
         //Deletes account from database
-        const {email, password } = request.user
-
-        var sql = `DELETE FROM student WHERE email=? AND password=? `
-    
-        const result = await db.promise().query(sql, [email, password])   
-
-        //logging out the user
-
-        sql = `DELETE FROM student WHERE session_id=?`
+        const {email, password } = request.user;
+        const session_sql="DELETE FROM sessions WHERE session_id = ?";
+        await db.promise().query(session_sql, [request?.sessionID]);
+        const sql = `DELETE FROM student WHERE email=? AND password=?`;
+        await db.promise().query(sql, [email, password])   
         
-        await db.promise().query(sql, [req?.sessionID], (error, result, field) =>{
-            return console.log(error);
-        })
-        return res.sendStatus(200)
-
-
+        return response.status(200).send({msg: "Account deleted"});
     }
     catch{
         console.log("Error")
