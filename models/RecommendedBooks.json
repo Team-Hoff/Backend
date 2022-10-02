@@ -1,4 +1,4 @@
-[   {"Ccomputer Engineering":"First Year"},
+[   
     {
         "courseName":"Algebra",
         "bookName":"Pure Mathematics for Beginners",
@@ -95,38 +95,38 @@
         "bookLink":"https://b-ok.africa/dl/5472009/dd3529"
     },
     { 
-    "courseName":"Applied Thermodynamics",
-    "bookName":"Basic and Applied Thermodynamics",
-    "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
-    "bookLink":"https://b-ok.africa/dl/5472009/dd3529"
+     "courseName":"Applied Thermodynamics",
+     "bookName":"Basic and Applied Thermodynamics",
+     "image":"https://covers.zlibcdn2.com/covers299/books/dc/0f/41/dc0f41bf4b80a47c7a5446e012eab951.jpg",
+     "bookLink":"https://b-ok.africa/dl/5472009/dd3529"
     },
     {  
-    "courseName":"Communication Skills II",
-    "bookName":"Advanced Communication Skills",
-    "image":"https://covers.zlibcdn2.com/covers299/books/27/db/67/27db67f3153c201080dc93c8397bb35c.jpg",
-    "bookLink":"https://b-ok.africa/dl/1267489/6c8ec1"
+     "courseName":"Communication Skills II",
+     "bookName":"Advanced Communication Skills",
+     "image":"https://covers.zlibcdn2.com/covers299/books/27/db/67/27db67f3153c201080dc93c8397bb35c.jpg",
+     "bookLink":"https://b-ok.africa/dl/1267489/6c8ec1"
    },
    {
-    "courseName":"Communication Skills II",
-    "bookName":"Elite Communication Skills for Young Professionals",
-    "image":"https://covers.zlibcdn2.com/covers299/books/7b/71/d1/7b71d1c07cfd392796b16503c45e857e.jpg",
-    "bookLink":"https://b-ok.africa/dl/21663750/f2db28"
+     "courseName":"Communication Skills II",
+     "bookName":"Elite Communication Skills for Young Professionals",
+     "image":"https://covers.zlibcdn2.com/covers299/books/7b/71/d1/7b71d1c07cfd392796b16503c45e857e.jpg",
+     "bookLink":"https://b-ok.africa/dl/21663750/f2db28"
    },
    {  
-    "courseName":"Basic Electronics",
-    "bookName":"The Fields of Electronics",
-    "image":"https://covers.zlibcdn2.com/covers299/books/97/21/b4/9721b42883d33fd338a491aa25bc80e3.jpg",
-    "bookLink":"https://b-ok.africa/dl/438246/f795cf"
+     "courseName":"Basic Electronics",
+     "bookName":"The Fields of Electronics",
+     "image":"https://covers.zlibcdn2.com/covers299/books/97/21/b4/9721b42883d33fd338a491aa25bc80e3.jpg",
+     "bookLink":"https://b-ok.africa/dl/438246/f795cf"
    },
    {  
-    "courseName":"Basic Electronics",
-    "bookName":"Basic Electronics",
-    "image":"https://covers.zlibcdn2.com/covers299/books/b4/5b/7a/b45b7a76138ee515dc9d4a03e6c97f24.jpg",
-    "bookLink":"https://b-ok.africa/dl/2956139/3da3e6"
+     "courseName":"Basic Electronics",
+     "bookName":"Basic Electronics",
+     "image":"https://covers.zlibcdn2.com/covers299/books/b4/5b/7a/b45b7a76138ee515dc9d4a03e6c97f24.jpg",
+     "bookLink":"https://b-ok.africa/dl/2956139/3da3e6"
    },
    {  
-    "courseName":"Calculus With Analysis",
-    "bookName":"Calculus, Volume I: One-Variable Calculus",
+     "courseName":"Calculus With Analysis",
+     "bookName":"Calculus, Volume I: One-Variable Calculus",
     "image":"https://covers.zlibcdn2.com/covers299/books/02/ea/cc/02eacc10aabf4331c58471a952ea7a94.jpg",
     "bookLink":"https://b-ok.africa/dl/557517/f408f6"
    },
@@ -335,7 +335,7 @@
     "bookLink":"https://b-ok.africa/dl/1253329/911429"
   },
   {  
-    "courseName":"Introductio to Economics II",
+    "courseName":"Introduction to Economics II",
     "bookName":"Principles of Economics",
     "image":"https://covers.zlibcdn2.com/covers299/books/be/eb/b4/beebb41b7172b2b73e94d0ee3da2a6b7.jpg",
     "bookLink":"https://b-ok.africa/dl/3342786/ca3bb8"
@@ -417,6 +417,12 @@
     "bookName":"Probability and statistics by example",
     "image":"https://covers.zlibcdn2.com/covers299/books/14/86/60/14866067ee1914a00affabbd19f5dfc5.jpg",
     "bookLink":"https://b-ok.africa/dl/448283/99adb0"
+  },
+  {  
+    "courseName":"Statistics",
+    "bookName":"Probability and Statistics: A Course for Physicists and Engineers",
+    "image":"https://covers.zlibcdn2.com/covers299/books/f0/88/be/f088bec0274051c2cc1d0be7f161eb76.jpg",
+    "bookLink":"https://b-ok.africa/dl/3657835/30f7b1"
   },
   {  
     "courseName":"Probability and Statistics",
