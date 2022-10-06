@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const db = require("../../models/database");
-
 const courseRouter =  require('./courses');
-router.use("/course",courseRouter);
 const {Deta} =require('deta');
 const upload = require('express-fileupload');
 const fs = require('fs')
