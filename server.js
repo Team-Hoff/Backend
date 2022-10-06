@@ -84,7 +84,7 @@ const forgotRouter = require('./routes/forgotpassword');
 const courseRouter = require('./routes/course');
 const searchRouter = require('./routes/search');
 const changeRouter = require('./routes/changeUserDetails');
-const adminRouter = require('./routes/admin');
+const adminRouter = require('./routes/ADMIN/admin');
 const booksRouter = require('./routes/recommended_books');
 const deleteAccountRouter = require('./routes/deleteAccount');
 

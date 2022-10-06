@@ -1,6 +1,9 @@
-const express = require("express")
+const express = require("express");
 const router = express.Router();
-const db = require("../models/database")
+const db = require("../../models/database");
+
+const courseRouter =  require('./courses');
+router.use("/course",courseRouter);
 
 router.get('/update', async(request,response,) =>{
     //const {course} = request.params;
@@ -15,7 +18,6 @@ router.get('/delete', async(request,response,) =>{
     //const {course} = request.params;
     let sql = `DELETE FROM CourseInfo WHERE IDM = "mechanical" AND name = "Mechanical Engineering Lab II" `;
     const result = await db.promise().query(sql);
-    //console.log(result);
     response.send(`Deletion Successful`);
      
 });
