@@ -68,7 +68,7 @@ router.post("/upload", async (request, response,next) => {
 router.post("/delete", async (request, response,next) => {
     const {programme,level,semester,courseName, filetoDelete} = request.body;
     const directory = `${programme}/${level}/${semester}/${courseName}/Slides/${filetoDelete}`
-    // const deleteBook = await courseBooks.delete(directory);
+    const deleteBook = await courseBooks.delete(directory);
     
     const direct = `${programme}/${level}/${semester}/${courseName}/Slides/`
     const array = []
