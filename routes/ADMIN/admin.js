@@ -27,41 +27,80 @@ router.get('/', (req, res) => {
 
 //this request handles the upload of the specified book to the Deta drive
 router.post("/upload", async (request, response,next) => {
-    // const program = `Dummy Engineering`
-    // const Coursename = `Dummy Course`
-    
     const {programme,level,semester,courseName} = request.body;
-    const directory = `${programme}/${level}/${semester}/${courseName}/Slides/`
-    const name = `${directory}/${request.files.filetoUpload.name}`;
+    const directory = `${programme}/${level}/${semester}/${courseName}/Slides`
+    const names = `${directory}/${request.files.filetoUpload.name}`;
     const contents = request.files.filetoUpload.data;
-    const storeBook = await courseBooks.put(name, {data: contents});
-    response.send(storeBook);
-    // let sql = `INSERT INTO Courses (IDM,id,name,code,year,semester,img)  VALUES ('DumDumT','DumCourseT','Dummy CourseT','DU T07', 5, 1, 'https://th.bing.com/th/id/OIP.7b2iWGFGqXMr6VyJuLsPTwHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7') `;
-    // db.query(sql);
+    const storeBook = await courseBooks.put(names, {data: contents});
+   
+    const direct = `${programme}/${level}/${semester}/${courseName}/Slides/`
+    const array = []
+    const ext = []
+    const bookList = await courseBooks.list(
+        {prefix: direct});
+    const bookShelf = bookList.names;
+    const myarray = bookShelf.map(x=>x.split(direct))
+
+    var i = 0;
+    myarray.forEach(element => {
+        ext[0] = element.map(x=>x.split(`.`))
+        array[i]=ext[0][1][0]
+        i=i+1
+    });
+
+    const prog = programme.split(" ");
+    const progr = prog[0].toLowerCase();
+
+    const Arrlength = array.length;
+    const newLectarr = [];
+    for(let i=1;i<=Arrlength;i++){
+    newLectarr.push(i);
+    }
+
+    const jsonArr = JSON.stringify(newLectarr);
+    const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`;
+    db.query(sql, [jsonArr, ext[0][1][1], progr, courseName])//Edit program ere
+    response.send(` ${progr} ${courseName} lectures uploaded to database: `+ jsonArr);
     
     console.log('Successful file upload');
 });
 
-router.post('/DeleteFile', async(request,response,) =>{
-    const {lecture,courseName,programme,semester,level} = request.body;   //'Dummy 1.pdf'
-    console.log('Starting File Deletion');
-    const filepath = ` ${programme}/${level}/${semester}/${courseName}/Slides/${lecture} `;
-    console.log(filepath);
-    // const filepath = `Dummy Engineering/Year 5/Semester 1/Dummy Course/Slides/${lecture}`;
-    //const {course} = request.params;
-    let sql = `DELETE FROM CourseInfo WHERE IDM = "mechanical" AND name = "Mechanical Engineering Lab II" `;
-    const result = await db.promise().query(sql);
-    response.send(`Deletion Successful`);
-     
-});
+router.post("/delete", async (request, response,next) => {
+    const {programme,level,semester,courseName, filetoDelete} = request.body;
+    const directory = `${programme}/${level}/${semester}/${courseName}/Slides/${filetoDelete}`
+    // const deleteBook = await courseBooks.delete(directory);
+    
+    const direct = `${programme}/${level}/${semester}/${courseName}/Slides/`
+    const array = []
+    const ext = []
+    const bookList = await courseBooks.list(
+        {prefix: direct});
+    const bookShelf = bookList.names;
+    const myarray = bookShelf.map(x=>x.split(direct))
 
-router.get('/insert', async(request,response,) =>{
-    //const {course} = request.params;
-    let sql = `INSERT INTO Courses (IDM,id,name,code,year,semester,img)  VALUES ('dummies','dummiescourse','Dummies Course','DU 009', , 1, 'https://th.bing.com/th/id/OIP.7b2iWGFGqXMr6VyJuLsPTwHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7') `;
-    const result = await db.promise().query(sql);
-    //console.log(result);
-    response.send(`Insertion Successful`);
-     
+    var i = 0;
+    myarray.forEach(element => {
+        ext[0] = element.map(x=>x.split(`.`))
+        array[i]=ext[0][1][0]
+        i=i+1
+    });
+
+    const prog = programme.split(" ");
+    const progr = prog[0].toLowerCase();
+    const exte = filetoDelete.slice(-3);
+
+    const Arrlength = array.length;
+    const newLectarr = [];
+    for(let i=1;i<=Arrlength;i++){
+    newLectarr.push(i);
+    }
+
+    const jsonArr = JSON.stringify(newLectarr);
+    const sql = `UPDATE CourseInfo SET slides = ?, ext=? WHERE IDM =? AND name=?`;
+    {db.query(sql, [jsonArr, jsonArr=== [] ? ""  : exte , progr, courseName])}
+    response.send(` ${progr} ${courseName} lectures uploaded to database: `+ jsonArr);
+
+    console.log('Successful Deletion');
 });
 
 router.get('/name', async(request,response,) =>{
@@ -71,10 +110,6 @@ router.get('/name', async(request,response,) =>{
     </form>`)
     console.log('Starting file rename');
 
-    //const {course} = request.params;
-    // let sql = `INSERT INTO Courses (IDM,id,name,code,year,semester,img)  VALUES ('dummies','dummiescourse','Dummies Course','DU 009', , 1, 'https://th.bing.com/th/id/OIP.7b2iWGFGqXMr6VyJuLsPTwHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7') `;
-    // const result = await db.promise().query(sql);
-    //console.log(result);
 });
 
 router.get('/rename', async(request,response,) =>{
@@ -85,24 +120,6 @@ router.get('/rename', async(request,response,) =>{
    const result = await db.promise().query(sql, [newName])
    console.log("File Renamed")
 });
-
-
-// router.get('/list', async(request,response,) =>{
-//     //const {course} = request.params;
-//     let sql = `SELECT * FROM CourseInfo WHERE IDM = "computer" AND year = "1" `;
-//     const result = await db.promise().query(sql);
-//     //console.log(result);
-//     response.send(`Insertion Successful `);
-     
-// });
-// router.get('/update', async(request,response,) =>{
-//     //const {course} = request.params;
-//     let sql = `UPDATE CourseInfo SET img = "https://th.bing.com/th/id/R.d03c6da728d2d9db994ced40346e68d5?rik=cMUcZXiBNEIdAg&pid=ImgRaw&r=0" WHERE IDM = "biomedical" AND name="Algebra" `;
-//     const result = await db.promise().query(sql);
-//     //console.log(result);
-//     response.send(`Update Successful`);
-     
-// });
 
 
 module.exports = router;
