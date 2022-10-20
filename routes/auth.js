@@ -1,21 +1,21 @@
 const express = require('express');
 const router = express.Router();
-const passport=require('passport');
+const passport = require('passport');
 const db = require('../models/database')
 
 
-router.use( (request, response, next) =>{
-    console.log({"authentication": request.sessionID});
-    if(request.user) next()
+router.use((request, response, next) => {
+    console.log({ "authentication": request.sessionID });
+    if (request.user) next()
     else {
-        return response.status(401).send({"message": "Error with authentication"})
+        return response.status(401).send({ "message": "Error with authentication" })
     }
 })
 
 
 // creating the routes for the end point
-router.get('/', async(request, response) => {
-    const {email} = request.user;
+router.get('/', async (request, response) => {
+    const { email } = request.user;
     const sql = 'SELECT * FROM student WHERE email = ?'
     const user_details = await db.promise().query(sql, [email]);
     let user = user_details[0][0];
