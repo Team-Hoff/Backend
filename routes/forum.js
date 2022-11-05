@@ -55,8 +55,24 @@ router.post('/createTopic/:topicID/:author/:createdAt/:userID', async (request, 
     // sql = `SELECT * FROM Topic WHERE topicID= ? AND username=?`;
     // const topic_reply= await db.promise().query(sql,[topicID,username])
     //topic_info[1]=topic_comment[0]
-    response.send('Success');
+    response.send('Topic Created');
 });
 
+router.post('/delete/:id', async (request, response,) => {
+    const { id } = request.params;
+    console.log("Deleting a message");
+    let sql = `DELETE FROM MSG WHERE id= ?`;
+    const del_msg = await db.promise().query(sql, [id])      
+    response.send('Deletion Success');
+});
 
+router.post('/edit/:id', async (request, response,) => {
+    const { id } = request.params;
+    const { comments } = request.body
+    const editMsg = `${comments}`;
+    console.log("Editing a message");
+    let sql = `UPDATE MSG SET body=? WHERE id= ?`;
+    const del_msg = await db.promise().query(sql, [editMsg,id])      
+    response.send('Edit Success');
+});
 module.exports = router;
