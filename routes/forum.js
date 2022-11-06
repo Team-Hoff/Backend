@@ -7,7 +7,7 @@ require('dotenv').config();
 
 router.get('/TopicList', async (request, response,) => {
     //const {lecture,courseName,programme,semester,level} = request.body;   
-    console.log('Displaying Topic List');
+    // console.log('Displaying Topic List');
     //const topic_info=[];
     let sql = `SELECT * FROM Topic`;
     const topic_names = await db.promise().query(sql)      //db.query(sql);
@@ -16,7 +16,7 @@ router.get('/TopicList', async (request, response,) => {
 
 router.get('/TopicComments/:topicID', async (request, response,) => {
     const { topicID } = request.params;
-    console.log("Displaying a Topic's comment");
+    // console.log("Displaying a Topic's comment");
     const topic_info = [];
     let sql = `SELECT * FROM Topic WHERE topicID= ?`;
     const topic_names = await db.promise().query(sql, [topicID])      //db.query(sql);
@@ -31,7 +31,7 @@ router.post('/reply/:topicID/:username/:createdAt/:parentId/:userId', async (req
     const { topicID, username, createdAt, parentId, userId } = request.params;
     const { comments } = request.body
     const msg = `${comments}`;
-    console.log("Replying a topic");
+    // console.log("Replying a topic");
     //const topic_reply=[];
     let sql = `INSERT INTO MSG (body,username,createdAt,topicID,parentId, userId) VALUES (?,?,?,?,?,?)`;
     const topic_names = await db.promise().query(sql, [msg, username, createdAt, topicID, parentId, userId])      //db.query(sql);
@@ -47,7 +47,7 @@ router.post('/createTopic/:topicID/:author/:createdAt/:userID', async (request, 
     const { Topic, summary } = request.body
     const topicName = `${Topic}`
     const summaryText = `${summary}`;
-    console.log("Creating a topic");
+    // console.log("Creating a topic");
     //const topic_reply=[];
     let sql = `INSERT INTO Topic (Topic,summary,author,createdAt,topicID,userID) VALUES (?,?,?,?,?,?)`;
     const topic_names = await db.promise().query(sql, [topicName, summaryText, author, createdAt, topicID, userID])      //db.query(sql);
@@ -60,9 +60,9 @@ router.post('/createTopic/:topicID/:author/:createdAt/:userID', async (request, 
 
 router.post('/delete/:id', async (request, response,) => {
     const { id } = request.params;
-    console.log("Deleting a message");
+    // console.log("Deleting a message");
     let sql = `DELETE FROM MSG WHERE id= ?`;
-    const del_msg = await db.promise().query(sql, [id])      
+    const del_msg = await db.promise().query(sql, [id])
     response.send('Deletion Success');
 });
 
@@ -70,9 +70,10 @@ router.post('/edit/:id', async (request, response,) => {
     const { id } = request.params;
     const { comments } = request.body
     const editMsg = `${comments}`;
-    console.log("Editing a message");
+    // console.log("Editing a message");
     let sql = `UPDATE MSG SET body=? WHERE id= ?`;
-    const del_msg = await db.promise().query(sql, [editMsg,id])      
+    console.log(sql)
+    const del_msg = await db.promise().query(sql, [editMsg, id])
     response.send('Edit Success');
 });
 module.exports = router;
