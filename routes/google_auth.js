@@ -23,8 +23,8 @@ passport.authenticate( 'google',{
 
 router.get('/google/callback',
     passport.authenticate('google',{
-        successRedirect:'http://www.thvirtuallibrary.com:3000/auth',
-        failureRedirect:'http://www.thvirtuallibrary.com:3000?authfailed'
+        successRedirect:'http://www.localhost:3000/auth',
+        failureRedirect:'http://www.localhost:3000?authfailed'
     }),(req,res)=>{
        return res.send(200);
     });

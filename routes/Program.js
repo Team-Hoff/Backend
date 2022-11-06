@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-router.use( (request, response, next) =>{
-    console.log({"program":request.sessionID});
-    if(request.user) next()
+router.use((request, response, next) => {
+    console.log({ "program": request.sessionID });
+    if (request.user) next()
     else {
-        response.status(401).send({msg: "User is not Logged In"})
+        response.status(401).send({ msg: "User is not Logged In" })
     }
 })
 
@@ -29,8 +29,8 @@ const telecomRouter = require("./Programs/Telecom")
 
 
 
-router.use( (request, response, next) =>{
-    if(request.user) next()
+router.use((request, response, next) => {
+    if (request.user) next()
     else {
         console.log("Program ");
         response.sendStatus(401)
