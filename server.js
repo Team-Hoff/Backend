@@ -88,7 +88,7 @@ const changeRouter = require('./routes/changeUserDetails');
 const adminRouter = require('./routes/ADMIN/admin');
 const booksRouter = require('./routes/recommended_books');
 const deleteAccountRouter = require('./routes/deleteAccount');
-const recommendedRouter = require('./routes/recommendedBooks');
+const recommendedRouter = require('./routes/recommendedCourses');
 const videoRouter = require('./routes/videos');
 const forumRouter = require('./routes/forum');
 
