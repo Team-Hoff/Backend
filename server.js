@@ -116,7 +116,7 @@ app.use('/videos', videoRouter)
 
 
 
-app.get('/', (req, res) => {
+app.get('/:any', (req, res) => {
     res.send("This is the backend")
 })
 
