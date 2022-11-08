@@ -21,7 +21,7 @@ const options = {
     user:  "admin",
     password:  process.env.HOST_KEY,
     database: process.env.HOST_DBNAME,
-    port: 3306,
+    port: process.env.PORT,
     createDatabaseTable: true,
     endConnectionOnClose: false,
     clearExpired: true,
