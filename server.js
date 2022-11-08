@@ -116,6 +116,9 @@ app.use('/videos', videoRouter)
 
 
 
+app.get('/', (req, res) => {
+    res.send("This is the backend")
+})
 
 const port = process.env.PORT || 3500;
 app.listen(port, () => { console.log(`server is running on port ${port}`) });
