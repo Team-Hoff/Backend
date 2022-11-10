@@ -33,6 +33,7 @@ router.get('/table', async(request, response) => {
     // let sql = "UPDATE mechanical SET access = access +1 WHERE course = ?"
     // let sql = 'SELECT course FROM mechanical ORDER BY access DESC'
     const results = await db.promise().query(sql,'mobileandsatellitecommsystem')
+    
     response.send(results[0])
 })
 

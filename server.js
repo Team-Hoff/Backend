@@ -54,12 +54,18 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.set("trust proxy", 1);
 app.use(session(
     {
         secret: "Cookie_Secret",
-        resave: false,
+        resave: true,
         saveUninitialized: false,
         store: sessionStore,
+        cookie: {
+          sameSite: process.env.NODE_ENV === "production" ? 'none' : 'lax', // must be 'none' to enable cross-site delivery
+          secure: process.env.NODE_ENV === "production", // must be true if sameSite='none'
+        }
+        
     }
 
 
@@ -115,10 +121,6 @@ app.use("/recommend", recommendedRouter);
 app.use('/videos', videoRouter)
 
 
-
-app.get('/:any', (req, res) => {
-    res.send("This is the backend")
-})
 
 const port = process.env.PORT || 3500;
 app.listen(port, () => { console.log(`server is running on port ${port}`) });
