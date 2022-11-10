@@ -11,15 +11,15 @@ function comparepassword (raw, hash){
 }
 
 function updateAccess(programme, course){
-    let sql = `UPDATE ${programme} SET access = access +1 WHERE course = ?`
-    const results =  db.promise().query(sql, course)
+    let sql = `UPDATE CourseInfo SET access = access +1 WHERE id = ? AND IDM =?`
+    const results =  db.promise().query(sql, [course, programme])
     return results[0]
 }
 
 async function retrieveRecommended(programme){
-    let sub_query = `(SELECT course FROM ${programme} WHERE access >= 0 ORDER BY access DESC LIMIT 5)`
-    let sql = `SELECT * FROM CourseInfo WHERE id in (SELECT * FROM` + sub_query + ` AS t1) AND IDM='computer'`
-    const results = await db.promise().query(sql)
+    let sql = `(SELECT * FROM CourseInfo WHERE IDM = ? ORDER BY access DESC LIMIT 5)`
+    
+    const results = await db.promise().query(sql, programme)
     return results[0]
 }
 
