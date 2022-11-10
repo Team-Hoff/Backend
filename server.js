@@ -17,9 +17,9 @@ const mysqlStore = require("express-mysql-session")(session);
 
 const options = {
     connectionLimit: 10,
-    host:  process.env.HOST_NAME,
-    user:  "admin",
-    password:  process.env.HOST_KEY,
+    host: process.env.HOST_NAME,
+    user: "admin",
+    password: process.env.HOST_KEY,
     database: process.env.HOST_DBNAME,
     port: process.env.PORT,
     createDatabaseTable: true,
@@ -42,7 +42,7 @@ app.use(cors(
         origin: true
     }
 ));
-app.use(function  (req, res, next) {
+app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Credentials", true)
     res.header("Access-Control-Allow-Origin", req.headers.origin);
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");

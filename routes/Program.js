@@ -10,7 +10,7 @@ router.use((request, response, next) => {
 })
 
 
-const computerRouter = require("./Programs/Computer")
+const computerRouter = require("./Programs/computer")
 const aerospaceRouter = require("./Programs/Aerospace")
 const agricRouter = require("./Programs/Agricultural")
 const biomedRouter = require("./Programs/Biomedical")
