@@ -24,8 +24,8 @@ router.get('/google',
 
 router.get('/google/callback',
     passport.authenticate('google', {
-        successRedirect: 'https://thvirtuallibrarycoe.netlify.app/auth',
-        failureRedirect: 'https://thvirtuallibrarycoe.netlify.app/?authfailed'
+        successRedirect: 'https://www.thvirtuallibrary.com/auth',
+        failureRedirect: 'https://www.thvirtuallibrary.com/?authfailed'
     }), (req, res) => {
         return res.send(200);
     });
