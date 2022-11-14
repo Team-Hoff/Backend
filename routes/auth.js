@@ -22,4 +22,13 @@ router.get('/', async (request, response) => {
     console.log(user);
     return response.send(user);
 })
+
+router.get('/admin', async (request, response) => {
+    const { username } = request.user;
+    const sql = 'SELECT * FROM admin WHERE username = ?'
+    const user_details = await db.promise().query(sql, [username]);
+    let user = user_details[0][0];
+    console.log(user);
+    return response.send(user);
+})
 module.exports = router
