@@ -91,6 +91,7 @@ const recommendedRouter = require('./routes/recommendedCourses');
 const videoRouter = require('./routes/videos');
 const forumRouter = require('./routes/forum');
 const tutorRouter = require('./routes/Tutor')
+const allRouter = require('./routes/allCourses')
 
 
 app.use("/signup", signupRouter);
@@ -114,6 +115,7 @@ app.use("/forum", forumRouter);
 app.use("/recommend", recommendedRouter);
 app.use('/videos', videoRouter);
 app.use('/tutor', tutorRouter);
+app.use('/all', allRouter);
 
 
 
